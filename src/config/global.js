@@ -1,7 +1,8 @@
 export default {
   global: {
-    Name: 'Nombre del recurso educativo',
-    Description: 'Descripción del RED',
+    Name: 'Comunicación telefónica y atención al cliente',
+    Description:
+      'La comunicación telefónica es una herramienta clave en la atención al cliente y la proyección de la imagen organizacional. Requiere habilidades como escucha activa, uso adecuado de la voz, lenguaje positivo y manejo del silencio. Un asesor bien preparado puede identificar necesidades, gestionar situaciones complejas y fortalecer la relación con los clientes mediante un trato respetuoso, claro y profesional.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -31,22 +32,64 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Tema 1',
+        titulo: 'Comunicación telefónica',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Subtema 1',
+            titulo: 'El papel del asesor en la comunicación telefónica',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Componentes de la comunicación telefónica',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Etapas de una llamada telefónica',
+            hash: 't_1_3',
+          },
+          {
+            numero: '1.4',
+            titulo: 'Conductas y tipologías de clientes',
+            hash: 't_1_4',
           },
         ],
       },
 
       {
-        nombreRuta: 'tema2',
+        nombreRuta: 'Técnicas telefónicas básicas',
         numero: '2',
         titulo: 'Tema 2',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Principios de la escucha activa',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Modales telefónicos',
+            hash: 't_2_2',
+          },
+          {
+            numero: '2.3',
+            titulo: 'Preguntas informativas',
+            hash: 't_2_3',
+          },
+          {
+            numero: '2.4',
+            titulo: 'Técnicas de sondeo',
+            hash: 't_2_4',
+          },
+          {
+            numero: '2.5',
+            titulo: 'Comunicación por recapitulación',
+            hash: 't_2_5',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
