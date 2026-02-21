@@ -117,13 +117,12 @@
             p(data-aos="fade-left") Por ello, el asesor o asesora telefónica debe poner de manifiesto sus principios y valores, los cuales se reflejan directamente en la calidad del servicio ofrecido. Una comunicación telefónica adecuada contribuye de manera significativa al desarrollo de un óptimo servicio al cliente, fortaleciendo la percepción positiva de la empresa.
 
 
-      .row.mt-20.text-center.justify-content-center.align-items-center
+      .row.text-center.justify-content-center.align-items-center(style="margin-top:100px")
         .col-lg-6
           .titulo-sexto.color-acento-contenido
             p <b>Figura 1.</b> Pérdida de clientes por mala atención.
           figure
-            img(src="@/assets/curso/tema1/figura1.svg", data-aos="zoom-in")
-
+            img(src="@/assets/curso/tema1/figura1.svg", style="width: 100%; height: auto;", data-aos="zoom-in")
 
 
 </template>
