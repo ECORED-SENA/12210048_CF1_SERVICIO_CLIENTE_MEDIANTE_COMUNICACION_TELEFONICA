@@ -117,12 +117,108 @@
             p(data-aos="fade-left") Por ello, el asesor o asesora telefónica debe poner de manifiesto sus principios y valores, los cuales se reflejan directamente en la calidad del servicio ofrecido. Una comunicación telefónica adecuada contribuye de manera significativa al desarrollo de un óptimo servicio al cliente, fortaleciendo la percepción positiva de la empresa.
 
 
-      .row.text-center.justify-content-center.align-items-center(style="margin-top:100px")
+    .row.text-center.justify-content-center.align-items-center(style="margin-top:100px")
         .col-lg-6
           .titulo-sexto.color-acento-contenido
             p <b>Figura 1.</b> Pérdida de clientes por mala atención.
           figure
             img(src="@/assets/curso/tema1/figura1.svg", style="width: 100%; height: auto;", data-aos="zoom-in")
+    
+    .row.mt-4
+          p.mb-0 La figura permite identificar los principales motivos de abandono de clientes. En ella se evidencia que, dentro de las razones por las cuales una empresa pierde clientes o clientes potenciales, el servicio al cliente ocupa el primer lugar. Este dato confirma la relevancia de la atención brindada en la permanencia y fidelización del consumidor.
+
+    
+    .row.mt-5.align-items-center.justify-content-center   
+      .col-lg-5.mb-4.mb-lg-0.bg-color-3.rounded(data-aos="fade-right")
+        .bg-mint.p-4.h-100.d-flex.align-items-center
+          p.mb-0 Generalmente, los clientes dejan de solicitar productos o servicios de una organización debido a malas experiencias con empleados que no han sabido manejar adecuadamente una situación específica, o que no han logrado satisfacer las necesidades inmediatas del cliente. Estas experiencias negativas impactan de forma directa en la imagen corporativa y en la decisión de continuidad del cliente.
+      .col-lg-3.mb-4.mb-lg-0.align-items-center(data-aos="zoom-in")
+        figure
+          img(src="@/assets/curso/tema1/5.svg", alt="" style="max-width:240px")
+      .col-lg-4(data-aos="fade-left")
+        .row.mb-0
+          .col-4.col-md-3.col-lg-4.text-start
+            figure
+              img(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
+        p.mb-0 Teniendo en cuenta lo anterior, se hace indispensable brindar siempre un servicio adecuado, caracterizado por el respeto, la calidez y la amabilidad en el trato. Además de los principios y valores personales, la ética profesional desempeña un papel fundamental, especialmente en el manejo de información relevante y de carácter confidencial para la empresa u organización.
+
+
+
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Importancia de la capacitación del recurso humano
+    .row.mb-2
+          p.mb-0 Las empresas, negocios u organizaciones suelen implementar planes constantes de capacitación y cualificación del recurso humano con el objetivo de mejorar de manera continua el servicio al cliente. Estas acciones formativas permiten fortalecer competencias comunicativas, actitudinales y éticas en los colaboradores.
+
+
+    .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/tema1/7.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 En este contexto, la capacitación permanente se convierte en un factor diferenciador, ya que contribuye a elevar la calidad del servicio y a consolidar relaciones duraderas con los clientes. Es precisamente a través de estas prácticas formativas que las organizaciones logran destacarse y responder de manera efectiva a las expectativas del mercado.
+
+    .row.mt-5
+        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.2 Componentes de la comunicación telefónica 
+
+    .row
+      .col-lg-3.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/9.png", data-aos="zoom-in", style="max-width: 250px").mx-auto
+
+      .col-lg-9.order-lg-1(data-aos="fade-left")
+        .bg-color-15-1.p-4(data-aos="fade-left")
+          .row.align-items-center.no-gutters.bg-color-4
+            .col-lg-4.mb-3.mb-lg-0
+              img(src="@/assets/curso/tema1/8.png", style="max-width: 100%")
+            .col-lg-6
+              p.mb-0
+                | Los componentes de la comunicación telefónica constituyen herramientas fundamentales que utiliza el asesor o la asesora con el propósito de lograr que la interacción con el cliente sea agradable, eficaz y asertiva.
+
+        p
+          | Estos elementos permiten cumplir los objetivos planteados en cada contacto, ya sea la promoción de un producto o servicio o la solución de un problema manifestado por el cliente durante una llamada entrante. Una correcta aplicación de estos componentes favorece la construcción de una experiencia positiva, fortalece la imagen de la organización y contribuye a la satisfacción del cliente. Los componentes principales de la comunicación telefónica son:
+          
+    .row.mt-5
+      .col-lg-3.mb-3
+        .card
+          img(src="@/assets/curso/tema1/10.png", alt="La sonrisa", class="card-img-top")
+          .card-body
+            h5.card-title.text-center La sonrisa
+            p.card-text.text-center
+              | «Se oye» por teléfono, transmite una comunicación positiva, genera agrado y predispone favorablemente al interlocutor.
+
+      .col-lg-3.mb-3
+        .card
+          img(src="@/assets/curso/tema1/11.png", alt="La voz", class="card-img-top")
+          .card-body
+            h5.card-title.text-center La voz
+            p.card-text.text-center
+              | Es un elemento decisivo; permite crear confianza, influir, persuadir y tranquilizar al cliente.
+
+      .col-lg-3.mb-3
+        .card
+          img(src="@/assets/curso/tema1/12.png", alt="El lenguaje", class="card-img-top")
+          .card-body
+            h5.card-title.text-center El lenguaje
+            p.card-text.text-center
+              | Incluye el uso de expresiones positivas y negativas. Si predominan las negativas, puede impactar de forma desfavorable en la imagen de la empresa.
+
+      .col-lg-3.mb-3
+        .card
+          img(src="@/assets/curso/tema1/13.png", alt="La escucha activa", class="card-img-top")
+          .card-body
+            h5.card-title.text-center La escucha activa
+            p.card-text.text-center
+              | Implica escuchar, analizar e interpretar al cliente. Se basa en una escucha global que permite comprender plenamente la situación expuesta.
+
+
+
+
+
 
 
 </template>
