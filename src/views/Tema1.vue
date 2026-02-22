@@ -213,12 +213,12 @@
               p.card-text.text-center
                 | Implica escuchar, analizar e interpretar al cliente. Se basa en una escucha global que permite comprender plenamente la situación expuesta.
 
-      .bg-full-width.mt-5
-          .px-4.px-md-5.pb-md-3
-          .titulo-con-imagen.mb-5(data-aos="fade-right")
-            .titulo-con-imagen__fondo
-              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
-              h3.titulo-con-imagen__texto La sonrisa telefónica
+        .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3
+            .titulo-con-imagen.mb-5(data-aos="fade-right")
+              .titulo-con-imagen__fondo
+                img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+                h3.titulo-con-imagen__texto La sonrisa telefónica
       
 
 
@@ -391,9 +391,6 @@
                       h3.titulo-purpura El volumen de la voz   
 
     .row.align-items-center
-
-
-
       // Contenido
       .col-lg-7(data-aos="fade-left")
         p
@@ -412,14 +409,14 @@
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 | Adaptar el volumen a las diferentes circunstancias sin llegar a los extremos.
 
-        // Imagen
-        .col-lg-5.mb-3.mb-lg-0
-          figure
-            img(
-              src="@/assets/curso/tema1/16.png",
-              data-aos="zoom-in",
-              style="max-width: 100%"
-            ).mx-auto
+      // Imagen
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(
+            src="@/assets/curso/tema1/16.png",
+            data-aos="zoom-in",
+            style="max-width: 100%"
+          ).mx-auto
           
 
       .bg-full-width.mt-4
@@ -455,8 +452,146 @@
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 | Adaptarse a la velocidad del interlocutor: hablar más despacio con personas lentas y un poco más rápido con interlocutores ágiles.
 
+      .bg-full-width.mt-5
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")
+          .titulo-con-imagen__fondo
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+            h3.titulo-con-imagen__texto El lenguaje
 
-        
+
+    .row
+      p El lenguaje es la capacidad del ser humano para comunicarse mediante signos lingüísticos; en este contexto, se hace referencia específicamente al lenguaje verbal. Aunque la comunicación telefónica no permite el contacto visual, el lenguaje corporal puede influir de manera indirecta en la llamada, ya que se refleja a través del tono, la actitud y la forma de expresarse.
+
+      .col-lg-3.order-lg-2.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", style="max-width: 250px").mx-auto
+
+      .col-lg-9.order-lg-1(data-aos="fade-left")
+        .bg-color-15-1.p-4(data-aos="fade-left")
+          .row.align-items-center.no-gutters.bg-color-8
+            .col-lg-4.mb-3.mb-lg-0
+              img(src="@/assets/curso/tema1/19.png", style="max-width: 100%")
+            .col-lg-6
+              p.mb-0
+                | El lenguaje verbal es un elemento básico para transmitir la imagen que la empresa desea proyectar hacia sus clientes. Por esta razón, debe ser positivo, claro y adecuado al contexto, ya que de su uso depende, en gran medida, la percepción que el cliente construye sobre la organización.
+
+        p
+          | A continuación, se presenta lo que debe contener y lo que debe evitar el lenguaje utilizado durante la comunicación telefónica.
+          
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+        TabsC.color-acento-contenido.mt-5
+          .py-3.py-md-4(titulo="Debe contener")
+            .row
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/20.png', alt='')                 
+
+              .col-md-6.mb-4.mb-md-0
+                h4 Debe contener
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras positivas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Expresiones confirmativas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Expresiones de interés.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Expresiones descriptivas.
+
+          .py-3.py-md-4(titulo="Debe evitar")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+
+              .col-md-6
+                h4 Debe evitar
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras negativas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras agresivas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Muletillas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras ténicas innecesarias.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Fórmulas dubitativas e imprecisas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Diminutivos o superlativos inútiles.
+
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+          h3.titulo-purpura Requisitos del lenguaje verbal efectivo
+
+    .row
+        p
+          | Para que el lenguaje verbal sea realmente eficaz en la comunicación telefónica, debe cumplir con los siguientes principios:
+
+
+    
+    .row
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/22.svg', alt='Texto que describa la imagen')
+
+          h3.text-center 1. Claridad
+          p.text-small Permite que el mensaje sea comprendido sin ambigüedades.
+
+      .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/23.svg', alt='Texto que describa la imagen')
+
+          h3.text-center 2. Precisión
+          p.text-small Evita información innecesaria o confusa.
+
+      .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/24.svg', alt='Texto que describa la imagen')
+
+          h3.text-center 3. Brevedad
+          p.text-small  Facilita una comunicación ágil y  directa.
+
+      .col-sm-6.col-lg-3.d-flex
+        .tarjeta.tarjeta--blanca.p-4.bordes.rounded
+          .row.justify-content-center.mb-3
+            .col-7
+              figure
+                img(src='@/assets/curso/tema1/25.svg', alt='Texto que describa la imagen')
+
+          h3.text-center 4. Corrección
+          p.text-small Garantiza un uso adecuado del  idioma y una imagen  profesional.
+
+      .bg-full-width.mt-5
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")
+          .titulo-con-imagen__fondo
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+            h3.titulo-con-imagen__texto El lenguaje
+
+
+
 
 </template>
 
