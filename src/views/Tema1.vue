@@ -54,7 +54,7 @@
         .card-cualidad Paciencia
   
   
-    .bg-full-width
+    .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3             
         .carousel-bg
           .row.justify-content-center.mb-5.align-items-center
@@ -545,13 +545,13 @@
     .row
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
         .tarjeta.tarjeta--blanca.p-4.bordes.rounded
-          .row.justify-content-center.mb-3
+          .row.justify-content-center.mb-3.align-items-center
             .col-7
               figure
                 img(src='@/assets/curso/tema1/22.svg', alt='Texto que describa la imagen')
 
           h3.text-center 1. Claridad
-          p.text-small Permite que el mensaje sea comprendido sin ambigüedades.
+          p.text-center Permite que el mensaje sea comprendido sin ambigüedades.
 
       .col-sm-6.col-lg-3.mb-4.mb-lg-0.d-flex
         .tarjeta.tarjeta--blanca.p-4.bordes.rounded
@@ -561,7 +561,7 @@
                 img(src='@/assets/curso/tema1/23.svg', alt='Texto que describa la imagen')
 
           h3.text-center 2. Precisión
-          p.text-small Evita información innecesaria o confusa.
+          p.text-center Evita información innecesaria o confusa.
 
       .col-sm-6.col-lg-3.mb-4.mb-sm-0.d-flex
         .tarjeta.tarjeta--blanca.p-4.bordes.rounded
@@ -571,7 +571,7 @@
                 img(src='@/assets/curso/tema1/24.svg', alt='Texto que describa la imagen')
 
           h3.text-center 3. Brevedad
-          p.text-small  Facilita una comunicación ágil y  directa.
+          p.text-center  Facilita una comunicación ágil y  directa.
 
       .col-sm-6.col-lg-3.d-flex
         .tarjeta.tarjeta--blanca.p-4.bordes.rounded
@@ -581,16 +581,50 @@
                 img(src='@/assets/curso/tema1/25.svg', alt='Texto que describa la imagen')
 
           h3.text-center 4. Corrección
-          p.text-small Garantiza un uso adecuado del  idioma y una imagen  profesional.
+          p.text-center Garantiza un uso adecuado del  idioma y una imagen  profesional.
 
       .bg-full-width.mt-5
         .px-4.px-md-5.pb-md-3
         .titulo-con-imagen.mb-5(data-aos="fade-right")
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
-            h3.titulo-con-imagen__texto El lenguaje
+            h3.titulo-con-imagen__texto La escucha activa
+
+    .row
+        p
+          | La escucha activa es la habilidad de escuchar no solo las palabras, sino también las ideas, intenciones y pensamientos que subyacen en el discurso del interlocutor. Además, implica demostrar de manera explícita que el mensaje ha sido comprendido, lo cual permite crear un vínculo con el cliente y ofrecer un servicio de calidad. A partir de este concepto, la escucha activa se compone de elementos decisivos que facilitan el desempeño eficaz del asesor o asesora telefónica. A continuación, se describen los elementos de la escucha activa y la función que cumple cada uno dentro del proceso comunicativo.
 
 
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3             
+        .carousel-bg
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-9.mb-3.mb-lg-0.order-lg-2
+              SlyderF(columnas="col-md-6 col-xl-6")
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Escuchar
+                  p.card-text.text-center
+                  | Prestar atención plena al mensaje del cliente.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Analizar
+                  p.card-text.text-center
+                  | Procesar la información recibida.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Interpretar
+                  p.card-text.text-center
+                  | Comprender el significado y la intención del mensaje.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Actuar
+                  p.card-text.text-center
+                  | Responder de manera adecuada y oportuna.
+            .col-lg-3.order-lg-1.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+ 
 
 
 </template>
