@@ -54,36 +54,34 @@
         .card-cualidad Paciencia
   
   
-      .bg-full-width
-        .px-4.px-md-5.pb-md-3
-
-             
-      .carousel-bg
-        .row.justify-content-center.mb-5.align-items-center
-          .col-lg-9.mb-3.mb-lg-0.order-lg-2
-            SlyderF(columnas="col-md-6 col-xl-6")
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p Capacidad de transmitir ideas.
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p Capacidad de atraer la atención del interlocutor.
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p Capacidad de atención.
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel_05.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p Habilidad para captar las necesidades del cliente.
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p Alto sentido de compromiso.
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                p Capacidad de organización.
-          .col-lg-3.order-lg-1.d-none.d-lg-block
-              figure
-                img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
-      
+    .bg-full-width
+      .px-4.px-md-5.pb-md-3             
+        .carousel-bg
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-9.mb-3.mb-lg-0.order-lg-2
+              SlyderF(columnas="col-md-6 col-xl-6")
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  p Capacidad de transmitir ideas.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  p Capacidad de atraer la atención del interlocutor.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  p Capacidad de atención.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel_05.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  p Habilidad para captar las necesidades del cliente.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  p Alto sentido de compromiso.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  p Capacidad de organización.
+            .col-lg-3.order-lg-1.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+        
 
     .row.mb-5
       p.mb-0 Además de estas cualidades, la paciencia es un factor fundamental en esta profesión. El asesor telefónico se enfrenta a todo tipo de situaciones, algunas tan inusuales que resultan “difíciles de creer”. A lo largo de su experiencia laboral, vivirá momentos positivos y negativos; sin embargo, si cuenta con las habilidades adecuadas y una disposición genuina para ofrecer un buen servicio, su desempeño será exitoso.Todas las personas pueden ser capacitadas para desempeñar tareas que exijan un perfil comercial y de servicio, siempre que tengan las cualidades necesarias o estén dispuestas a desarrollarlas con esfuerzo y dedicación. Aunque algunas de estas habilidades pueden estar presentes de manera natural, en muchos casos deben ser cultivadas.
@@ -183,44 +181,44 @@
           | Estos elementos permiten cumplir los objetivos planteados en cada contacto, ya sea la promoción de un producto o servicio o la solución de un problema manifestado por el cliente durante una llamada entrante. Una correcta aplicación de estos componentes favorece la construcción de una experiencia positiva, fortalece la imagen de la organización y contribuye a la satisfacción del cliente. Los componentes principales de la comunicación telefónica son:
           
     .row.mt-5
-      .col-lg-3.mb-3
-        .card
-          img(src="@/assets/curso/tema1/10.png", alt="La sonrisa", class="card-img-top")
-          .card-body
-            h5.card-title.text-center La sonrisa
-            p.card-text.text-center
-              | «Se oye» por teléfono, transmite una comunicación positiva, genera agrado y predispone favorablemente al interlocutor.
+        .col-lg-3.mb-3
+          .card
+            img(src="@/assets/curso/tema1/10.png", alt="La sonrisa", class="card-img-top")
+            .card-body
+              h5.card-title.text-center La sonrisa
+              p.card-text.text-center
+                | «Se oye» por teléfono, transmite una comunicación positiva, genera agrado y predispone favorablemente al interlocutor.
 
-      .col-lg-3.mb-3
-        .card
-          img(src="@/assets/curso/tema1/11.png", alt="La voz", class="card-img-top")
-          .card-body
-            h5.card-title.text-center La voz
-            p.card-text.text-center
-              | Es un elemento decisivo; permite crear confianza, influir, persuadir y tranquilizar al cliente.
+        .col-lg-3.mb-3
+          .card
+            img(src="@/assets/curso/tema1/11.png", alt="La voz", class="card-img-top")
+            .card-body
+              h5.card-title.text-center La voz
+              p.card-text.text-center
+                | Es un elemento decisivo; permite crear confianza, influir, persuadir y tranquilizar al cliente.
 
-      .col-lg-3.mb-3
-        .card
-          img(src="@/assets/curso/tema1/12.png", alt="El lenguaje", class="card-img-top")
-          .card-body
-            h5.card-title.text-center El lenguaje
-            p.card-text.text-center
-              | Incluye el uso de expresiones positivas y negativas. Si predominan las negativas, puede impactar de forma desfavorable en la imagen de la empresa.
+        .col-lg-3.mb-3
+          .card
+            img(src="@/assets/curso/tema1/12.png", alt="El lenguaje", class="card-img-top")
+            .card-body
+              h5.card-title.text-center El lenguaje
+              p.card-text.text-center
+                | Incluye el uso de expresiones positivas y negativas. Si predominan las negativas, puede impactar de forma desfavorable en la imagen de la empresa.
 
-      .col-lg-3.mb-3
-        .card
-          img(src="@/assets/curso/tema1/13.png", alt="La escucha activa", class="card-img-top")
-          .card-body
-            h5.card-title.text-center La escucha activa
-            p.card-text.text-center
-              | Implica escuchar, analizar e interpretar al cliente. Se basa en una escucha global que permite comprender plenamente la situación expuesta.
+        .col-lg-3.mb-3
+          .card
+            img(src="@/assets/curso/tema1/13.png", alt="La escucha activa", class="card-img-top")
+            .card-body
+              h5.card-title.text-center La escucha activa
+              p.card-text.text-center
+                | Implica escuchar, analizar e interpretar al cliente. Se basa en una escucha global que permite comprender plenamente la situación expuesta.
 
       .bg-full-width.mt-5
-        .px-4.px-md-5.pb-md-3
-        .titulo-con-imagen.mb-5(data-aos="fade-right")
-          .titulo-con-imagen__fondo
-            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
-            h3.titulo-con-imagen__texto La sonrisa telefónica
+          .px-4.px-md-5.pb-md-3
+          .titulo-con-imagen.mb-5(data-aos="fade-right")
+            .titulo-con-imagen__fondo
+              img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+              h3.titulo-con-imagen__texto La sonrisa telefónica
       
 
 
@@ -277,8 +275,7 @@
 
       .bg-full-width
         .px-4.px-md-5.pb-md-3
-
-             
+        
       .carousel-bg
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-12.mb-3.mb-lg-0.order-lg-2
@@ -352,7 +349,114 @@
                   h4 Tono tranquilo
                   p Pausado y calculado. Se emplea para manejar objeciones y reclamaciones. Su objetivo es transmitir control y calma ante clientes alterados o con tono elevado.
           
+      .bg-full-width.mt-4
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+            h3.titulo-purpura La articulación
+      .row.mb-2
+            p.mb-0 La articulación se refiere a la posición y al movimiento de los órganos de la voz para la correcta pronunciación de vocales y consonantes. Una articulación adecuada facilita la comprensión del mensaje y evita malentendidos.
+      
+    .row.align-items-center
+      // Imagen
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(
+            src="@/assets/curso/tema1/15.png",
+            data-aos="zoom-in",
+            style="max-width: 100%"
+          ).mx-auto
 
+      // Contenido
+      .col-lg-7(data-aos="fade-left")
+        p
+          | La sonrisa telefónica es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, se percibe claramente a través de la voz, y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
+
+        .bg-color-7.p-4.mt-3
+          p
+            | Recomendaciones clave:
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Hablar abriendo bien la boca y marcando correctamente las palabras.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Evitar “comerse las palabras”, separándolas claramente al pronunciarlas.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Mantener una distancia adecuada entre el auricular y la boca.
+            
+      .bg-full-width.mt-4
+                  .px-4.px-md-5.pb-md-3
+                  .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+                      h3.titulo-purpura El volumen de la voz   
+
+    .row.align-items-center
+
+
+
+      // Contenido
+      .col-lg-7(data-aos="fade-left")
+        p
+          | El volumen representa la intensidad con la que se emite la voz y, en la comunicación telefónica, constituye la única forma de llegar directamente al oído del interlocutor. Por ello, debe mantenerse en un nivel normal y equilibrado, evitando los extremos.
+        .bg-color-7.p-4.mt-3
+          p
+            | Recomendaciones clave:
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Nunca gritar, incluso si la comunicación es deficiente.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | No susurrar.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Adaptar el volumen a las diferentes circunstancias sin llegar a los extremos.
+
+        // Imagen
+        .col-lg-5.mb-3.mb-lg-0
+          figure
+            img(
+              src="@/assets/curso/tema1/16.png",
+              data-aos="zoom-in",
+              style="max-width: 100%"
+            ).mx-auto
+          
+
+      .bg-full-width.mt-4
+                .px-4.px-md-5.pb-md-3
+                .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+                    h3.titulo-purpura La elocución    
+
+    .row.align-items-center
+      // Imagen
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(
+            src="@/assets/curso/tema1/17.png",
+            data-aos="zoom-in",
+            style="max-width: 100%"
+          ).mx-auto
+
+
+      // Contenido
+      .col-lg-7(data-aos="fade-left")
+        p
+          | La elocución es la velocidad con la que se transmite el mensaje durante la llamada. Una velocidad adecuada favorece la comprensión y transmite seguridad.
+
+
+        .bg-color-7.p-4.mt-3
+          p
+            | Recomendaciones clave:
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Utilizar una elocución más lenta y pausada que en una conversación cara a cara.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Adaptarse a la velocidad del interlocutor: hablar más despacio con personas lentas y un poco más rápido con interlocutores ágiles.
+
+
+        
 
 </template>
 
