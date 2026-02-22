@@ -306,7 +306,52 @@
                 h4.card-title.text-center Elocución
                 p.card-text.text-center
                   | Velocidad a la que se transmite el mensaje.
-              
+
+      .bg-full-width.mt-4
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+            h3.titulo-purpura La entonación y su adecuación a la llamada
+      .row.mb-2
+            p.mb-0 La entonación corresponde a la forma en que se varía la altura de la tonalidad de la voz y debe adaptarse a las circunstancias de la conversación telefónica. Es importante evitar la monotonía; sin embargo, los cambios de tono no deben ser bruscos, ya que pueden generar confusión o incomodidad en el cliente. A continuación, se abordan los tonos apropiados en la comunicación telefónica y su uso según el objetivo de cada momento de la interacción.
+      
+      
+
+      .bg-full-width.bg-fondo-slider.mb-5
+          .p-4.p-md-5
+            SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+              .row.align-items-center.p-4.p-md-5
+                .col-lg-5.order-2
+                  figure
+                    img(src="@/assets/curso/tema1/slide1_01.png")
+                .col-lg-7.order-1.mb-3.mb-lg-0
+                  h4 Tono seguro
+                  p Directo y serio. Se utiliza para sondear necesidades o potencial del cliente y obtener información. Su objetivo es recopilar los datos necesarios para proponer la solución, idea o servicio adecuado.
+
+              .row.align-items-center.p-4.p-md-5
+                .col-lg-5.order-2
+                  figure
+                    img(src="@/assets/curso/tema1/slide1_02.png")
+                .col-lg-7.order-1.mb-3.mb-lg-0
+                  h4 Tono cálido
+                  p Amabilidad, empatía y sonrisa perceptible. Se emplea en la presentación y la despedida. Su objetivo es generar un clima adecuado al inicio de la conversación y dejar una impresión positiva al finalizar.
+
+
+              .row.align-items-center.p-4.p-md-5
+                .col-lg-5.order-2
+                  figure
+                    img(src="@/assets/curso/tema1/slide1_03.png")
+                .col-lg-7.order-1.mb-3.mb-lg-0
+                  h4 Tono sugestivo
+                  p Descriptivo y persuasivo. Se usa durante la argumentación, al exponer características y ventajas del servicio o la empresa. Su objetivo es acercar al interlocutor al punto de vista del asesor sin generar compromiso inmediato.
+
+              .row.align-items-center.p-4.p-md-5
+                .col-lg-5.order-2
+                  figure
+                    img(src="@/assets/curso/tema1/slide1_04.png")
+                .col-lg-7.order-1.mb-3.mb-lg-0
+                  h4 Tono tranquilo
+                  p Pausado y calculado. Se emplea para manejar objeciones y reclamaciones. Su objetivo es transmitir control y calma ante clientes alterados o con tono elevado.
+          
 
 
 </template>
