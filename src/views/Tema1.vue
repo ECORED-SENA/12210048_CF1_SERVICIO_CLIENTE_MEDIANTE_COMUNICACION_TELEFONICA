@@ -215,10 +215,98 @@
             p.card-text.text-center
               | Implica escuchar, analizar e interpretar al cliente. Se basa en una escucha global que permite comprender plenamente la situación expuesta.
 
+      .bg-full-width.mt-5
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")
+          .titulo-con-imagen__fondo
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+            h3.titulo-con-imagen__texto La sonrisa telefónica
+      
 
 
+    .row.align-items-center
+      // Imagen
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(
+            src="@/assets/curso/tema1/14.png",
+            data-aos="zoom-in",
+            style="max-width: 100%"
+          ).mx-auto
+
+      // Contenido
+      .col-lg-7(data-aos="fade-left")
+        p
+          | La sonrisa telefónica es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, se percibe claramente a través de la voz, y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
+
+        .bg-color-5.p-4.mt-3
+          ul.lista-ul.mb-0
+            li
+              i.fas.fa-check-circle.me-2(style="color:#AD9721")
+              | Es una forma consciente de relajarse durante la comunicación.
+            li
+              i.fas.fa-check-circle.me-2(style="color:#AD9721")
+              | Comunica un tono amistoso y cordial.
+            li
+              i.fas.fa-check-circle.me-2(style="color:#AD9721")
+              | Se oye por teléfono y es síntoma de predisposición a la ayuda, demostrando interés genuino por el cliente.
+            li
+              i.fas.fa-check-circle.me-2(style="color:#AD9721")
+              | Crea un clima empático entre los interlocutores.
+            li
+              i.fas.fa-check-circle.me-2(style="color:#AD9721")
+              | Refleja una actitud positiva y suele generar una respuesta similar en el cliente.
+            li
+              i.fas.fa-check-circle.me-2(style="color:#AD9721")
+              | En la presentación y en la despedida, desempeña un papel fundamental en la creación de un buen clima y en la generación de una impresión favorable.
+
+        p.mt-3.mb-0
+          | La correcta integración de la sonrisa, la voz, el lenguaje y la escucha activa permite transformar una llamada telefónica en una experiencia positiva y efectiva para el cliente y la organización.
 
 
+      .bg-full-width.mt-5
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")
+          .titulo-con-imagen__fondo
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+            h3.titulo-con-imagen__texto La voz
+      
+      p
+          | La voz es el instrumento básico de la comunicación no verbal a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite generar confianza, influir, persuadir y tranquilizar al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
+
+
+      .bg-full-width
+        .px-4.px-md-5.pb-md-3
+
+             
+      .carousel-bg
+        .row.justify-content-center.mb-5.align-items-center
+          .col-lg-12.mb-3.mb-lg-0.order-lg-2
+            SlyderF(columnas="col-md-4 col-xl-4")
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema1/carrusel2_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Volumen
+                p.card-text.text-center
+                  | Intensidad con la que se emite la voz durante la llamada.
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema1/carrusel2_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Entonación
+                p.card-text.text-center
+                  | Variación de la altura y tonalidad de la voz según la intención comunicativa.
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema1/carrusel2_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Articulación
+                p.card-text.text-center
+                  | Posición y movimiento de los órganos de la voz para una correcta pronunciación.
+
+              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                img(src='@/assets/curso/tema1/carrusel2_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                h4.card-title.text-center Elocución
+                p.card-text.text-center
+                  | Velocidad a la que se transmite el mensaje.
+              
 
 
 </template>
