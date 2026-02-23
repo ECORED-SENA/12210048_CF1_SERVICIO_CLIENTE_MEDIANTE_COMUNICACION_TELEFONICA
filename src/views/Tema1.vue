@@ -746,10 +746,10 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de iniciar una comunicación con un cliente, los asesores y asesoras telefónicos deben tener en cuenta que existen momentos clave a lo largo de la llamada. En estas etapas se recopila información relevante (en algunos casos suficiente y en otros limitada) que permite actuar de la mejor manera posible según el objetivo de la comunicación
+        p.mb-0 Antes de iniciar una comunicación con un cliente, los asesores y asesoras telefónicos deben tener en cuenta que existen momentos clave a lo largo de la llamada. En estas etapas se recopila información relevante (en algunos casos suficiente y en otros limitada) que permite actuar de la mejor manera posible según el objetivo de la comunicación.
 
     .row.mt-4
-      p.mb-0 Estas etapas se encuentran delimitadas de forma secuencial, lo que facilita que, al finalizar la conversación, se pueda realizar un balance teniendo en cuenta el propósito de la llamada y el nivel de satisfacción del cliente
+      p.mb-0 Estas etapas se encuentran delimitadas de forma secuencial, lo que facilita que, al finalizar la conversación, se pueda realizar un balance teniendo en cuenta el propósito de la llamada y el nivel de satisfacción del cliente.
 
 
 
@@ -758,12 +758,12 @@
           .row.justify-content-center
             .col-lg-4
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
+                img(src="@/assets/curso/tema1/29.png", alt="alt").img400.m-auto
                 
 
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-                .row(titulo="El que escucha mal tiende a")
+                .row(titulo="Antes de descolgar")
 
                 
                   .col-12
@@ -930,7 +930,29 @@
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
                     | Diminutivos o superlativos inútiles.
 
+    .row.mt-4
+      p.mb-0 Los asesores telefónicos deben saber identificar y clasificar estas conductas con el fin de utilizar estrategias de comunicación adecuadas para cada tipo de cliente. Esta capacidad permite ofrecer una atención más empática, personalizada y efectiva, contribuyendo a mejorar la experiencia del cliente y la imagen de la empresa.
 
+      .bg-full-width.mt-5
+        .px-4.px-md-5.pb-md-3
+        .titulo-con-imagen.mb-5(data-aos="fade-right")
+          .titulo-con-imagen__fondo
+            img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+            h3.titulo-con-imagen__texto Tipología de clientes
+
+
+
+
+    .row.mt-4
+      p.mb-0 En el mundo de la comunicación telefónica, el asesor o la asesora, aunque no está cara a cara con los clientes, también se expone a múltiples situaciones difíciles. En estas situaciones, resulta necesario apoyarse en las habilidades y la formación profesional para afrontar escenarios que exigen un alto control emocional, debido al trato frecuente con ciertos tipos de clientes.
+
+    .row.mt-4
+      .col-md-4.mb-4.mb-md-0
+        figure
+                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+      .col-md-8.mb-4.mb-md-0
+        p.mb-0 En el mundo de la comunicación telefónica, el asesor o la asesora, aunque no está cara a cara con los clientes, también se expone a múltiples situaciones difíciles. En estas situaciones, resulta necesario apoyarse en las habilidades y la formación profesional para afrontar escenarios que exigen un alto control emocional, debido al trato frecuente con ciertos tipos de clientes.
+      
 </template>
 
 <script>
