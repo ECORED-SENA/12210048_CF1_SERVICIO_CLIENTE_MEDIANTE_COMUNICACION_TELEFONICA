@@ -1003,41 +1003,81 @@
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Cliente pretencioso")
-              p.mb-0 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.
+              .col-12
+                p.mb-4 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.
+                
                 .row.justify-content-center
-                  .titulo-sexto.color-acento-contenido
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 1.
+                      span Cliente pretencioso: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th.text-center Comportamiento
+                            th.text-center Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center Vanidoso.
+                            td Elogiarlo.
+                          tr
+                            td.text-center Cree que lo sabe todo.
+                            td Repetir su nombre con frecuencia.
+                          tr
+                            td.text-center Dominante.
+                            td Demostrar interés por sus asuntos.
+                          tr
+                            td.text-center Tiende a engañar.
+                            td "Precisamente para personas como usted..."
+                          tr
+                            td.text-center Exige trato exclusivo.
+                            td Ofrecer atención diferenciada.
+
+
+
+
+
+            .row(titulo="Cliente desconfiado")                  
+              .col-12
+                p.mb-4 Son personas escépticas que no confían en nada ni en nadie. Critican los argumentos, tratan de dominar, no escuchan consejos. 
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 2.
+                      span Cliente desconfiado: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th.text-center Comportamiento
+                            th.text-center Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center No se cree nada.
+                            td Conservar la calma y el buen humor.
+                          tr
+                            td.text-center Intransigente.
+                            td Respetar sus ideas.
+                          tr
+                            td.text-center Rechaza hasta los argumentos lógicos.
+                            td Hacer preguntas.
+                          tr
+                            td.text-center Susceptible.
+                            td Buscar puntos comunes.
+                          tr
+                            td.text-center Utiliza la ironía.
+                            td No mostrarse insistente ni discutidor.
+                          tr
+                            td.text-center Le gusta comprar, no que le vendan.
+                            td No afirmar lo que no se pueda demostrar.
+                          tr
+                            td.text-center Le pone faltas a todo.
+                            td Presentar pruebas, no entrar en su juego.
                   
-                    h5 Tabla 14.
-                    span Asiento contable por desvalorización de acciones
-                  .tabla-a.color-acento-botones
-                    table
-                      thead
-                        tr
-                          th.ajuste-border-tabla.bg-color-6.text-center  Comportamiento  
-                          th.ajuste-border-tabla.bg-color-6.text-center  Niveles de lenguaje 
-                         
-
-                      tbody
-                        tr.bg-color-white
-                          td.ajuste-border-tabla Gasto por pérdida
-                          td.ajuste-border-tabla.text-right $ 300.000
-                          
-
-                        tr.bg-color-18
-                          td.ajuste-border-tabla Activos financieros (acciones) 
-                          td.ajuste-border-tabla.text-right -
-                        tr
-                          td.ajuste-border-tabla.text-bold Total  
-                          td.ajuste-border-tabla.text-right $ 300.000
-
-
-
-
-
-
-            .row(titulo="Al momento de descolgar")                  
-              p.mb-0 En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
-                  
                   
 
 
@@ -1045,13 +1085,71 @@
 
 
 
-            .row(titulo="Acogida")                  
-              p.mb-0 La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
-                 
-                 
+            .row(titulo="Cliente indeciso")                  
+              .col-12
+                p.mb-4 Este cliente muy pocas veces toma decisiones por sí mismo. Necesita que el asesor lo oriente constantemente, hace muchas preguntas y suele decir que "lo va a pensar", prolongando la llamada.
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 3.
+                      span Cliente indeciso: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th(style="width: 40%") Comportamiento
+                            th(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td Se muestra inseguro.
+                            td Escuchar pacientemente.
+                          tr
+                            td No sabe lo que quiere.
+                            td Investigar su motivación.
+                          tr
+                            td Duda de todo y de todos.
+                            td Ofrecer pocas alternativas.
+                          tr
+                            td Intenta aplazar la decisión.
+                            td Darle seguridad.
+                          tr
+                            td Responde con evasivas al cierre.
+                            td Insistir en los perjuicios de la demora.
+                          tr
+                            td Pide la opinión del interlocutor.
+                            td Orientarlo, asegurar su comprensión.
 
-
-
+            .row(titulo="Cliente grosero")                  
+              .col-12
+                p.mb-4 Es el peor cliente que puede encontrarse un asesor. Tiene un repertorio de agresiones, comentarios y actitudes malintencionadas, no solo hacia el asesor sino también hacia la empresa.
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 4.
+                      span Cliente grosero: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th(style="width: 40%") Comportamiento
+                            th(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td Mal humor permanente.
+                            td Ser cortés pero no sumiso.
+                          tr
+                            td Ofende al interlocutor.
+                            td Hacer caso omiso de su grosería.
+                          tr
+                            td Discute con facilidad.
+                            td No interrumpir.
+                          tr
+                            td Dominante y agresivo.
+                            td Prescindir de promociones, mantener calma.
 
 
 
