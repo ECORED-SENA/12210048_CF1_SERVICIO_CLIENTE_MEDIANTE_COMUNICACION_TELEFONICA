@@ -992,7 +992,70 @@
         p.mb-4 Aunque la integridad física del asesor no está en peligro, sí enfrenta casos complejos en los que el interlocutor se siente libre de insultar o colgar sin reparos. Sin embargo, también se presentan experiencias muy buenas, agradables y constructivas, claramente con otro tipo de clientes.
         p.mb-0 A continuación, se presentan algunos tipos de clientes y cómo se les debería tratar en una comunicación telefónica:
         
-      
+
+      .bg--img_03.mt-5
+      .row.justify-content-center
+        .col-lg-4
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
+            
+
+        .col-lg-8
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="Cliente pretencioso")
+              p.mb-0 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.
+                .row.justify-content-center
+                  .titulo-sexto.color-acento-contenido
+                  
+                    h5 Tabla 14.
+                    span Asiento contable por desvalorización de acciones
+                  .tabla-a.color-acento-botones
+                    table
+                      thead
+                        tr
+                          th.ajuste-border-tabla.bg-color-6.text-center  Comportamiento  
+                          th.ajuste-border-tabla.bg-color-6.text-center  Niveles de lenguaje 
+                         
+
+                      tbody
+                        tr.bg-color-white
+                          td.ajuste-border-tabla Gasto por pérdida
+                          td.ajuste-border-tabla.text-right $ 300.000
+                          
+
+                        tr.bg-color-18
+                          td.ajuste-border-tabla Activos financieros (acciones) 
+                          td.ajuste-border-tabla.text-right -
+                        tr
+                          td.ajuste-border-tabla.text-bold Total  
+                          td.ajuste-border-tabla.text-right $ 300.000
+
+
+
+
+
+
+            .row(titulo="Al momento de descolgar")                  
+              p.mb-0 En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
+                  
+                  
+
+
+
+
+
+
+            .row(titulo="Acogida")                  
+              p.mb-0 La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
+                 
+                 
+
+
+
+
+
+
+
 </template>
 
 <script>
