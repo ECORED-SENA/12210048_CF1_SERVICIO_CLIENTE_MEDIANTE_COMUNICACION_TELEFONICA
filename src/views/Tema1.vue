@@ -635,9 +635,7 @@
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row(titulo="El que escucha mal tiende a")
                   .col-12
-                    p.mb-0 
-                    h4 Debe evitar
-                    
+                    p.mb-0                     
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
@@ -664,9 +662,46 @@
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
                           | Desentenderse por diferencias en la forma de expresión.
 
-                .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+                .row(titulo="El que escucha bien tiende a")
                   .col-12
-                    p.mb-0 El que escucha bien tiende a            
+                    p.mb-0                     
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Buscar oportunidades.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Preguntarse: ¿qué significa esto para mí?.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Evaluar el contenido y dejar pasar errores de expresión.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | No juzgar hasta comprender plenamente.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Escuchar lo esencial.                       
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Tomar pocas notas.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Esforzarse activamente en la escucha.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Luchar contra las distracciones y concentrarse.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Enfocar temas complejos como ejercicio intelectual.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Interpretar palabras con carga emotiva sin quedarse atrapado en ellas.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Anticiparse, resumir mentalmente y escuchar entre líneas según contexto, tono de voz, estilo de conversación y lengua.
+                        
+
+
             .col-lg-4
               figure(data-aos="zoom-in")
                 img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
@@ -711,28 +746,31 @@
             .col-lg-9.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-md-6 col-xl-6")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Escuchar
+                  img(src='@/assets/curso/tema1/31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Subrayar palabras
                   p.card-text.text-center
-                  | Prestar atención plena al mensaje del cliente.
+                  | Destacar la importancia de ciertos mensajes clave.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Analizar
+                  img(src='@/assets/curso/tema1/30.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Aislar ideas
                   p.card-text.text-center
-                  | Procesar la información recibida.
+                  | Permite resaltar conceptos relevantes dentro del discurso.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Interpretar
+                  img(src='@/assets/curso/tema1/32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Percibir al interlocutor
                   p.card-text.text-center
-                  | Comprender el significado y la intención del mensaje.
+                  | Intensidad con la que se emite la voz durante la llamada.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Actuar
+                  img(src='@/assets/curso/tema1/33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Favorecer objeciones
                   p.card-text.text-center
-                  | Responder de manera adecuada y oportuna.
+                  | Propicia la manifestación de dudas o inquietudes del cliente.
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+    .row.mt-4
+      p.mb-0 El silencio bien utilizado fortalece la comunicación telefónica; sin embargo, el silencio no explicado genera incomodidad y deteriora la experiencia del cliente.
+
 
 
     .row.mt-5
@@ -764,90 +802,100 @@
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row(titulo="Antes de descolgar")
-
-                
-                  .col-12
-                    p.mb-0 
-                    h4 Debe evitar
-                    
+                  p.mb-0 Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.                            
                       ul.lista-ul.mb-0
                         li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Discutir con facilidad.
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Preparar el material: disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
                         li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Distraerse con facilidad.
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Guardar silencio: respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
                         li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Desentenderse de temas aburridos.
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Sonreír: realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
                         li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Tomar demasiadas notas.
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Fingir atención.                        
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Evitar temas difíciles.
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Reaccionar ante palabras con carga emotiva..
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Desentenderse por diferencias en la forma de expresión.
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Descolgar al primer tono: evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
 
-                .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
-                  .col-12
-                    p.mb-0 El que escucha bien tiende a            
+                .row(titulo="Al momento de descolgar")                  
+                  p.mb-0 En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Abandonar otras tareas: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Guardar silencio hasta la acogida: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor
+                        
+                .row(titulo="Acogida")                  
+                  p.mb-0 La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Identificación de la empresa: mencionar el nombre de la empresa de manera clara y segura.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Saludo: realizar un saludo moderado y cordial que propicie una interacción respetuosa.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Identificación personal: presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Oferta de ayuda: brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
 
 
         .bg--img_03.mt-5
           .row.justify-content-center
-
-                
-
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-                .row(titulo="El que escucha mal tiende a")
-
-                
+                .row(titulo="Motivo de la llamada")                
                   .col-12
-                    p.mb-0 
-                    h4 Debe evitar
-                    
+                    p.mb-0           
+                      | Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.
                       ul.lista-ul.mb-0
                         li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Discutir con facilidad.
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Sondeo: formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
                         li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Distraerse con facilidad.
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Desentenderse de temas aburridos.
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Tomar demasiadas notas.
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Fingir atención.                        
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Evitar temas difíciles.
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Reaccionar ante palabras con carga emotiva..
-                        li
-                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Desentenderse por diferencias en la forma de expresión.
-
-                .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Reformulación: interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
+                        
+                .row(titulo="Acción")
                   .col-12
-                    p.mb-0 El que escucha bien tiende a 
+                    p.mb-0           
+                      | Esta fase corresponde al momento en el que el asesor o asesora participa de manera activa para dar respuesta a la necesidad del cliente, ya sea brindando información, aclarando inquietudes, gestionando quejas o atendiendo reclamaciones.
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Gestión de la llamada: aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Transferencia de llamadas: solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Comunicación clara: evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
+
+                .row(titulo="Conclusión")
+                  .col-12
+                    p.mb-0           
+                      | La conclusión facilita el cierre de la llamada de manera organizada y cordial, fortaleciendo una experiencia positiva para el cliente.
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Cierre: realizar un breve recuento de lo acordado durante la llamada. 
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")  
+                          | Agradecimiento: expresar gratitud al cliente por haberse comunicado.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Pausa final: brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#625A70")
+                          | Despedida: finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
 
             .col-lg-4
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
+                img(src="@/assets/curso/tema1/34.png", alt="alt").img400.m-auto
 
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -856,79 +904,69 @@
             .row
               .col-md-6
                 figure
-                  img(src='@/assets/curso/tema1/20.png', alt='')                 
+                  img(src='@/assets/curso/tema1/pestana1_01.png', alt='')                 
 
               .col-md-6.mb-4.mb-md-0
-                h4 Debe contener
+                h4 Pasividad
                 ul.lista-ul.mb-0
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras positivas.
+                    | Evitan expresar lo que piensan o sienten por temor a ser rechazados, incomprendidos u ofender a los demás.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresiones confirmativas.
+                    | No confían en sí mismos ni en sus opiniones.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresiones de interés.
-                  li
-                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresiones descriptivas.
+                    | Tienden a otorgar un valor superior a los demás, relegando sus propias necesidades.
+
 
           .py-3.py-md-4(titulo="Agresividad")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/pestana1_02.png', alt='')
 
               .col-md-6
-                h4 Debe evitar
+                h4 Agresividad
                 ul.lista-ul.mb-0
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras negativas.
+                    | Es totalmente opuesta a la pasividad.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras agresivas.
+                    | Se presenta en personas que sobrevaloran su forma de pensar.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Muletillas.
-                  li
-                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras ténicas innecesarias.
-                  li
-                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Fórmulas dubitativas e imprecisas.
-                  li
-                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Diminutivos o superlativos inútiles.
+                    | Pueden llegar a despreciar o subestimar las opiniones y sentimientos de los demás.
+                  
 
           .py-3.py-md-4(titulo="Asertividad")
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/pestana1_03.png', alt='')
 
               .col-md-6
-                h4 Debe evitar
+                h4 Asertividad
                 ul.lista-ul.mb-0
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras negativas.
+                    | Se abren a las opiniones de los demás.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras agresivas.
+                    | Se respetan a sí mismos y a los demás.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Muletillas.
+                    | Expresan con seguridad y confianza lo que desean.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras ténicas innecesarias.
+                    | No consideran que los demás deban pensar igual que ellos.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Fórmulas dubitativas e imprecisas.
+                    | Evitan el conflicto, pero no se dejan intimidar.
                   li
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Diminutivos o superlativos inútiles.
+                    | Generalmente son personas abiertas y honestas.
 
     .row.mt-4
       p.mb-0 Los asesores telefónicos deben saber identificar y clasificar estas conductas con el fin de utilizar estrategias de comunicación adecuadas para cada tipo de cliente. Esta capacidad permite ofrecer una atención más empática, personalizada y efectiva, contribuyendo a mejorar la experiencia del cliente y la imagen de la empresa.
@@ -949,9 +987,11 @@
     .row.mt-4
       .col-md-4.mb-4.mb-md-0
         figure
-                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/35.svg', alt='')
       .col-md-8.mb-4.mb-md-0
-        p.mb-0 En el mundo de la comunicación telefónica, el asesor o la asesora, aunque no está cara a cara con los clientes, también se expone a múltiples situaciones difíciles. En estas situaciones, resulta necesario apoyarse en las habilidades y la formación profesional para afrontar escenarios que exigen un alto control emocional, debido al trato frecuente con ciertos tipos de clientes.
+        p.mb-4 Aunque la integridad física del asesor no está en peligro, sí enfrenta casos complejos en los que el interlocutor se siente libre de insultar o colgar sin reparos. Sin embargo, también se presentan experiencias muy buenas, agradables y constructivas, claramente con otro tipo de clientes.
+        p.mb-0 A continuación, se presentan algunos tipos de clientes y cómo se les debería tratar en una comunicación telefónica:
+        
       
 </template>
 
