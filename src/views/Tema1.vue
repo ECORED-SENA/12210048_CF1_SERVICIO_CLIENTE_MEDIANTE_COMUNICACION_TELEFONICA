@@ -993,9 +993,12 @@
         p.mb-0 A continuación, se presentan algunos tipos de clientes y cómo se les debería tratar en una comunicación telefónica:
         
 
+
+
+
       .bg--img_03.mt-5
       .row.justify-content-center
-        .col-lg-4
+        .col-lg-4 
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
             
@@ -1016,8 +1019,8 @@
                       table
                         thead
                           tr
-                            th.text-center Comportamiento
-                            th.text-center Niveles del lenguaje
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
                             td.text-center Vanidoso.
@@ -1035,9 +1038,149 @@
                             td.text-center Exige trato exclusivo.
                             td Ofrecer atención diferenciada.
 
+            .row(titulo="Cliente desconfiado")                  
+              .col-12
+                p.mb-4 Son personas escépticas que no confían en nada ni en nadie. Critican los argumentos, tratan de dominar, no escuchan consejos. 
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 2.
+                      span Cliente desconfiado: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center No se cree nada.
+                            td Conservar la calma y el buen humor.
+                          tr
+                            td.text-center Intransigente.
+                            td Respetar sus ideas.
+                          tr
+                            td.text-center Rechaza hasta los argumentos lógicos.
+                            td Hacer preguntas.
+                          tr
+                            td.text-center Susceptible.
+                            td Buscar puntos comunes.
+                          tr
+                            td.text-center Utiliza la ironía.
+                            td No mostrarse insistente ni discutidor.
+                          tr
+                            td.text-center Le gusta comprar, no que le vendan.
+                            td No afirmar lo que no se pueda demostrar.
+                          tr
+                            td.text-center Le pone faltas a todo.
+                            td Presentar pruebas, no entrar en su juego.
+
+            .row(titulo="Cliente indeciso")                  
+              .col-12
+                p.mb-4 Este cliente muy pocas veces toma decisiones por sí mismo. Necesita que el asesor lo oriente constantemente, hace muchas preguntas y suele decir que "lo va a pensar", prolongando la llamada.
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 3.
+                      span Cliente indeciso: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center Se muestra inseguro.
+                            td Escuchar pacientemente.
+                          tr
+                            td.text-center No sabe lo que quiere.
+                            td Investigar su motivación.
+                          tr
+                            td.text-center Duda de todo y de todos.
+                            td Ofrecer pocas alternativas.
+                          tr
+                            td.text-center Intenta aplazar la decisión.
+                            td Darle seguridad.
+                          tr
+                            td.text-center Responde con evasivas al cierre.
+                            td Insistir en los perjuicios de la demora.
+                          tr
+                            td.text-center Pide la opinión del interlocutor.
+                            td Orientarlo, asegurar su comprensión.
+
+            .row(titulo="Cliente grosero")                  
+              .col-12
+                p.mb-4 Es el peor cliente que puede encontrarse un asesor. Tiene un repertorio de agresiones, comentarios y actitudes malintencionadas, no solo hacia el asesor sino también hacia la empresa.
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 4.
+                      span Cliente grosero: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center Mal humor permanente.
+                            td Ser cortés pero no sumiso.
+                          tr
+                            td.text-center Ofende al interlocutor.
+                            td Hacer caso omiso de su grosería.
+                          tr
+                            td.text-center Discute con facilidad.
+                            td No interrumpir.
+                          tr
+                            td.text-center Dominante y agresivo.
+                            td Prescindir de promociones, mantener calma.
 
 
 
+
+
+
+      .bg--img_03.mt-5
+      .row.justify-content-center
+        .col-lg-8
+          AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+            .row(titulo="Cliente locuaz")
+              .col-12
+                p.mb-4 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla 5.
+                      span Cliente locuaz: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
+                          tr
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center No tiene sentido del tiempo.
+                            td Escuchar con simpatía.
+                          tr
+                            td.text-center Desvía la atención del interlocutor.
+                            td Escuchar con simpatía.
+                          tr
+                            td.text-center Habla demasiado, acapara la conversación.
+                            td Mantener la distancia.
+                          tr
+                            td.text-center la conversación
+                            td
 
             .row(titulo="Cliente desconfiado")                  
               .col-12
@@ -1077,13 +1220,6 @@
                           tr
                             td.text-center Le pone faltas a todo.
                             td Presentar pruebas, no entrar en su juego.
-                  
-                  
-
-
-
-
-
 
             .row(titulo="Cliente indeciso")                  
               .col-12
@@ -1099,26 +1235,26 @@
                       table
                         thead
                           tr
-                            th(style="width: 40%") Comportamiento
-                            th(style="width: 60%") Niveles del lenguaje
+                            th.text-center Comportamiento
+                            th.text-center Niveles del lenguaje
                         tbody
                           tr
-                            td Se muestra inseguro.
+                            td.text-center Se muestra inseguro.
                             td Escuchar pacientemente.
                           tr
-                            td No sabe lo que quiere.
+                            td.text-center No sabe lo que quiere.
                             td Investigar su motivación.
                           tr
-                            td Duda de todo y de todos.
+                            td.text-center Duda de todo y de todos.
                             td Ofrecer pocas alternativas.
                           tr
-                            td Intenta aplazar la decisión.
+                            td.text-center Intenta aplazar la decisión.
                             td Darle seguridad.
                           tr
-                            td Responde con evasivas al cierre.
+                            td.text-center Responde con evasivas al cierre.
                             td Insistir en los perjuicios de la demora.
                           tr
-                            td Pide la opinión del interlocutor.
+                            td.text-center Pide la opinión del interlocutor.
                             td Orientarlo, asegurar su comprensión.
 
             .row(titulo="Cliente grosero")                  
@@ -1150,7 +1286,9 @@
                           tr
                             td Dominante y agresivo.
                             td Prescindir de promociones, mantener calma.
-
+        .col-lg-4 
+          figure(data-aos="zoom-in")
+            img(src="@/assets/curso/tema1/36.png", alt="alt").img400.m-auto
 
 
 
