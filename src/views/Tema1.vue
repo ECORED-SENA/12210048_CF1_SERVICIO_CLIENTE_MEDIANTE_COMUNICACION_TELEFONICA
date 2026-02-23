@@ -624,7 +624,311 @@
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
- 
+
+    .row
+        p
+          | Los comportamientos del mal oyente y del buen oyente son:
+
+        .bg--img_03
+          .row.justify-content-center
+            .col-lg-8
+              AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+                .row(titulo="El que escucha mal tiende a")
+                  .col-12
+                    p.mb-0 
+                    h4 Debe evitar
+                    
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Discutir con facilidad.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Distraerse con facilidad.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Desentenderse de temas aburridos.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Tomar demasiadas notas.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Fingir atención.                        
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Evitar temas difíciles.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Reaccionar ante palabras con carga emotiva..
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Desentenderse por diferencias en la forma de expresión.
+
+                .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+                  .col-12
+                    p.mb-0 El que escucha bien tiende a            
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
+
+    .row
+        p
+          | El uso adecuado del lenguaje verbal y la práctica constante de la escucha activa permiten al asesor telefónico comprender al cliente, responder con eficacia y fortalecer la imagen de la empresa.
+
+        .bg-full-width.mt-4
+          .px-4.px-md-5.pb-md-3
+          .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+              h3.titulo-purpura El silencio
+
+    .row
+        p
+          | Dentro de la comunicación telefónica, existe un aspecto de gran relevancia que forma parte de la escucha activa: el silencio. El asesor o asesora debe saber ser prudente y respetar los silencios o pausas naturales que se producen durante una conversación, ya que estos contribuyen a que la comunicación sea considerada óptima y profesional.
+
+
+    .row.mt-2.align-items-center.justify-content-center   
+      .col-lg-5.mb-4.mb-lg-0.bg-color-7.rounded(data-aos="fade-right")
+        .bg-mint.p-4.h-100.d-flex.align-items-center
+          p.mb-0 No obstante, es fundamental aclarar que nunca se debe dejar al cliente en silencio sin explicarle el motivo. Esta acción puede interpretarse fácilmente como un desplante, generando impaciencia y malestar en el interlocutor.
+      .col-lg-3.mb-4.mb-lg-0.align-items-center(data-aos="zoom-in")
+        figure
+          img(src="@/assets/curso/tema1/27.png", alt="" style="max-width:240px")
+      .col-lg-4(data-aos="fade-left")
+        .row.mb-0
+          .col-4.col-md-3.col-lg-4.text-start
+            figure
+              img(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
+        p.mb-0 Este tipo de silencio negativo se conoce como túnel oscuro, y hace referencia a ese momento incómodo en el que el asesor deja esperando al cliente mientras busca información o transfiere la llamada, sin brindar una explicación previa.
+
+    .row.mt-4
+        p
+          | El túnel oscuro es una de las causas más comunes de insatisfacción en la atención telefónica, ya que rompe la conexión comunicativa y afecta negativamente la percepción del servicio. La importancia del silencio en la comunicación telefónica
+
+
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3             
+        .carousel-bg
+          .row.justify-content-center.mb-5.align-items-center
+            .col-lg-9.mb-3.mb-lg-0.order-lg-2
+              SlyderF(columnas="col-md-6 col-xl-6")
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Escuchar
+                  p.card-text.text-center
+                  | Prestar atención plena al mensaje del cliente.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Analizar
+                  p.card-text.text-center
+                  | Procesar la información recibida.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Interpretar
+                  p.card-text.text-center
+                  | Comprender el significado y la intención del mensaje.
+                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                  img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  h4.card-title.text-center Actuar
+                  p.card-text.text-center
+                  | Responder de manera adecuada y oportuna.
+            .col-lg-3.order-lg-1.d-none.d-lg-block
+                figure
+                  img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+
+
+    .row.mt-5
+        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.3 Etapas de una llamada telefónica
+
+
+    .row
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Antes de iniciar una comunicación con un cliente, los asesores y asesoras telefónicos deben tener en cuenta que existen momentos clave a lo largo de la llamada. En estas etapas se recopila información relevante (en algunos casos suficiente y en otros limitada) que permite actuar de la mejor manera posible según el objetivo de la comunicación
+
+    .row.mt-4
+      p.mb-0 Estas etapas se encuentran delimitadas de forma secuencial, lo que facilita que, al finalizar la conversación, se pueda realizar un balance teniendo en cuenta el propósito de la llamada y el nivel de satisfacción del cliente
+
+
+
+
+        .bg--img_03.mt-5
+          .row.justify-content-center
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
+                
+
+            .col-lg-8
+              AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+                .row(titulo="El que escucha mal tiende a")
+
+                
+                  .col-12
+                    p.mb-0 
+                    h4 Debe evitar
+                    
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Discutir con facilidad.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Distraerse con facilidad.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Desentenderse de temas aburridos.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Tomar demasiadas notas.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Fingir atención.                        
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Evitar temas difíciles.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Reaccionar ante palabras con carga emotiva..
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Desentenderse por diferencias en la forma de expresión.
+
+                .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+                  .col-12
+                    p.mb-0 El que escucha bien tiende a            
+
+
+        .bg--img_03.mt-5
+          .row.justify-content-center
+
+                
+
+            .col-lg-8
+              AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
+                .row(titulo="El que escucha mal tiende a")
+
+                
+                  .col-12
+                    p.mb-0 
+                    h4 Debe evitar
+                    
+                      ul.lista-ul.mb-0
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Discutir con facilidad.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Distraerse con facilidad.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Desentenderse de temas aburridos.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Tomar demasiadas notas.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Fingir atención.                        
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Evitar temas difíciles.
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Reaccionar ante palabras con carga emotiva..
+                        li
+                          i.fas.fa-circle-right.me-2(style="color:#AD9721")
+                          | Desentenderse por diferencias en la forma de expresión.
+
+                .row(titulo="ISO 9001(2015). Sistemas de Gestión de la Calidad. Requisitos")
+                  .col-12
+                    p.mb-0 El que escucha bien tiende a 
+
+            .col-lg-4
+              figure(data-aos="zoom-in")
+                img(src="@/assets/curso/tema1/26.png", alt="alt").img400.m-auto
+
+
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+        TabsC.color-acento-contenido.mt-5
+          .py-3.py-md-4(titulo="Pasividad")
+            .row
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema1/20.png', alt='')                 
+
+              .col-md-6.mb-4.mb-md-0
+                h4 Debe contener
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras positivas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Expresiones confirmativas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Expresiones de interés.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Expresiones descriptivas.
+
+          .py-3.py-md-4(titulo="Agresividad")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+
+              .col-md-6
+                h4 Debe evitar
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras negativas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras agresivas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Muletillas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras ténicas innecesarias.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Fórmulas dubitativas e imprecisas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Diminutivos o superlativos inútiles.
+
+          .py-3.py-md-4(titulo="Asertividad")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+
+              .col-md-6
+                h4 Debe evitar
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras negativas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras agresivas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Muletillas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Palabras ténicas innecesarias.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Fórmulas dubitativas e imprecisas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Diminutivos o superlativos inútiles.
 
 
 </template>
