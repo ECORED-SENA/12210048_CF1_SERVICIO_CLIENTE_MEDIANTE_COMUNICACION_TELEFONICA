@@ -313,12 +313,12 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Dos escenarios opuestos
 
-      //- Header text
+
       p.mb-4 Gatti (2013) ejemplifica claramente dos contextos que, aunque ambos se basan en preguntas, provocan reacciones diferentes:
 
-      //- Centered Container for the two boxes
+
       .row.justify-content-center.mb-5
-        //- Box 1: Un acto judicial
+ 
         .col-md-5.mb-4.mb-md-0
           .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
             figure.mb-4
@@ -326,7 +326,7 @@
             h4 Un acto judicial
             p.mb-0 En el cual la persona se siente examinada, tensa y vigilada.
 
-        //- Box 2: Un concurso de conocimiento
+ 
         .col-md-5
           .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
             figure.mb-4
@@ -346,38 +346,359 @@
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
-                  img(src="@/assets/curso/tema2/slide1_01.png")
+                  img(src="@/assets/curso/tema2/slide2_01.png")
               .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Identificarse
-                p El asesor o asesora telefónica debe presentarse adecuadamente y llamar al cliente por su nombre. Esto genera confianza y establece una conexión personalizada. Los clientes necesitan saber con quién están hablando.
+                h4 ¿Cuándo no generan molestia las preguntas informativas?
+                p Según Gatti (2013), las personas no se enojan al responder preguntas cuando se cumplen las siguientes condiciones:
+
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Entienden la razón por la cual se les pregunta.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Perciben que sus respuestas pueden ser útiles para resolver sus problemas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Se les formula cada pregunta con pausa, amabilidad y de forma personalizada, evitando que la conversación parezca automática o robótica.
+                               
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
-                  img(src="@/assets/curso/tema2/slide1_02.png")
+                  img(src="@/assets/curso/tema2/slide2_02.png")
               .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Usar un lenguaje adecuado 
-                p Es fundamental evitar palabras complicadas, muletillas, términos que transmitan demasiada confianza o lenguaje soez. Incluso si el interlocutor es de confianza, debe evitarse cualquier expresión que reste profesionalismo o suene descortés. Hay que cuidar el tono y las palabras para mantener el nivel de la conversación.
+                h4 Beneficios de las preguntas bien formuladas
+                p Cuando se hacen correctamente, las preguntas informativas permiten que el cliente:
+
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Entre en sintonía con el asesor o asesora
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Comprenda que las preguntas son parte del trabajo profesional y no una molestia personal.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Evite la tensión durante la comunicación.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Perciba que verdaderamente se le quiere ayudar.
+
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
-                  img(src="@/assets/curso/tema2/slide1_03.png")
+                  img(src="@/assets/curso/tema2/slide2_03.png")
               .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Manejar un volumen de voz moderado
-                p Si en algún momento de la conversación surge una discusión o tensión, es fundamental que el asesor conserve el volumen moderado y el tono calmado. Esto puede influir positivamente en el cliente, ayudando a que se calme o recapacite si se encuentra alterado.
+                h4 Ejemplo práctico
+                p Cuando se hacen correctamente, las preguntas informativas permiten que el cliente:
+
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-square.me-2(style="color:#248804")
+                    | “Para poder comprobar su identidad, necesitaré que me suministre algunos datos.”
+                  li
+                    i.fas.fa-window-close.me-2(style="color:#dd2a37")
+                    | “Para ayudarlo a aclarar sus inquietudes, necesitaré que usted me…”
+                .col-12
+                 p Una diferencia sutil en el lenguaje puede cambiar por completo la percepción del cliente. Una frase mal formulada puede generar una actitud defensiva, lo que dificulta el proceso de atención y crea un clima tenso.
+
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
-                  img(src="@/assets/curso/tema2/slide1_04.png")
+                  img(src="@/assets/curso/tema2/slide2_04.png")
               .col-lg-7.order-1.mb-3.mb-lg-0
-                h4 Tener claras las prioridades
-                p Si durante una llamada se recibe otra, se debe evitar al máximo poner al primer interlocutor en espera. Es preferible finalizar la llamada correctamente, asegurando que se retomará el contacto a la brevedad. Así se evita la pérdida de tiempo y se respeta al cliente.
+                h4 Cuando no hay sintonía
+                p Cuando el asesor no logra establecer conexión con el cliente, este comienza a cuestionar el propósito de las preguntas, con pensamientos como:
+
+                ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | ¿Cuántas cosas más va a preguntarme?
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | ¿Por qué me pregunta tantas cosas?
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | ¿Qué tiene que ver esto con lo que quiero preguntar?
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Si ya le respondí dos preguntas correctamente, ¿para qué me pregunta más?
+            
+                .col-12
+                    p Ante esta situación, la habilidad del asesor para aplicar técnicas telefónicas adecuadas es crucial. Su rol consiste en redireccionar la conversación, mantener la calma y llevar al cliente a un estado de confianza donde se le pueda prestar un servicio eficaz.
+                    
       
     .row.mb-4
           .col-12
             p Aunque la función principal de las preguntas informativas es, en muchos casos, verificar la identidad del cliente, este objetivo no puede cumplirse completamente por las limitaciones inherentes al canal telefónico. Aun así, es deber del asesor formularlas con claridad, empatía y precisión, cuidando siempre el tono y el contexto para evitar malentendidos.
 
+    .row.mt-5
+            #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 2.3 Técnicas de sondeo
+    .row.mb-4
+        .col-12
+          p Gatti (2013) afirma que sin información es imposible determinar fehacientemente el significado del mensaje del cliente. La comunicación se da por medio de lenguaje, mensajes, gestos, movimientos y otros elementos verbales y no verbales, todos ellos cargados de información.
 
+        .row.justify-content-center.align-items-center.mb-4
+              .col-lg-6.mb-4.mb-lg-0
+            
+                .p-3.bg-color-yellow
+            
+                  .p-4.bg-white.br-5
+                    p.mb-0 En el caso del servicio telefónico, el reto es mayor, ya que el asesor o asesora no puede ver el lenguaje corporal del cliente, y eso limita en gran parte la interpretación de su estado de ánimo, nivel de satisfacción o intenciones reales. Por eso, es común que el cliente guarde información clave sin quererlo, lo que puede entorpecer el desarrollo del contacto y dificultar la solución de sus necesidades.
+              .col-lg-6
+                figure
+                  img(src="@/assets/curso/tema2/14.svg")
+        .row
+        .col-12
+          p Ante este desafío, una herramienta muy útil es el uso de técnicas de sondeo, en particular las preguntas de sondeo, que permiten:
+
+    .row.mt-5.justify-content-center.g-3
+      .col-auto
+        .card-cualidad Descubrir necesidades ocultas.
+      .col-auto
+        .card-cualidad Confirmar información.
+      .col-auto
+        .card-cualidad Profundizar en detalles relevantes.
+      .col-auto
+        .card-cualidad Dirigir la conversación con criterio y profesionalismo.
+
+    .row.mt-5
+        .col-12
+          p Estas preguntas bien formuladas ofrecen al asesor la oportunidad de gestionar adecuadamente la información proporcionada por el cliente, lo cual es esencial para evaluar su grado de satisfacción y orientar una solución adecuada.
+
+
+
+    .bg-full-width.mt-5
+    .px-4.px-md-5.pb-md-3
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+        h3.titulo-con-imagen__texto Técnicas de clasificación de la lista
+
+    .row.mt-5
+        .col-12
+          p Siguiendo los planteamientos de González (2002), las preguntas de sondeo pueden clasificarse en abiertas y cerradas, cada una con características y propósitos específicos dentro de la comunicación telefónica.
+          p A continuación se presenta cada una:
+
+    .row.justify-content-center
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/tarjeta1.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3(style="color:#FFF") Preguntas cerradas
+            
+            ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Buscan respuestas breves (generalmente "sí" o "no").
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Son útiles para verificar datos y confirmar información puntual.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | En general, evalúan conocimientos básicos o memorísticos.
+                    
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/tarjeta2.png", alt="alt")
+          .crd_hover_txt--body
+            h4.mb-3(style="color:#FFF") Preguntas abiertas
+            ul.lista-ul.mb-0
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Permiten respuestas amplias y desarrolladas.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Son útiles para explorar opiniones, emociones o experiencias.
+                  li
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
+
+
+      
+      .row.mt-5.justify-content-center.mb-5
+        .col-lg-8.col-md-10
+          
+          .p-4.p-md-5.bg-color-purple-light.br-15
+            p.mb-4.fw-bold El uso combinado de ambos tipos de preguntas le permite al asesor o asesora:
+            
+            
+            ul.lista-ul--separador
+              li.d-flex.align-items-start.mb-3
+                i.fas.fa-check-circle.text-accent.me-3
+                p.mb-0 Guiar la conversación sin imponerla.
+              li.d-flex.align-items-start.mb-3
+                i.fas.fa-check-circle.text-accent.me-3
+                p.mb-0 Identificar puntos clave que el cliente no ha expresado directamente.
+              li.d-flex.align-items-start.mb-3
+                i.fas.fa-check-circle.text-accent.me-3
+                p.mb-0 Evitar malentendidos que puedan derivarse de una interpretación incompleta del mensaje.
+              li.d-flex.align-items-start
+                i.fas.fa-check-circle.text-accent.me-3
+                p.mb-0 Fomentar la participación activa del cliente, lo que mejora la experiencia de atención.
+
+
+    .bg-full-width.mt-5
+    .px-4.px-md-5.pb-md-3
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+        h3.titulo-con-imagen__texto Preguntas abiertas
+    
+    .row.mt-5
+      .col-12
+        p Las preguntas abiertas constituyen una técnica fundamental en la atención telefónica, ya que permiten al cliente expresarse con libertad y al asesor o asesora analizar la información recibida en profundidad. A través de ellas, se establece un espacio de conversación más natural donde, incluso, puede desarrollarse una sana discusión, útil para preparar al interlocutor ante futuras preguntas más específicas.
+      
+
+
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4
+      
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/15.png', alt='', style="object-fit: cover;")
+      
+
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        .row
+          p <b> Características y uso adecuado </b>
+          p Según Gatti (2013), las preguntas abiertas permiten:
+            ul.lista-ul.mb-0
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Permiten respuestas amplias y desarrolladas.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | Son útiles para explorar opiniones, emociones o experiencias.
+              li
+                i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                | En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
+  
+    .row.mt-5
+    .col-12
+      p Uno de los principales recursos es el uso de palabras interrogativas como: quién, qué, cómo, cuándo y dónde, evitando en lo posible el uso del por qué, ya que este último puede provocar una actitud defensiva por parte del cliente, al sentirse cuestionado.
+   
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+          h3.titulo-purpura Técnica de secuenciación
+
+    .row.mt-5
+        .col-12
+          p Una forma efectiva de aplicar las preguntas abiertas es mediante la secuenciación, que consiste en solicitar al cliente que narre los hechos en orden, permitiendo una mejor comprensión de la situación. Esta técnica:
+
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+        TabsC.color-acento-contenido.mt-1
+          .py-3.py-md-4(titulo="Evita confusiones")
+            .row
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/pestana1.png', alt='')                 
+
+              .col-md-6.mb-4.mb-md-0
+                h4 Evita confusiones
+                p Ayuda al asesor o asesora telefónica a reducir malentendidos, en especial cuando el cliente explica situaciones complejas o extensas.
+
+
+          .py-3.py-md-4(titulo="Atención activa")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema2/pestana2.png', alt='')
+
+              .col-md-6
+                h4 Atención activa
+                p Permite demostrar al cliente que su información está siendo atendida con cuidado y continuidad durante la llamada.
+                  
+
+          .py-3.py-md-4(titulo="Recuperación de detalles")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema2/pestana3.png', alt='')
+
+              .col-md-6
+                h4 Recuperación de detalles
+                p Facilita que el cliente recuerde datos relevantes que, en otro contexto, podrían pasar desapercibidos.
+
+
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+          h3.titulo-purpura Ejemplo de aplicación
+
+      .row.mt-5
+              .col-12
+                p A continuación, se presenta un pódcast presenta el uso estratégico de preguntas abiertas en la atención telefónica al cliente, destacando sus ventajas, posibles desafíos y su aplicación práctica en situaciones reales.
+
+
+
+
+
+      .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
         
+        //- Section: Audio Card and Professional Photo
+        .row.justify-content-center.align-items-stretch
+          //- Left Column: Audio Card inside a stylized container
+          .col-lg-8.mb-4.mb-lg-0
+            .p-4.bg-color-dark-purple.br-15.h-100.d-flex.align-items-center
+              .row.align-items-center.w-100
+                .col-md-4.text-center
+                  img(src="@/assets/curso/tema2/podcast.svg" style="width: 150px;")
+                .col-md-8
+                  TarjetaAudio.color-primario(
+                    texto="El uso estratégico de preguntas abiertas en la atención telefónica al cliente"
+                    :audio="require('@/assets/componentes/audios/podcast1.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
+          //- Right Column: Professional Photo
+          .col-lg-4
+            figure.h-100
+              img.h-100.w-100.br-10(src='@/assets/curso/tema2/16.png', alt='', style="object-fit: cover;")
+
+
+    .bg-full-width
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+          h3.titulo-purpura Beneficios adicionales para el asesor o asesora
+
+      .row.justify-content-center.mb-5
+ 
+        .col-md-4.mb-4.mb-md-0
+          .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/b1.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 Determinar si el cliente posee habilidades comunicativas o técnicas.
+
+
+ 
+        .col-md-4
+          .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/b2.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 Inferir su nivel educativo, lo cual puede ayudar a adaptar el lenguaje o los términos técnicos.
+
+
+        .col-md-4
+          .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/b3.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 Favorecer una mayor comprensión mutua, gracias al flujo más natural de la retroalimentación.
+
+
+      .row.mt-5
+        .col-12
+          p En este sentido, González (2002) afirma que las preguntas abiertas permiten menor posibilidad de fraude, y que si este llegara a ocurrir, es relativamente fácil de identificar a posteriori, gracias al análisis detallado de la conversación.
 
 
 </template>

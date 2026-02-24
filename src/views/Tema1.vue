@@ -1277,7 +1277,7 @@
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
-                      h5 Tabla .
+                      h5 Tabla 9.
                       span Cliente exagerado: características y recomendaciones de trato
                     
                     .tabla-a.color-acento-botones
@@ -1299,6 +1299,7 @@
         .col-lg-4 
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/36.png", alt="alt").img400.m-auto
+
 
 
 
