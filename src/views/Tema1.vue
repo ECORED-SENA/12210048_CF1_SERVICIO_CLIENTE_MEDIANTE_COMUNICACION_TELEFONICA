@@ -160,7 +160,7 @@
             p.mb-0 En este contexto, la capacitación permanente se convierte en un factor diferenciador, ya que contribuye a elevar la calidad del servicio y a consolidar relaciones duraderas con los clientes. Es precisamente a través de estas prácticas formativas que las organizaciones logran destacarse y responder de manera efectiva a las expectativas del mercado.
 
     .row.mt-5
-        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.2 Componentes de la comunicación telefónica 
 
     .row
@@ -774,7 +774,7 @@
 
 
     .row.mt-5
-        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+        #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.3 Etapas de una llamada telefónica
 
 
