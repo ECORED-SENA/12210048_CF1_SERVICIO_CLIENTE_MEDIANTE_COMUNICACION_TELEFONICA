@@ -1182,110 +1182,120 @@
                             td.text-center la conversación
                             td
 
-            .row(titulo="Cliente desconfiado")                  
+            .row(titulo="Cliente afable")                  
               .col-12
-                p.mb-4 Son personas escépticas que no confían en nada ni en nadie. Critican los argumentos, tratan de dominar, no escuchan consejos. 
+                p.mb-4 Generalmente, es una persona muy hábil con las palabras. Le gusta agradar e interactuar, pero no siempre tiene un interés real.
                 
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
-                      h5 Tabla 2.
-                      span Cliente desconfiado: características y recomendaciones de trato
+                      h5 Tabla 6.
+                      span Cliente afable: características y recomendaciones de trato
                     
                     .tabla-a.color-acento-botones
                       table
                         thead
                           tr
-                            th.text-center Comportamiento
-                            th.text-center Niveles del lenguaje
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center No se cree nada.
-                            td Conservar la calma y el buen humor.
+                            td.text-center Dice "sí" a todo.
+                            td Escuchar con simpatía.
                           tr
-                            td.text-center Intransigente.
-                            td Respetar sus ideas.
+                            td.text-center Desvía la atención del interlocutor.
+                            td Escuchar con simpatía.
                           tr
-                            td.text-center Rechaza hasta los argumentos lógicos.
-                            td Hacer preguntas.
+                            td.text-center Habla demasiado, acapara.
+                            td Mantener la distancia.
                           tr
-                            td.text-center Susceptible.
-                            td Buscar puntos comunes.
-                          tr
-                            td.text-center Utiliza la ironía.
-                            td No mostrarse insistente ni discutidor.
-                          tr
-                            td.text-center Le gusta comprar, no que le vendan.
-                            td No afirmar lo que no se pueda demostrar.
-                          tr
-                            td.text-center Le pone faltas a todo.
-                            td Presentar pruebas, no entrar en su juego.
+                            td.text-center La conversación.
+                            td No darle familiaridad.
 
-            .row(titulo="Cliente indeciso")                  
+            .row(titulo="Cliente seguro de sí mismo")                  
               .col-12
-                p.mb-4 Este cliente muy pocas veces toma decisiones por sí mismo. Necesita que el asesor lo oriente constantemente, hace muchas preguntas y suele decir que "lo va a pensar", prolongando la llamada.
+                p.mb-4 Este tipo de cliente es el mejor para concluir negocios. No expresa emotividad, pero declara claramente sus intenciones. Es el cliente asertivo por naturaleza.
                 
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
-                      h5 Tabla 3.
-                      span Cliente indeciso: características y recomendaciones de trato
+                      h5 Tabla 7.
+                      span Cliente afable: características y recomendaciones de trato
                     
-                    .tabla-a.color-acento-botones
+                    .tabla-a.color-acento-botones                      
                       table
                         thead
                           tr
-                            th.text-center Comportamiento
-                            th.text-center Niveles del lenguaje
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center Se muestra inseguro.
-                            td Escuchar pacientemente.
+                            td.text-center Confía en su criterio.
+                            td Mantener aplomo.
                           tr
-                            td.text-center No sabe lo que quiere.
-                            td Investigar su motivación.
+                            td.text-center Sabe lo que quiere.
+                            td Usar argumentos de peso.
                           tr
-                            td.text-center Duda de todo y de todos.
-                            td Ofrecer pocas alternativas.
+                            td.text-center Es consciente de la información.
+                            td Seriedad y seguridad.
                           tr
-                            td.text-center Intenta aplazar la decisión.
-                            td Darle seguridad.
-                          tr
-                            td.text-center Responde con evasivas al cierre.
-                            td Insistir en los perjuicios de la demora.
-                          tr
-                            td.text-center Pide la opinión del interlocutor.
-                            td Orientarlo, asegurar su comprensión.
+                            td.text-center Que necesita.
+                            td Hacerle sentir que recibe una propuesta exclusiva.
+                      
 
-            .row(titulo="Cliente grosero")                  
+            .row(titulo="Cliente seco")                  
               .col-12
-                p.mb-4 Es el peor cliente que puede encontrarse un asesor. Tiene un repertorio de agresiones, comentarios y actitudes malintencionadas, no solo hacia el asesor sino también hacia la empresa.
+                p.mb-4 Es una persona que encaja perfectamente en el estilo de comunicación pasiva.
                 
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
-                      h5 Tabla 4.
-                      span Cliente grosero: características y recomendaciones de trato
+                      h5 Tabla 8.
+                      span Cliente seco: características y recomendaciones de tratov
                     
                     .tabla-a.color-acento-botones
                       table
                         thead
                           tr
-                            th(style="width: 40%") Comportamiento
-                            th(style="width: 60%") Niveles del lenguaje
+                            th.text-center (style="width: 40%") Comportamiento
+                            th.text-center (style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td Mal humor permanente.
-                            td Ser cortés pero no sumiso.
+                            td.text-center  Usa monosílabos.
+                            td.text-center  No forzarlo a hablar.
                           tr
-                            td Ofende al interlocutor.
-                            td Hacer caso omiso de su grosería.
+                            td.text-center  No toma la iniciativa.
+                            td.text-center  Formular preguntas cerradas con respuesta afirmativa.
                           tr
-                            td Discute con facilidad.
-                            td No interrumpir.
+                            td.text-center  Utiliza frases cortas.
+                            td.text-center  Usar frases breves y precisas.
+
+            .row(titulo="Cliente exagerado")                  
+              .col-12
+                p.mb-4 Difícilmente se le complace, ya que tiende a exagerar todo: desde el servicio hasta el trato recibido.
+                
+                .row.justify-content-center
+                  .col-md-10
+                    .titulo-sexto.color-acento-contenido.mb-3
+                      h5 Tabla .
+                      span Cliente exagerado: características y recomendaciones de trato
+                    
+                    .tabla-a.color-acento-botones
+                      table
+                        thead
                           tr
-                            td Dominante y agresivo.
-                            td Prescindir de promociones, mantener calma.
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
+                        tbody
+                          tr
+                            td.text-center  Lo agranda todo.
+                            td.text-center  Objetivar.
+                          tr
+                            td.text-center  Es subjetivo.
+                            td.text-center  Pedir datos concretos.
+                          tr
+                            td.text-center  "Saca las cosas de quicio".
+                            td.text-center  Confirmar los datos aportados.
         .col-lg-4 
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/36.png", alt="alt").img400.m-auto
