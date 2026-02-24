@@ -193,7 +193,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
-          img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Técnica de clasificación de lista
 
     .row.mb-4
@@ -263,8 +263,123 @@
           .col-12
             p Este conjunto de expresiones ayuda a mantener una comunicación más empática, profesional y clara, permitiendo que el cliente se sienta escuchado, valorado y bien atendido.
 
+
+    .row.mt-5
+            #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 2.3 Preguntas informativas
+          
+
+    .row.mb-10
+      .col-lg-5.mb-3.mb-lg-0
+        figure
+          img(src="@/assets/curso/tema2/9.png", data-aos="zoom-in")
+      .col-lg-7
+        .row.align-items-start.mb-3(data-aos="fade-left")
+          .col-lg
+          p.mb-0 En el contexto de la atención telefónica, hay momentos en los que incluso el cliente más tranquilo puede perder la paciencia. 
+        .row.align-items-start.mb-10(data-aos="fade-left")  
+          .col-lg-auto
+            img.d-none.d-lg-flex(src="@/assets/curso/tema2/10.svg", style="max-width: 90px").mx-auto
+          .col-lg
+            p(data-aos="fade-left") Un ejemplo claro ocurre cuando el asesor o asesora realiza un número considerable de preguntas, que muchas veces parecen innecesarias, generando desesperación o molestia en el interlocutor.
+        .row.mt-3.align-items-start.mb-10(data-aos="fade-left")  
+            p(data-aos="fade-left") Este tipo de preguntas se denominan preguntas informativas. Se caracterizan porque no pueden responderse con un simple “sí” o “no”; requieren una respuesta desarrollada o específica que aporte al análisis de la situación planteada. Su finalidad es reunir la información necesaria para poder brindar al cliente una solución.
+
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto El reto de formularlas adecuadamente
+
+    .row.mb-4
+      .col-12
+        p El asesor o asesora debe aplicar una estrategia adecuada al momento de formular preguntas informativas. Esto se vuelve especialmente importante al considerar los distintos tipos de conducta de los clientes (pasiva, asertiva y agresiva), ya que un mal enfoque puede generar conflicto o tensar innecesariamente la conversación.
+
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-1
       
-              
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/11.png', alt='', style="object-fit: cover;")
+      
+
+      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+        p.mb-0 En la comunicación telefónica, no es posible percibir con facilidad el lenguaje corporal que el asesor o la asesora quiera transmitir al cliente. Por consiguiente, es a través de la voz y el lenguaje verbal que deben demostrarse buenos modales, proyectando no solo la imagen del profesional, sino también la de la empresa que representa.
+      
+    .bg-full-width.mt-5
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")
+        .titulo-con-imagen__fondo
+          img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+          h3.titulo-con-imagen__texto Dos escenarios opuestos
+
+      //- Header text
+      p.mb-4 Gatti (2013) ejemplifica claramente dos contextos que, aunque ambos se basan en preguntas, provocan reacciones diferentes:
+
+      //- Centered Container for the two boxes
+      .row.justify-content-center.mb-5
+        //- Box 1: Un acto judicial
+        .col-md-5.mb-4.mb-md-0
+          .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/12.svg', alt='', style="width: 100px;")
+            h4 Un acto judicial
+            p.mb-0 En el cual la persona se siente examinada, tensa y vigilada.
+
+        //- Box 2: Un concurso de conocimiento
+        .col-md-5
+          .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/13.svg', alt='', style="width: 100px;")
+            h4 Un concurso de conocimiento
+            p.mb-0 En el que se participa de forma lúdica o relajada.
+
+      
+      
+      .row.mb-4
+            .col-12
+              p La diferencia está en el entorno emocional y la intención percibida. En la atención telefónica, el asesor debe evitar crear un ambiente parecido al primero y, por el contrario, establecer un contexto de confianza y cooperación, donde el cliente entienda que las preguntas tienen un propósito genuino: ayudarlo.
+
+    .bg-full-width.bg-fondo-slider.mb-5
+        .p-4.p-md-5
+          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_01.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Identificarse
+                p El asesor o asesora telefónica debe presentarse adecuadamente y llamar al cliente por su nombre. Esto genera confianza y establece una conexión personalizada. Los clientes necesitan saber con quién están hablando.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_02.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Usar un lenguaje adecuado 
+                p Es fundamental evitar palabras complicadas, muletillas, términos que transmitan demasiada confianza o lenguaje soez. Incluso si el interlocutor es de confianza, debe evitarse cualquier expresión que reste profesionalismo o suene descortés. Hay que cuidar el tono y las palabras para mantener el nivel de la conversación.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_03.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Manejar un volumen de voz moderado
+                p Si en algún momento de la conversación surge una discusión o tensión, es fundamental que el asesor conserve el volumen moderado y el tono calmado. Esto puede influir positivamente en el cliente, ayudando a que se calme o recapacite si se encuentra alterado.
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_04.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Tener claras las prioridades
+                p Si durante una llamada se recibe otra, se debe evitar al máximo poner al primer interlocutor en espera. Es preferible finalizar la llamada correctamente, asegurando que se retomará el contacto a la brevedad. Así se evita la pérdida de tiempo y se respeta al cliente.
+      
+    .row.mb-4
+          .col-12
+            p Aunque la función principal de las preguntas informativas es, en muchos casos, verificar la identidad del cliente, este objetivo no puede cumplirse completamente por las limitaciones inherentes al canal telefónico. Aun así, es deber del asesor formularlas con claridad, empatía y precisión, cuidando siempre el tono y el contexto para evitar malentendidos.
+
+
+        
+
+
 </template>
 
 <script>
