@@ -658,7 +658,7 @@
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
 
-          //- Right Column: Professional Photo
+        
           .col-lg-4
             figure.h-100
               img.h-100.w-100.br-10(src='@/assets/curso/tema2/16.png', alt='', style="object-fit: cover;")
@@ -699,6 +699,109 @@
       .row.mt-5
         .col-12
           p En este sentido, González (2002) afirma que las preguntas abiertas permiten menor posibilidad de fraude, y que si este llegara a ocurrir, es relativamente fácil de identificar a posteriori, gracias al análisis detallado de la conversación.
+
+    .bg-full-width.mt-5
+    .px-4.px-md-5.pb-md-3
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+        h3.titulo-con-imagen__texto Preguntas cerradas
+
+
+    .bloque-texto-g.bg-color-11.p-3.p-sm-4.p-md-5
+      .bloque-texto-g__img(
+        :style="{'background-image': `url(${require('@/assets/curso/tema2/17.png')})`}"
+      )
+      .bloque-texto-g__texto.p-4
+        p.mb-0 Las preguntas cerradas se utilizan generalmente cuando el asesor o asesora telefónica ya ha recibido suficiente información del cliente, la ha analizado y ha realizado un pequeño diagnóstico de la situación. En este punto, se dispone a aplicar las soluciones con las herramientas proporcionadas por la empresa.
+    
+    .row.mt-5
+      .col-12
+        p Este tipo de preguntas se formula con el objetivo de obtener una respuesta clara y directa (generalmente un “sí” o “no”) que facilite la toma de decisiones o la confirmación de un dato. Las preguntas cerradas suelen comenzar con expresiones como:
+
+
+      .row.justify-content-center.mb-5
+ 
+        .col-md-3.mb-4.mb-md-0
+          .p-4.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 <b>¿Sería posible…</b>
+
+
+ 
+        .col-md-3
+          .p-4.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 <b>¿Podría usted…</b>
+
+
+        .col-md-3
+          .p-4.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 <b>¿Querría…</b>
+
+
+        .col-md-3
+          .p-4.br-15.h-100.text-center.shadow-sm
+            figure.mb-4
+              img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
+            
+            p.mb-0 <b>¿Le interesaría a usted…</b>
+
+
+    .row
+        .col-12
+          p Las ventajas y desventajas de las preguntas cerradas son:
+
+
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+        TabsC.color-acento-contenido.mt-1
+          .py-3.py-md-4(titulo="Ventajas")
+            .row
+              .col-md-6
+                figure
+                  img(src='@/assets/curso/tema2/pestana1_01.png', alt='')                 
+
+              .col-md-6.mb-4.mb-md-0
+                h4 Ventajas
+                
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Obligan al cliente a dar una respuesta concreta.
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Son importantes para obtener conclusiones definitivas.
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Permiten al asesor o asesora obtener un compromiso explícito del cliente.
+                  
+
+          .py-3.py-md-4(titulo="Desventajas")
+            .row
+              .col-md-6.mb-4.mb-md-0
+                figure
+                  img(src='@/assets/curso/tema2/pestana1_02.png', alt='')
+
+              .col-md-6
+                h4 Desventajas
+                
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Ofrecen pocos datos adicionales.
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Pueden parecer bruscas o provocar bloqueo comunicativo.
+                  
+                  
+
 
 
 </template>
