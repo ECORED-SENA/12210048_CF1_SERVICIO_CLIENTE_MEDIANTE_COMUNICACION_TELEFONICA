@@ -106,7 +106,7 @@ export default {
             },
             {
               id: 'c',
-              texto: 'El volumen de voz.',
+              texto: 'La argumentación.',
               esCorrecta: false,
             },
             {
@@ -265,7 +265,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'El saludo cordial.',
+              texto: 'El tono tranquilo.',
               esCorrecta: false,
             },
           ],
@@ -297,7 +297,7 @@ export default {
             {
               id: 'd',
               texto: 'Conclusión.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -351,12 +351,12 @@ export default {
               esCorrecta: true,
             },
             {
-              id: 'a',
+              id: 'c',
               texto: 'Imitar su tono.',
               esCorrecta: false,
             },
             {
-              id: 'b',
+              id: 'd',
               texto: 'Evitar atenderlo.',
               esCorrecta: false,
             },
@@ -420,7 +420,7 @@ export default {
             {
               id: 'd',
               texto: 'Comunicación sugestiva.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -531,16 +531,16 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Obligan a elegir.',
+              texto: 'Ofrecen poca información adicional.',
               esCorrecta: true,
             },
             {
-              id: 'a',
+              id: 'c',
               texto: 'Evitan confusión.',
               esCorrecta: false,
             },
             {
-              id: 'b',
+              id: 'd',
               texto: 'Aumentan la participación.	',
               esCorrecta: false,
             },
