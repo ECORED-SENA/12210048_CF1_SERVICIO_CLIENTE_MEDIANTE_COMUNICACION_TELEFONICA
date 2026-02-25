@@ -15,7 +15,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 En este componente formativo se desarrollan los temas relacionados con la fundamentación y aplicación de las matemáticas financieras en el sector productivo; se analiza la clasificación de las tasas de interés, el valor del dinero en el tiempo, equivalencia de tasas, tablas de amortización y alternativas de inversión como lo son el Valor Presente Neto (VPN) y Tasa Interna de Retorno (TIR).
+        p.mb-0 Aunque comúnmente se piensa que comunicarse por teléfono es tarea fácil por tratarse de un hábito tradicional, lo cierto es que cuando esta se realiza de forma profesional, requiere habilidades específicas y preparación. Por esta razón, es fundamental formarse en este campo para lograr una comunicación efectiva y profesional.
     
     .row.mt-4
       p.mb-0 En un mercado saturado de mensajes visuales y gráficos, el teléfono ofrece una vía directa para transmitir una buena imagen empresarial. Usado correctamente, puede traer importantes beneficios organizacionales como la consolidación de relaciones con clientes, gracias a su capacidad para ofrecer una comunicación rápida, continua y eficaz.
@@ -84,7 +84,7 @@
         
 
     .row.mb-5
-      p.mb-0 Además de estas cualidades, la paciencia es un factor fundamental en esta profesión. El asesor telefónico se enfrenta a todo tipo de situaciones, algunas tan inusuales que resultan “difíciles de creer”. A lo largo de su experiencia laboral, vivirá momentos positivos y negativos; sin embargo, si cuenta con las habilidades adecuadas y una disposición genuina para ofrecer un buen servicio, su desempeño será exitoso.Todas las personas pueden ser capacitadas para desempeñar tareas que exijan un perfil comercial y de servicio, siempre que tengan las cualidades necesarias o estén dispuestas a desarrollarlas con esfuerzo y dedicación. Aunque algunas de estas habilidades pueden estar presentes de manera natural, en muchos casos deben ser cultivadas.
+      p.mb-0 Además de estas cualidades, la paciencia es un factor fundamental en esta profesión. El asesor telefónico se enfrenta a todo tipo de situaciones, algunas tan inusuales que resultan “difíciles de creer”. A lo largo de su experiencia laboral, vivirá momentos positivos y negativos; sin embargo, si cuenta con las habilidades adecuadas y una disposición genuina para ofrecer un buen servicio, su desempeño será exitoso.
 
 
 
@@ -117,13 +117,13 @@
 
       .row.justify-content-center.align-items-center.mt-5
         .col-lg-10
-          //- Contenedor del título (Línea amarilla + Texto centrados)
+    
           .d-flex.justify-content-center.mb-4
             .titulo-sexto.color-acento-contenido
               h5 Figura 1.
               span Pérdida de clientes por mala atención.
 
-          //- Contenedor de la imagen (Fuera del d-flex anterior para que quede abajo)
+
           .row.justify-content-center
             .col-12
               figure
@@ -135,19 +135,20 @@
 
     
     .row.mt-5.align-items-center.justify-content-center   
-      .col-lg-5.mb-4.mb-lg-0.bg-color-3.rounded(data-aos="fade-right")
-        .bg-mint.p-4.h-100.d-flex.align-items-center
-          p.mb-0 Generalmente, los clientes dejan de solicitar productos o servicios de una organización debido a malas experiencias con empleados que no han sabido manejar adecuadamente una situación específica, o que no han logrado satisfacer las necesidades inmediatas del cliente. Estas experiencias negativas impactan de forma directa en la imagen corporativa y en la decisión de continuidad del cliente.
-      .col-lg-3.mb-4.mb-lg-0.align-items-center(data-aos="zoom-in")
-        figure
-          img(src="@/assets/curso/tema1/5.svg", alt="" style="max-width:240px")
-      .col-lg-4(data-aos="fade-left")
-        .row.mb-0
-          .col-4.col-md-3.col-lg-4.text-start
-            figure
-              img(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
-        p.mb-0 Teniendo en cuenta lo anterior, se hace indispensable brindar siempre un servicio adecuado, caracterizado por el respeto, la calidez y la amabilidad en el trato. Además de los principios y valores personales, la ética profesional desempeña un papel fundamental, especialmente en el manejo de información relevante y de carácter confidencial para la empresa u organización.
 
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .p-4.rounded.h-100(style="background-color: #FDF0AC;")
+          p.mb-0 Generalmente, los clientes dejan de solicitar productos o servicios de una organización debido a malas experiencias con empleados que no han sabido manejar adecuadamente una situación específica, o que no han logrado satisfacer las necesidades inmediatas del cliente. Estas experiencias negativas impactan de forma directa en la imagen corporativa y en la decisión de continuidad del cliente.
+
+  
+      .col-lg-3.mb-4.mb-lg-0.text-center(data-aos="zoom-in")
+        figure
+          img.d-inline(src="@/assets/curso/tema1/5.svg", alt="" style="max-width:240px")
+
+      .col-lg-4(data-aos="fade-left")
+        .d-flex.flex-column.justify-content-center
+          img.mb-3(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
+          p.mb-0 Teniendo en cuenta lo anterior, se hace indispensable brindar siempre un servicio adecuado, caracterizado por el respeto, la calidez y la amabilidad en el trato. Además de los principios y valores personales, la ética profesional desempeña un papel fundamental, especialmente en el manejo de información relevante y de carácter confidencial para la empresa u organización.
 
 
     .bg-full-width.mt-4
@@ -292,25 +293,25 @@
                 img(src='@/assets/curso/tema1/carrusel2_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Volumen
                 p.card-text.text-center
-                  | Intensidad con la que se emite la voz durante la llamada.
+                  | <i>Intensidad con la que se emite la voz durante la llamada.</i>
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Entonación
                 p.card-text.text-center
-                  | Variación de la altura y tonalidad de la voz según la intención comunicativa.
+                  | <i>Variación de la altura y tonalidad de la voz según la intención comunicativa.</i>
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Articulación
                 p.card-text.text-center
-                  | Posición y movimiento de los órganos de la voz para una correcta pronunciación.
+                  | <i>Posición y movimiento de los órganos de la voz para una correcta pronunciación.</i>
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Elocución
                 p.card-text.text-center
-                  | Velocidad a la que se transmite el mensaje.
+                  | <i>Velocidad a la que se transmite el mensaje.</i>
 
       .bg-full-width.mt-4
         .px-4.px-md-5.pb-md-3
@@ -361,8 +362,7 @@
         .px-4.px-md-5.pb-md-3
         .titulo-con-imagen.mb-5(data-aos="fade-right")                     
             h3.titulo-purpura La articulación
-      .row.mb-2
-            p.mb-0 La articulación se refiere a la posición y al movimiento de los órganos de la voz para la correcta pronunciación de vocales y consonantes. Una articulación adecuada facilita la comprensión del mensaje y evita malentendidos.
+      
       
     .row.align-items-center
       // Imagen
@@ -377,12 +377,13 @@
       // Contenido
       .col-lg-7(data-aos="fade-left")
         p
-          | La sonrisa telefónica es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, se percibe claramente a través de la voz, y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
+          | La articulación se refiere a la posición y al movimiento de los órganos de la voz para la correcta pronunciación de vocales y consonantes. Una articulación adecuada facilita la comprensión del mensaje y evita malentendidos.
 
         .bg-color-7.p-4.mt-3
           p
             | Recomendaciones clave:
-            ul.lista-ul.mb-0
+            
+            ul.lista-ul.mt-3
               li
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 | Hablar abriendo bien la boca y marcando correctamente las palabras.
@@ -406,7 +407,7 @@
         .bg-color-7.p-4.mt-3
           p
             | Recomendaciones clave:
-            ul.lista-ul.mb-0
+            ul.lista-ul.mt-3
               li
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 | Nunca gritar, incluso si la comunicación es deficiente.
@@ -452,7 +453,7 @@
         .bg-color-7.p-4.mt-3
           p
             | Recomendaciones clave:
-            ul.lista-ul.mb-0
+            ul.lista-ul.mt-3
               li
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 | Utilizar una elocución más lenta y pausada que en una conversación cara a cara.
@@ -613,22 +614,22 @@
                   img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Escuchar
                   p.card-text.text-center
-                  | Prestar atención plena al mensaje del cliente.
+                  | <i>Prestar atención plena al mensaje del cliente.</i>
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Analizar
                   p.card-text.text-center
-                  | Procesar la información recibida.
+                  | <i>Procesar la información recibida.</i>
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Interpretar
                   p.card-text.text-center
-                  | Comprender el significado y la intención del mensaje.
+                  | <i>Comprender el significado y la intención del mensaje.</i>
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Actuar
                   p.card-text.text-center
-                  | Responder de manera adecuada y oportuna.
+                  | <i>Responder de manera adecuada y oportuna.</i>
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
@@ -728,20 +729,23 @@
           | Dentro de la comunicación telefónica, existe un aspecto de gran relevancia que forma parte de la escucha activa: el silencio. El asesor o asesora debe saber ser prudente y respetar los silencios o pausas naturales que se producen durante una conversación, ya que estos contribuyen a que la comunicación sea considerada óptima y profesional.
 
 
-    .row.mt-2.align-items-center.justify-content-center   
-      .col-lg-5.mb-4.mb-lg-0.bg-color-7.rounded(data-aos="fade-right")
-        .bg-mint.p-4.h-100.d-flex.align-items-center
+    .row.mt-5.align-items-center.justify-content-center   
+      //- Bloque Izquierdo: Fondo menta (Manejo del silencio)
+      .col-lg-5.mb-4.mb-lg-0.bg-color-7(data-aos="fade-right")
+        .p-4.rounded.h-100
           p.mb-0 No obstante, es fundamental aclarar que nunca se debe dejar al cliente en silencio sin explicarle el motivo. Esta acción puede interpretarse fácilmente como un desplante, generando impaciencia y malestar en el interlocutor.
-      .col-lg-3.mb-4.mb-lg-0.align-items-center(data-aos="zoom-in")
-        figure
-          img(src="@/assets/curso/tema1/27.png", alt="" style="max-width:240px")
-      .col-lg-4(data-aos="fade-left")
-        .row.mb-0
-          .col-4.col-md-3.col-lg-4.text-start
-            figure
-              img(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
-        p.mb-0 Este tipo de silencio negativo se conoce como túnel oscuro, y hace referencia a ese momento incómodo en el que el asesor deja esperando al cliente mientras busca información o transfiere la llamada, sin brindar una explicación previa.
 
+      //- Bloque Central: Imagen decorativa
+      .col-lg-3.mb-4.mb-lg-0.text-center(data-aos="zoom-in")
+        figure
+          img.d-inline(src="@/assets/curso/tema1/27.png", alt="" style="max-width:240px")
+
+      //- Bloque Derecho: Icono + Concepto de "Túnel oscuro"
+      .col-lg-4(data-aos="fade-left")
+        .d-flex.flex-column.justify-content-center
+          img.mb-3(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
+          p.mb-0 Este tipo de silencio negativo se conoce como túnel oscuro, y hace referencia a ese momento incómodo en el que el asesor deja esperando al cliente mientras busca información o transfiere la llamada, sin brindar una explicación previa.
+    
     .row.mt-4
         p
           | El túnel oscuro es una de las causas más comunes de insatisfacción en la atención telefónica, ya que rompe la conexión comunicativa y afecta negativamente la percepción del servicio. La importancia del silencio en la comunicación telefónica
@@ -757,22 +761,22 @@
                   img(src='@/assets/curso/tema1/31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Subrayar palabras
                   p.card-text.text-center
-                  | Destacar la importancia de ciertos mensajes clave.
+                  | <i>Destacar la importancia de ciertos mensajes clave.</i>
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/30.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Aislar ideas
                   p.card-text.text-center
-                  | Permite resaltar conceptos relevantes dentro del discurso.
+                  | <i>Permite resaltar conceptos relevantes dentro del discurso.</i>
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Percibir al interlocutor
                   p.card-text.text-center
-                  | Intensidad con la que se emite la voz durante la llamada.
+                  | <i>Intensidad con la que se emite la voz durante la llamada.</i>
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Favorecer objeciones
                   p.card-text.text-center
-                  | Propicia la manifestación de dudas o inquietudes del cliente.
+                  | <i>Propicia la manifestación de dudas o inquietudes del cliente.</i>
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
@@ -1265,8 +1269,8 @@
                       table
                         thead
                           tr
-                            th.text-center (style="width: 40%") Comportamiento
-                            th.text-center (style="width: 60%") Niveles del lenguaje
+                            th.text-center(style="width: 40%") Comportamiento
+                            th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
                             td.text-center  Usa monosílabos.

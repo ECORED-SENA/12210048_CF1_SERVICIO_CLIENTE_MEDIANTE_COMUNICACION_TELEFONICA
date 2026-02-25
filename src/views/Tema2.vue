@@ -5,9 +5,9 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 2
-      h1 Tema 2
+      h1 Técnicas telefónicas básicas
 
-    .row.mb-5
+    .row.mb-1
       p.mb-0 Escuchar es una acción fundamental en el proceso de comunicación. Proviene del latín ascultāre y hace referencia a prestar atención con el sentido del oído. Sin embargo, va mucho más allá del simple acto de oír: implica un proceso psíquico y fisiológico, en el que intervienen otros sentidos y habilidades cognitivas para comprender verdaderamente el mensaje del interlocutor.
  
     .row.justify-content-center.align-items-stretch.mb-2  
@@ -39,7 +39,7 @@
             | Escuchar requiere una actitud consciente y esforzada, ya que no solo se trata de oír palabras, sino de entender su intención, su carga emocional y su contexto. Es, en efecto, una herramienta clave en la comunicación telefónica eficaz.
       .col-lg-3.d-none.d-lg-flex.align-items-center.justify-content-center
         figure
-          img(src='@/assets/curso/tema2/2.png', alt='Ilustración soporte', style="width: 350px")
+          img(src='@/assets/curso/tema2/2.png', alt='', style="width: 350px")
 
 
 
@@ -50,7 +50,7 @@
 
         .col-lg-4.mb-4.mb-lg-0
           figure
-            img.br-10(src='@/assets/curso/tema2/3.png', alt='')
+            img.br-10(src='@/assets/curso/tema2/3.png', alt='', style="width: 100%;")
 
         .col-lg-4.text-center.text-lg-start
           .row.justify-content-center.justify-content-lg-start
@@ -79,7 +79,7 @@
 
     
     
-    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4
+    .row.justify-content-center.align-items-stretch.mb-2.g-0.bg-color-4
       
       .col-lg-5.d-flex
         figure.mb-0.w-100
@@ -125,7 +125,35 @@
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Tener claras las prioridades
                 p Si durante una llamada se recibe otra, se debe evitar al máximo poner al primer interlocutor en espera. Es preferible finalizar la llamada correctamente, asegurando que se retomará el contacto a la brevedad. Así se evita la pérdida de tiempo y se respeta al cliente.
-      
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_05.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 No interrumpir
+                p El asesor debe permitir que el cliente termine de expresar sus ideas o inquietudes antes de responder. Interrumpir, incluso por teléfono, se considera un acto descortés y puede provocar frustración en el cliente.
+                
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_06.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Usar grabadoras o correo de voz
+                p Se recomienda el uso de estas herramientas para dejar mensajes claros y precisos cuando no es posible establecer contacto directo. Esto demuestra interés y profesionalismo, además de informar sobre el intento de comunicación. 
+
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide1_07.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Nunca comer durante una llamada
+                p Comer mientras se habla con un cliente es una conducta completamente inadecuada, que demuestra desinterés y falta de profesionalismo. Genera una imagen negativa tanto del asesor como de la empresa.
+
+
+
+
+
+
     .row.mb-4
           .col-12
             p Las siguientes orientaciones establecen pautas clave para conducir las llamadas telefónicas de manera profesional, cuidando el tiempo, el tono de la comunicación y la relación con el cliente.
@@ -292,7 +320,7 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto El reto de formularlas adecuadamente
 
-    .row.mb-4
+    .row.mb-1
       .col-12
         p El asesor o asesora debe aplicar una estrategia adecuada al momento de formular preguntas informativas. Esto se vuelve especialmente importante al considerar los distintos tipos de conducta de los clientes (pasiva, asertiva y agresiva), ya que un mal enfoque puede generar conflicto o tensar innecesariamente la conversación.
 
@@ -303,7 +331,7 @@
           img.h-100.w-100(src='@/assets/curso/tema2/11.png', alt='', style="object-fit: cover;")
       
 
-      .col-lg-7.bg-color-purple-light.d-flex.align-items-center.p-4.p-lg-5
+      .col-lg-7.bg-color-1.d-flex.align-items-center.p-4.p-lg-5
         p.mb-0 En la comunicación telefónica, no es posible percibir con facilidad el lenguaje corporal que el asesor o la asesora quiera transmitir al cliente. Por consiguiente, es a través de la voz y el lenguaje verbal que deben demostrarse buenos modales, proyectando no solo la imagen del profesional, sino también la de la empresa que representa.
       
     .bg-full-width.mt-5
@@ -442,7 +470,7 @@
         .row.justify-content-center.align-items-center.mb-4
               .col-lg-6.mb-4.mb-lg-0
             
-                .p-3.bg-color-yellow
+                .p-3.bg-color-12
             
                   .p-4.bg-white.br-5
                     p.mb-0 En el caso del servicio telefónico, el reto es mayor, ya que el asesor o asesora no puede ver el lenguaje corporal del cliente, y eso limita en gran parte la interpretación de su estado de ánimo, nivel de satisfacción o intenciones reales. Por eso, es común que el cliente guarde información clave sin quererlo, lo que puede entorpecer el desarrollo del contacto y dificultar la solución de sus necesidades.
@@ -557,7 +585,7 @@
       
 
 
-    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4
+    .row.justify-content-center.align-items-stretch.mb-3.g-0.bg-color-4
       
       .col-lg-5.d-flex
         figure.mb-0.w-100
@@ -579,7 +607,7 @@
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 | En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
   
-    .row.mt-5
+    .row
     .col-12
       p Uno de los principales recursos es el uso de palabras interrogativas como: quién, qué, cómo, cuándo y dónde, evitando en lo posible el uso del por qué, ya que este último puede provocar una actitud defensiva por parte del cliente, al sentirse cuestionado.
    
@@ -711,7 +739,7 @@
       .bloque-texto-g__texto.p-4
         p.mb-0 Las preguntas cerradas se utilizan generalmente cuando el asesor o asesora telefónica ya ha recibido suficiente información del cliente, la ha analizado y ha realizado un pequeño diagnóstico de la situación. En este punto, se dispone a aplicar las soluciones con las herramientas proporcionadas por la empresa.
     
-    .row.mt-5
+    .row.mt-3
       .col-12
         p Este tipo de preguntas se formula con el objetivo de obtener una respuesta clara y directa (generalmente un “sí” o “no”) que facilite la toma de decisiones o la confirmación de un dato. Las preguntas cerradas suelen comenzar con expresiones como:
 
@@ -823,7 +851,7 @@
         .col-12
           p Las ventajas y desventajas de las preguntas alternativas son:
 
-    .bg-full-width.bg-fondo-slider.mb-5
+    .bg-full-width.bg-fondo-slider.mb-3
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
             .row.align-items-center.p-4.p-md-5
@@ -859,8 +887,8 @@
           p Tanto las preguntas cerradas como las alternativas son herramientas útiles cuando se utilizan con equilibrio y en el momento adecuado dentro del proceso de atención telefónica. La clave está en combinarlas estratégicamente con las preguntas informativas y abiertas para obtener toda la información necesaria, sin saturar al cliente ni provocar rechazo.
 
     .row.mt-5
-            #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-              h2 2.3 Comunicación por recapitulación
+            #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 2.5 Comunicación por recapitulación
 
     .row
         .col-12
