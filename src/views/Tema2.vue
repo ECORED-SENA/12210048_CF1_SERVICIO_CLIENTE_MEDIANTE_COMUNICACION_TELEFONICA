@@ -434,7 +434,7 @@
 
     .row.mt-5
             #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-              h2 2.3 Técnicas de sondeo
+              h2 2.4 Técnicas de sondeo
     .row.mb-4
         .col-12
           p Gatti (2013) afirma que sin información es imposible determinar fehacientemente el significado del mensaje del cliente. La comunicación se da por medio de lenguaje, mensajes, gestos, movimientos y otros elementos verbales y no verbales, todos ellos cargados de información.
@@ -636,10 +636,6 @@
               .col-12
                 p A continuación, se presenta un pódcast presenta el uso estratégico de preguntas abiertas en la atención telefónica al cliente, destacando sus ventajas, posibles desafíos y su aplicación práctica en situaciones reales.
 
-
-
-
-
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
         
         //- Section: Audio Card and Professional Photo
@@ -800,9 +796,164 @@
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
                     | Pueden parecer bruscas o provocar bloqueo comunicativo.
                   
-                  
+    .bg-full-width.mt-5
+    .px-4.px-md-5.pb-md-3
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+        h3.titulo-con-imagen__texto Preguntas alternativas  
+
+    .row
+        .col-12
+          p Una pregunta alternativa puede ser abierta o cerrada, pero siempre está orientada a ofrecer dos posibilidades entre las cuales elegir. Lo importante es que ambas opciones sean positivas o neutrales, de modo que el cliente no sienta presión negativa, aunque sí una orientación clara hacia la toma de decisión. En este tipo de pregunta, la respuesta suele ser corta y concreta, sin necesidad de argumentación extensa.
+
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4
+      
+      .col-lg-5.d-flex
+        figure.mb-0.w-100
+          img.h-100.w-100(src='@/assets/curso/tema2/18.png', alt='', style="object-fit: cover;")
+      
+
+      .col-lg-7.bg-color-1.d-flex.align-items-center.p-4.p-lg-5
+        .row
+          p <b> Ejemplo </b>
+          p ¿A qué hora quiere que se le lleve el pedido, a las once o a las doce?
+
+    .row
+        .col-12
+          p Las ventajas y desventajas de las preguntas alternativas son:
+
+    .bg-full-width.bg-fondo-slider.mb-5
+        .p-4.p-md-5
+          SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide3_01.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Ventajas
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Dirigen la elección sin cerrar completamente la libertad.
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Permiten influir en la toma de decisiones de forma sutil.
+
+            .row.align-items-center.p-4.p-md-5
+              .col-lg-5.order-2
+                figure
+                  img(src="@/assets/curso/tema2/slide3_02.png")
+              .col-lg-7.order-1.mb-3.mb-lg-0
+                h4 Desventajas
+                ul.lista-ul--color
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Pueden dar la sensación de manipulación si no se usan con tacto.
+                  li 
+                    i.fas.fa-check-circle.me-2(style="color:#AD9721")
+                    | Pueden percibirse como una forma de control excesivo o demasiada dirección.
+                
+    .row
+        .col-12
+          p Tanto las preguntas cerradas como las alternativas son herramientas útiles cuando se utilizan con equilibrio y en el momento adecuado dentro del proceso de atención telefónica. La clave está en combinarlas estratégicamente con las preguntas informativas y abiertas para obtener toda la información necesaria, sin saturar al cliente ni provocar rechazo.
+
+    .row.mt-5
+            #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+              h2 2.3 Comunicación por recapitulación
+
+    .row
+        .col-12
+          p La recapitulación es una técnica que consiste en repetir en sus propias palabras la información clave que el cliente ha proporcionado. Esta estrategia permite confirmar que el mensaje fue correctamente comprendido y ayuda a definir con precisión las necesidades específicas del interlocutor.
+
+    .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4
+        
+        .col-lg-5.d-flex
+          figure.mb-0.w-100
+            img.h-100.w-100(src='@/assets/curso/tema2/19.png', alt='', style="object-fit: cover;")
+        
+
+        .col-lg-7.bg-color-4.d-flex.align-items-center.p-4.p-lg-5
+          .row
+            p La recapitulación requiere la habilidad del asesor o asesora para escuchar activamente, retener lo dicho por el cliente y expresarlo nuevamente de forma clara y precisa, extrayendo los datos más relevantes para poder dar continuidad al proceso de atención.
+
+    .bg-full-width.mt-5
+    .px-4.px-md-5.pb-md-3
+    .titulo-con-imagen.mb-5(data-aos="fade-right")
+      .titulo-con-imagen__fondo
+        img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
+        h3.titulo-con-imagen__texto ¿Qué permite la recapitulación?
 
 
+
+    .row.justify-content-center
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/tarjeta2_01.png", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3.text-center(style="color:#FFF") Reforzar la comprensión mutua
+            p(style="color:#FFF") Al repetir lo dicho por el cliente, el asesor asegura que no haya malentendidos.
+
+          
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/tarjeta2_02.png", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3.text-center(style="color:#FFF") Guiar la conversación con control y claridad
+            p(style="color:#FFF") Permite retomar puntos clave sin desviarse del objetivo.
+
+
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+        .crd_hover_txt(data-aos="flip-left")
+          .crd_hover_txt--img
+            figure
+              img(src="@/assets/curso/tema2/tarjeta2_03.png", alt="alt")
+          .crd_hover_txt--body
+            h5.mb-3.text-center(style="color:#FFF") Construir confianza
+            p(style="color:#FFF") El cliente percibe que ha sido escuchado, comprendido y atendido con interés.
+
+    .bg-full-width.mt-4
+      .px-4.px-md-5.pb-md-3
+      .titulo-con-imagen.mb-5(data-aos="fade-right")                     
+          h3.titulo-purpura Ejemplo de comunicación con recapitulación
+
+
+
+    .row
+        .col-12
+          p A continuación, se presenta un pódcast que explica la importancia de la recapitulación como estrategia comunicativa en la atención al cliente, presentando con un ejemplo práctico y el análisis de sus beneficios:
+
+    .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-2
+        
+        //- Section: Audio Card and Professional Photo
+        .row.justify-content-center.align-items-stretch
+          //- Left Column: Audio Card inside a stylized container
+          .col-lg-8.mb-4.mb-lg-0
+            .p-4.bg-color-dark-purple.br-15.h-100.d-flex.align-items-center
+              .row.align-items-center.w-100
+                .col-md-4.text-center
+                  img(src="@/assets/curso/tema2/podcast.svg" style="width: 150px;")
+                .col-md-8
+                  TarjetaAudio.color-primario(
+                    texto="El uso estratégico de preguntas abiertas en la atención telefónica al cliente"
+                    :audio="require('@/assets/componentes/audios/podcast1.mp3')"
+                    @audio-hover="mostrarIndicadorTarjetaAudio = false"
+                  )
+                    .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
+
+        
+          .col-lg-4
+            figure.h-100
+              img.h-100.w-100.br-10(src='@/assets/curso/tema2/podcast2.png', alt='', style="object-fit: cover;")
+
+    .row
+        .col-12
+          p La recapitulación, bien aplicada, no solo mejora la calidad de la atención, sino que también fortalece la percepción del cliente sobre la capacidad y profesionalismo del asesor o asesora telefónica.
 
 </template>
 
