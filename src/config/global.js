@@ -202,7 +202,48 @@ export default {
   ],
   referencias: [
     {
-      referencia: '',
+      referencia:
+        'Aguirre, C. (2010). Técnicas y elementos de la comunicación telefónica. ',
+      link: 'http://sweetxxvengance.blogspot.com.co/2010_09_01_archive.html',
+    },
+    {
+      referencia: 'Baeza, C. (2010). Comunicación telefónica',
+      link: 'http://claudiatelefonia.blogspot.com.co/',
+    },
+    {
+      referencia: 'CETA. (2012). La tecnología como herramienta terapéutica. ',
+      link: 'https://cetadevenezuela.wordpress.com/author/cetadevenezuela/',
+    },
+    {
+      referencia: 'Designroc. (2016). Curso avanzado de escucha activa. ',
+      link: '',
+    },
+    {
+      referencia:
+        'Escallón, E. (2007). Escuchar, comprender y mejorar las relaciones. Ministerio de Educación Nacional. ',
+      link: 'http://www.mineducacion.gov.co/1621/article-122245.html',
+    },
+    {
+      referencia: 'Foromarketing. (2016). Pregunta alternativa. ',
+      link: ' http://www.foromarketing.com/diccionario/pregunta-alternativa/',
+    },
+    {
+      referencia:
+        'Gatti, F. (2013). Técnicas y elementos de la comunicación telefónica. ',
+      link:
+        'https://comunicaciones104.files.wordpress.com/2013/05/cortesia_telefonica.pdf',
+    },
+    {
+      referencia:
+        'González, J. (2020). Tipos de preguntas cerradas y abiertas: ventajas y desventajas. ',
+      link: 'https://eduteka.icesi.edu.co/articulos/PruebasAbiertasCerradas',
+    },
+    {
+      referencia: 'Reyes, C. P. (2016). Buenos modales al teléfono: operador. ',
+      link: '',
+    },
+    {
+      referencia: 'Suárez, D. (2012). Preguntas abiertas y cerradas. ',
       link: '',
     },
   ],
