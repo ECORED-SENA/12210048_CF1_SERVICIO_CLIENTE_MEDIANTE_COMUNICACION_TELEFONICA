@@ -161,6 +161,10 @@ export default {
   ],
   glosario: [
     {
+      termino: 'Asesor o asesora telefónica:',
+      significado: 'Definición',
+    },
+    {
       termino: 'Término',
       significado: 'Definición',
     },

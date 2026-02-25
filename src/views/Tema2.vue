@@ -941,7 +941,7 @@
                 .col-md-8
                   TarjetaAudio.color-primario(
                     texto="El uso estratégico de preguntas abiertas en la atención telefónica al cliente"
-                    :audio="require('@/assets/componentes/audios/podcast1.mp3')"
+                    :audio="require('@/assets/componentes/audios/podcast2.wav')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
