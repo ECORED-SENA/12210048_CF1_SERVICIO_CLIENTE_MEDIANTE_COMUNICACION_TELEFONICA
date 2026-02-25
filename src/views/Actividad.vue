@@ -17,10 +17,10 @@ export default {
   },
   data: () => ({
     cuestionario: {
-      tema: 'Microcontroladores y sensores',
+      tema: 'Comunicación telefónica y atención al cliente',
       titulo: 'Cuestionario',
       introduccion:
-        '<b> Objetivo:</b> Evaluar la comprensión y el uso adecuado de las herramientas básicas en la ventana <em>Board</em> del <em>software</em> EAGLE.',
+        '<b> Objetivo:</b> Identificar los conceptos clave, habilidades y técnicas esenciales para una atención telefónica profesional y efectiva en el contexto del servicio al cliente.',
       barajarPreguntas: true,
       titulo_aprobado: '¡BUEN TRABAJO!',
       titulo_reprobado: 'VUELVA A INTENTARLO.',
@@ -28,28 +28,28 @@ export default {
         {
           id: 1,
           texto:
-            '¿Cuál es la función principal de la herramienta <em>Layer</em> en la ventana <em>Board</em>?',
+            '¿Qué herramienta es fundamental en la atención al cliente y proyección de la imagen organizacional?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'La comunicación telefónica.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La atención presencial.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El correo electrónico.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La publicidad visual.',
               esCorrecta: false,
             },
           ],
@@ -59,28 +59,28 @@ export default {
         {
           id: 2,
           texto:
-            '¿Qué herramienta permite agregar texto en la ventana <em>Board</em>?',
+            '¿Cuál de las siguientes NO es una capacidad clave del asesor telefónico?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Transmitir ideas.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Atraer la atención.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Resolver problemas técnicos.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Captar necesidades.',
               esCorrecta: false,
             },
           ],
@@ -89,28 +89,29 @@ export default {
         },
         {
           id: 3,
-          texto: '¿Para qué sirve la herramienta <em>Show</em> en EAGLE?',
+          texto:
+            '¿Qué elemento se percibe aunque no se vea, y genera un clima empático?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'La sonrisa telefónica.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'El volumen de voz.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El volumen de voz.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'La información técnica.',
               esCorrecta: false,
             },
           ],
@@ -119,29 +120,28 @@ export default {
         },
         {
           id: 4,
-          texto:
-            '¿Qué botón se utiliza para cambiar entre las ventanas <em>Schematic</em> y <em>Board</em>?',
+          texto: '¿Cuál es el objetivo del tono seguro en una llamada?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Opción a)	Obtener información del cliente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Opción b)	Finalizar la conversación.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Realizar una venta inmediata.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Discutir objeciones.',
               esCorrecta: false,
             },
           ],
@@ -150,28 +150,29 @@ export default {
         },
         {
           id: 5,
-          texto: '¿Qué permite hacer la herramienta <em>Route</em>?',
+          texto:
+            '¿Qué componente de la voz se refiere a la pronunciación clara de palabras?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'Articulación.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Volumen.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'Elocución.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Entonación.',
               esCorrecta: false,
             },
           ],
@@ -181,28 +182,28 @@ export default {
         {
           id: 6,
           texto:
-            '¿Qué función tiene la herramienta <em>Auto</em> en la ventana <em>Board</em>?',
+            '¿Cuál de los siguientes comportamientos NO pertenece a un buen oyente?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Escuchar lo esencial.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'No juzgar hasta comprender.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Fingir atención.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Concentrarse activamente.',
               esCorrecta: false,
             },
           ],
@@ -212,28 +213,28 @@ export default {
         {
           id: 7,
           texto:
-            '¿Cuál es una recomendación al ubicar los componentes en la ventana <em>Board</em>?',
+            '¿Qué se debe evitar en el volumen de voz durante una llamada?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
-              esCorrecta: true,
+              texto: 'Mantener equilibrio.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'Adaptarse al cliente.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
-              esCorrecta: false,
+              texto: 'Gritar o susurrar.',
+              esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'Hablar de forma clara.	',
               esCorrecta: false,
             },
           ],
@@ -243,28 +244,28 @@ export default {
         {
           id: 8,
           texto:
-            '¿Cuál de las siguientes capas se utiliza para añadir texto en el diseño?',
+            '¿Cuál es una de las principales causas de insatisfacción en la atención telefónica?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'tPlace',
+              texto: 'El túnel oscuro.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'bNames',
+              texto: 'La amabilidad excesiva.	',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'tStop',
+              texto: 'El saludo cordial.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'bValues',
+              texto: 'El saludo cordial.',
               esCorrecta: false,
             },
           ],
@@ -274,18 +275,28 @@ export default {
         {
           id: 9,
           texto:
-            'La herramienta <em>Text</em> en la ventana <em>Board</em> solo permite cambiar el color de las capas.',
+            '¿Qué etapa de la llamada implica comprender el motivo de la comunicación?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Acogida.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Motivo de la llamada.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Acción',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Conclusión.',
               esCorrecta: true,
             },
           ],
@@ -295,18 +306,28 @@ export default {
         {
           id: 10,
           texto:
-            'La herramienta <em>Layer</em> permite seleccionar y editar capas para definir márgenes, pistas y componentes.',
+            '¿Qué estilo de comunicación se caracteriza por evitar el conflicto sin dejarse intimidar?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Agresividad.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pasividad',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Asertividad.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Inseguridad',
               esCorrecta: false,
             },
           ],
@@ -315,20 +336,29 @@ export default {
         },
         {
           id: 11,
-          texto:
-            'El botón "<em>BOARD</em>" en EAGLE solo sirve para borrar componentes en el diseño.',
+          texto: '¿Cómo debe tratarse al cliente grosero?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Responder con firmeza.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Ser cortés pero no sumiso.',
               esCorrecta: true,
+            },
+            {
+              id: 'a',
+              texto: 'Imitar su tono.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Evitar atenderlo.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -337,18 +367,28 @@ export default {
         {
           id: 12,
           texto:
-            'La herramienta <em>Show</em> permite resaltar conexiones para facilitar la identificación de redes.',
+            '¿Qué tipo de cliente necesita orientación constante y suele decir "lo va a pensar"?',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Grosero.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Pretencioso.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Indeciso.',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Desconfiado.',
               esCorrecta: false,
             },
           ],
@@ -358,19 +398,29 @@ export default {
         {
           id: 13,
           texto:
-            'La función <em>Auto</em> se utiliza para enrutado automático en la ventana <em>Board</em>.',
+            '¿Qué técnica consiste en prestar atención a las ideas e intenciones del cliente?',
           imagen: require('@/assets/actividad/imagen1.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: true,
+              texto: 'Hablar lentamente.',
+              esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Escucha activa.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Elocución adecuada.',
               esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Comunicación sugestiva.',
+              esCorrecta: true,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -379,19 +429,29 @@ export default {
         {
           id: 14,
           texto:
-            'La herramienta <em>Route</em> en la ventana <em>Board</em> ajusta automáticamente todas las pistas del diseño.',
+            '¿Qué componente ayuda a comprobar si el asesor comprendió correctamente al cliente?',
           imagen: require('@/assets/actividad/imagen2.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
-              esCorrecta: false,
+              texto: 'Recapitulación.',
+              esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
-              esCorrecta: true,
+              texto: 'Pregunta alternativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Tono cálido.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Técnica de secuenciación.',
+              esCorrecta: false,
             },
           ],
           mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
@@ -400,18 +460,181 @@ export default {
         {
           id: 15,
           texto:
-            'Es recomendable organizar los componentes en bloques funcionales como transformación y filtrado en la ventana <em>Board</em>.',
+            '¿Qué tipo de pregunta permite al cliente expresarse libremente?',
           imagen: require('@/assets/actividad/imagen3.png'),
           barajarRespuestas: true,
           opciones: [
             {
               id: 'a',
-              texto: 'Verdadero',
+              texto: 'Alternativa',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Cerrada',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'Abierta',
+              esCorrecta: true,
+            },
+            {
+              id: 'd',
+              texto: 'Automática',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 16,
+          texto: '¿Qué debe evitarse al usar preguntas informativas?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Ser claro.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Interrogar sin empatía.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Pedir datos útiles.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Hablar con amabilidad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 17,
+          texto: '¿Cuál es una desventaja de las preguntas cerradas?',
+          imagen: require('@/assets/actividad/imagen1.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Obligan a elegir.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Obligan a elegir.',
+              esCorrecta: true,
+            },
+            {
+              id: 'a',
+              texto: 'Evitan confusión.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Aumentan la participación.	',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 18,
+          texto:
+            '¿Qué cliente se caracteriza por hablar demasiado de asuntos personales?',
+          imagen: require('@/assets/actividad/imagen2.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Asertivo',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Locuaz',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Afable',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Seco',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 19,
+          texto:
+            '¿Qué se debe evitar completamente durante una llamada telefónica?',
+          imagen: require('@/assets/actividad/imagen3.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Pedir información.',
+              esCorrecta: false,
+            },
+            {
+              id: 'b',
+              texto: 'Comer mientras se habla.',
+              esCorrecta: true,
+            },
+            {
+              id: 'c',
+              texto: 'Escuchar activamente.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'Hablar con claridad.',
+              esCorrecta: false,
+            },
+          ],
+          mensaje_correcto: '¡Muy bien! Ha acertado la respuesta.',
+          mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
+        },
+        {
+          id: 20,
+          texto:
+            '¿Qué tipo de pregunta ofrece dos opciones entre las cuales elegir?',
+          imagen: require('@/assets/actividad/imagen4.png'),
+          barajarRespuestas: true,
+          opciones: [
+            {
+              id: 'a',
+              texto: 'Alternativa.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Falso',
+              texto: 'Informativa.',
+              esCorrecta: false,
+            },
+            {
+              id: 'c',
+              texto: 'De sondeo.',
+              esCorrecta: false,
+            },
+            {
+              id: 'd',
+              texto: 'De cierre.',
               esCorrecta: false,
             },
           ],

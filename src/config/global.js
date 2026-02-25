@@ -58,18 +58,13 @@ export default {
             titulo: 'Etapas de una llamada telefónica',
             hash: 't_1_3',
           },
-          {
-            numero: '1.4',
-            titulo: 'Conductas y tipologías de clientes',
-            hash: 't_1_4',
-          },
         ],
       },
 
       {
-        nombreRuta: 'Técnicas telefónicas básicas',
+        nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Tema 2',
+        titulo: 'Técnicas telefónicas básicas',
         desarrolloContenidos: true,
         subMenu: [
           {
@@ -98,12 +93,6 @@ export default {
             hash: 't_2_5',
           },
         ],
-      },
-      {
-        nombreRuta: 'tema3',
-        numero: '3',
-        titulo: 'Tema 3',
-        desarrolloContenidos: true,
       },
     ],
     subMenu: [
@@ -161,12 +150,54 @@ export default {
   ],
   glosario: [
     {
-      termino: 'Asesor o asesora telefónica:',
-      significado: 'Definición',
+      termino: 'Atención al cliente',
+      significado:
+        'conjunto de acciones orientadas a responder necesidades, inquietudes o solicitudes del cliente mediante un trato respetuoso y profesional.',
     },
     {
-      termino: 'Término',
-      significado: 'Definición',
+      termino: 'Asesor o asesora telefónica',
+      significado:
+        'persona responsable de atender llamadas, orientar al cliente y representar a la empresa durante la comunicación telefónica.',
+    },
+    {
+      termino: 'Comunicación telefónica',
+      significado:
+        'proceso de intercambio de información a través del teléfono, en el que la voz y el lenguaje verbal permiten transmitir mensajes y proyectar la imagen de la organización.',
+    },
+    {
+      termino: 'Escucha activa',
+      significado:
+        'habilidad que implica escuchar, analizar, interpretar y responder al mensaje del cliente demostrando comprensión e interés.',
+    },
+    {
+      termino: 'Lenguaje verbal',
+      significado:
+        'uso de palabras y expresiones para comunicar ideas de manera clara y adecuada durante la llamada.',
+    },
+    {
+      termino: 'Recapitulación',
+      significado:
+        'técnica comunicativa que permite repetir con otras palabras la información del cliente para confirmar su correcta comprensión.',
+    },
+    {
+      termino: 'Silencio',
+      significado:
+        'pausa comunicativa que, bien utilizada, facilita la reflexión y la participación del cliente.',
+    },
+    {
+      termino: 'Sondeo',
+      significado:
+        'técnica que consiste en realizar preguntas para obtener información relevante sobre el motivo de la llamada.',
+    },
+    {
+      termino: 'Sonrisa telefónica:',
+      significado:
+        'actitud positiva que se percibe a través de la voz y genera un clima cordial durante la llamada.',
+    },
+    {
+      termino: 'Voz',
+      significado:
+        'principal herramienta de la comunicación telefónica que transmite emociones, seguridad y confianza al interlocutor.',
     },
   ],
   referencias: [

@@ -7,7 +7,7 @@
         span 2
       h1 Tema 2
 
-    .row.mb-
+    .row.mb-5
       p.mb-0 Escuchar es una acción fundamental en el proceso de comunicación. Proviene del latín ascultāre y hace referencia a prestar atención con el sentido del oído. Sin embargo, va mucho más allá del simple acto de oír: implica un proceso psíquico y fisiológico, en el que intervienen otros sentidos y habilidades cognitivas para comprender verdaderamente el mensaje del interlocutor.
  
     .row.justify-content-center.align-items-stretch.mb-2  
@@ -961,7 +961,7 @@
 export default {
   name: 'Tema2',
   data: () => ({
-    // variables de vue
+    mostrarIndicadorTarjetaAudio: true,
   }),
   mounted() {
     this.$nextTick(() => {
