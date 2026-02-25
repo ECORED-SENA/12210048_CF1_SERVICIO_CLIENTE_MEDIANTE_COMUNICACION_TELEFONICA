@@ -115,13 +115,21 @@
             p(data-aos="fade-left") Por ello, el asesor o asesora telefónica debe poner de manifiesto sus principios y valores, los cuales se reflejan directamente en la calidad del servicio ofrecido. Una comunicación telefónica adecuada contribuye de manera significativa al desarrollo de un óptimo servicio al cliente, fortaleciendo la percepción positiva de la empresa.
 
 
-    .row.text-center.justify-content-center.align-items-center(style="margin-top:100px")
-        .col-lg-6
-          .titulo-sexto.color-acento-contenido
-            p <b>Figura 1.</b> Pérdida de clientes por mala atención.
-          figure
-            img(src="@/assets/curso/tema1/figura1.svg", style="width: 100%; height: auto;", data-aos="zoom-in")
-    
+      .row.justify-content-center.align-items-center.mt-5
+        .col-lg-10
+          //- Contenedor del título (Línea amarilla + Texto centrados)
+          .d-flex.justify-content-center.mb-4
+            .titulo-sexto.color-acento-contenido
+              h5 Figura 1.
+              span Pérdida de clientes por mala atención.
+
+          //- Contenedor de la imagen (Fuera del d-flex anterior para que quede abajo)
+          .row.justify-content-center
+            .col-12
+              figure
+                img(src="@/assets/curso/tema1/figura1.svg", alt="Gráfico de barras horizontales que compara las razones de pérdida de clientes según la empresa y según los clientes, con categorías como servicio al cliente, calidad, precio, otros, funcionalidad, comodidad y necesidad de cambios.", style="width: 100%; height: auto;", data-aos="zoom-in")
+
+                
     .row.mt-4
           p.mb-0 La figura permite identificar los principales motivos de abandono de clientes. En ella se evidencia que, dentro de las razones por las cuales una empresa pierde clientes o clientes potenciales, el servicio al cliente ocupa el primer lugar. Este dato confirma la relevancia de la atención brindada en la permanencia y fidelización del consumidor.
 
