@@ -481,19 +481,15 @@
         .col-12
           p Ante este desafío, una herramienta muy útil es el uso de técnicas de sondeo, en particular las preguntas de sondeo, que permiten:
 
-    .row.mt-5.justify-content-center.g-3.flex-nowrap
+    .row.mt-5.justify-content-center.g-3
       
-      .col
-        .col-auto
+      .col-6.col-md-4.col-lg-2
           .card-cualidad Descubrir necesidades ocultas.
-      .col
-        .col-auto
+      .col-6.col-md-4.col-lg-2
           .card-cualidad Confirmar información.
-      .col
-        .col-auto
+      .col-6.col-md-4.col-lg-2
           .card-cualidad Profundizar en detalles relevantes.
-      .col
-        .col-auto
+      .col-6.col-md-4.col-lg-2
           .card-cualidad Dirigir la conversación con criterio y profesionalismo.
       
     .row.mt-5
