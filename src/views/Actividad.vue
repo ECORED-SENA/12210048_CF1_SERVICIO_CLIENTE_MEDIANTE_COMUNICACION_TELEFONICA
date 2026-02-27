@@ -126,12 +126,12 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Opción a)	Obtener información del cliente.',
+              texto: 'Obtener información del cliente.',
               esCorrecta: true,
             },
             {
               id: 'b',
-              texto: 'Opción b)	Finalizar la conversación.',
+              texto: 'Finalizar la conversación.',
               esCorrecta: false,
             },
             {
@@ -234,7 +234,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Hablar de forma clara.	',
+              texto: 'Hablar de forma clara.',
               esCorrecta: false,
             },
           ],

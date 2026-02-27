@@ -39,19 +39,25 @@
       p.mb-0 A continuación, se presentan las cualidades necesarias para desempeñarse adecuadamente como asesor o asesora telefónica:
 
       
-    .row.mt-5.justify-content-center.g-3
-      .col-auto
-        .card-cualidad Ganas de aprender
-      .col-auto
-        .card-cualidad Interés por el trabajo
-      .col-auto
-        .card-cualidad Excelente trato con el cliente
-      .col-auto
-        .card-cualidad Gran sentido del respeto
-      .col-auto
-        .card-cualidad Empatía
-      .col-auto
-        .card-cualidad Paciencia
+    .row.mt-5.justify-content-center.g-3.flex-nowrap
+      .col
+        .col-auto
+          .card-cualidad Ganas de aprender
+      .col
+        .col-auto
+          .card-cualidad Interés por el trabajo
+      .col
+        .col-auto
+          .card-cualidad Excelente trato con el cliente
+      .col
+        .col-auto
+          .card-cualidad Gran sentido del respeto
+      .col
+        .col-auto
+          .card-cualidad Empatía
+      .col
+        .col-auto
+          .card-cualidad Paciencia
   
   
     .bg-full-width.mt-5

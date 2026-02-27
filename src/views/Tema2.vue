@@ -481,16 +481,21 @@
         .col-12
           p Ante este desafío, una herramienta muy útil es el uso de técnicas de sondeo, en particular las preguntas de sondeo, que permiten:
 
-    .row.mt-5.justify-content-center.g-3
-      .col-auto
-        .card-cualidad Descubrir necesidades ocultas.
-      .col-auto
-        .card-cualidad Confirmar información.
-      .col-auto
-        .card-cualidad Profundizar en detalles relevantes.
-      .col-auto
-        .card-cualidad Dirigir la conversación con criterio y profesionalismo.
-
+    .row.mt-5.justify-content-center.g-3.flex-nowrap
+      
+      .col
+        .col-auto
+          .card-cualidad Descubrir necesidades ocultas.
+      .col
+        .col-auto
+          .card-cualidad Confirmar información.
+      .col
+        .col-auto
+          .card-cualidad Profundizar en detalles relevantes.
+      .col
+        .col-auto
+          .card-cualidad Dirigir la conversación con criterio y profesionalismo.
+      
     .row.mt-5
         .col-12
           p Estas preguntas bien formuladas ofrecen al asesor la oportunidad de gestionar adecuadamente la información proporcionada por el cliente, lo cual es esencial para evaluar su grado de satisfacción y orientar una solución adecuada.
