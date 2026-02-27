@@ -195,7 +195,7 @@ export default {
         'técnica que consiste en realizar preguntas para obtener información relevante sobre el motivo de la llamada.',
     },
     {
-      termino: 'Sonrisa telefónica:',
+      termino: 'Sonrisa telefónica',
       significado:
         'actitud positiva que se percibe a través de la voz y genera un clima cordial durante la llamada.',
     },
@@ -289,7 +289,7 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Juan José Calderón Gutiérrez',
           cargo: 'Diseñador de contenidos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
@@ -336,7 +336,7 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Javier Ricardo Ortiz Puentes',
+          nombre: 'Ricardo Oliveros Zambrano',
           cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Agroempresarial y Desarrollo Pecuario - Regional Huila',
