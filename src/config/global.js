@@ -58,6 +58,11 @@ export default {
             titulo: 'Etapas de una llamada telefónica',
             hash: 't_1_3',
           },
+          {
+            numero: '1.4',
+            titulo: 'Conductas y tipologías de clientes',
+            hash: 't_1_4',
+          },
         ],
       },
 

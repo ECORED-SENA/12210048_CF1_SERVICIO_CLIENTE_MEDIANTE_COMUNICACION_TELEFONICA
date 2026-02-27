@@ -249,7 +249,7 @@
       // Contenido
       .col-lg-7(data-aos="fade-left")
         p
-          | La sonrisa telefónica es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, se percibe claramente a través de la voz, y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
+          | La <b>sonrisa telefónica</b> es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, <b>se percibe claramente a través de la voz,</b> y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
 
         .bg-color-5.p-4.mt-3
           ul.lista-ul.mb-0
@@ -273,7 +273,7 @@
               | En la presentación y en la despedida, desempeña un papel fundamental en la creación de un buen clima y en la generación de una impresión favorable.
 
         p.mt-3.mb-0
-          | La correcta integración de la sonrisa, la voz, el lenguaje y la escucha activa permite transformar una llamada telefónica en una experiencia positiva y efectiva para el cliente y la organización.
+          | La correcta integración de <b>la sonrisa, la voz, el lenguaje y la escucha activa</b> permite transformar una llamada telefónica en una experiencia positiva y efectiva para el cliente y la organización.
 
 
       .bg-full-width.mt-5
@@ -284,7 +284,7 @@
             h3.titulo-con-imagen__texto La voz
       
       p
-          | La voz es el instrumento básico de la comunicación no verbal a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite generar confianza, influir, persuadir y tranquilizar al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
+          | La <b>voz</b> es el <b>instrumento básico de la comunicación no verbal</b> a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite <b>generar confianza, influir, persuadir y tranquilizar</b> al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
 
 
       .bg-full-width
@@ -298,32 +298,32 @@
                 img(src='@/assets/curso/tema1/carrusel2_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Volumen
                 p.card-text.text-center
-                  | <i>Intensidad con la que se emite la voz durante la llamada.</i>
+                  | Intensidad con la que se emite la voz durante la llamada.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Entonación
                 p.card-text.text-center
-                  | <i>Variación de la altura y tonalidad de la voz según la intención comunicativa.</i>
+                  | Variación de la altura y tonalidad de la voz según la intención comunicativa.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Articulación
                 p.card-text.text-center
-                  | <i>Posición y movimiento de los órganos de la voz para una correcta pronunciación.</i>
+                  | Posición y movimiento de los órganos de la voz para una correcta pronunciación.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Elocución
                 p.card-text.text-center
-                  | <i>Velocidad a la que se transmite el mensaje.</i>
+                  | Velocidad a la que se transmite el mensaje.
 
       .bg-full-width.mt-4
         .px-4.px-md-5.pb-md-3
         .titulo-con-imagen.mb-5(data-aos="fade-right")                     
             h3.titulo-purpura La entonación y su adecuación a la llamada
       .row.mb-2
-            p.mb-0 La entonación corresponde a la forma en que se varía la altura de la tonalidad de la voz y debe adaptarse a las circunstancias de la conversación telefónica. Es importante evitar la monotonía; sin embargo, los cambios de tono no deben ser bruscos, ya que pueden generar confusión o incomodidad en el cliente. A continuación, se abordan los tonos apropiados en la comunicación telefónica y su uso según el objetivo de cada momento de la interacción.
+            p.mb-0 La <b>entonación</b> corresponde a la forma en que se varía la altura de la tonalidad de la voz y debe <b>adaptarse a las circunstancias</b> de la conversación telefónica. Es importante evitar la monotonía; sin embargo, los cambios de tono <b>no deben ser bruscos,</b> ya que pueden generar confusión o incomodidad en el cliente. A continuación, se abordan los tonos apropiados en la comunicación telefónica y su uso según el objetivo de cada momento de la interacción.
       
       
 
@@ -382,7 +382,7 @@
       // Contenido
       .col-lg-7(data-aos="fade-left")
         p
-          | La articulación se refiere a la posición y al movimiento de los órganos de la voz para la correcta pronunciación de vocales y consonantes. Una articulación adecuada facilita la comprensión del mensaje y evita malentendidos.
+          | La <b>articulación</b> se refiere a la posición y al movimiento de los órganos de la voz para la correcta pronunciación de vocales y consonantes. Una articulación adecuada facilita la comprensión del mensaje y evita malentendidos.
 
         .bg-color-7.p-4.mt-3
           p
@@ -408,7 +408,7 @@
       // Contenido
       .col-lg-7(data-aos="fade-left")
         p
-          | El volumen representa la intensidad con la que se emite la voz y, en la comunicación telefónica, constituye la única forma de llegar directamente al oído del interlocutor. Por ello, debe mantenerse en un nivel normal y equilibrado, evitando los extremos.
+          | El <b>volumen</b> representa la intensidad con la que se emite la voz y, en la comunicación telefónica, constituye la única forma de llegar directamente al oído del interlocutor. Por ello, debe mantenerse en un nivel <b>normal y equilibrado</b>, evitando los extremos.
         .bg-color-7.p-4.mt-3
           p
             | Recomendaciones clave:
@@ -452,7 +452,7 @@
       // Contenido
       .col-lg-7(data-aos="fade-left")
         p
-          | La elocución es la velocidad con la que se transmite el mensaje durante la llamada. Una velocidad adecuada favorece la comprensión y transmite seguridad.
+          | <b>La elocución</b> es la <b>velocidad</b> con la que se transmite el mensaje durante la llamada. Una velocidad adecuada favorece la comprensión y transmite seguridad.
 
 
         .bg-color-7.p-4.mt-3
@@ -475,7 +475,7 @@
 
 
     .row
-      p El lenguaje es la capacidad del ser humano para comunicarse mediante signos lingüísticos; en este contexto, se hace referencia específicamente al lenguaje verbal. Aunque la comunicación telefónica no permite el contacto visual, el lenguaje corporal puede influir de manera indirecta en la llamada, ya que se refleja a través del tono, la actitud y la forma de expresarse.
+      p El <b>lenguaje</b> es la capacidad del ser humano para comunicarse mediante <b>signos lingüísticos</b>; en este contexto, se hace referencia específicamente al <b>lenguaje verbal</b>. Aunque la comunicación telefónica no permite el contacto visual, el <b>lenguaje corporal</b> puede influir de manera indirecta en la llamada, ya que se refleja a través del tono, la actitud y la forma de expresarse.
 
       .col-lg-3.order-lg-2.mb-3.mb-lg-0
         figure
@@ -488,7 +488,7 @@
               img(src="@/assets/curso/tema1/19.png", style="max-width: 100%")
             .col-lg-6
               p.mb-0
-                | El lenguaje verbal es un elemento básico para transmitir la imagen que la empresa desea proyectar hacia sus clientes. Por esta razón, debe ser positivo, claro y adecuado al contexto, ya que de su uso depende, en gran medida, la percepción que el cliente construye sobre la organización.
+                | El lenguaje verbal es un elemento básico para <b>transmitir la imagen que la empresa desea proyectar</b> hacia sus clientes. Por esta razón, debe ser <b>positivo</b>, claro y adecuado al contexto, ya que de su uso depende, en gran medida, la percepción que el cliente construye sobre la organización.
 
         p
           | A continuación, se presenta lo que debe contener y lo que debe evitar el lenguaje utilizado durante la comunicación telefónica.
@@ -606,7 +606,7 @@
 
     .row
         p
-          | La escucha activa es la habilidad de escuchar no solo las palabras, sino también las ideas, intenciones y pensamientos que subyacen en el discurso del interlocutor. Además, implica demostrar de manera explícita que el mensaje ha sido comprendido, lo cual permite crear un vínculo con el cliente y ofrecer un servicio de calidad. A partir de este concepto, la escucha activa se compone de elementos decisivos que facilitan el desempeño eficaz del asesor o asesora telefónica. A continuación, se describen los elementos de la escucha activa y la función que cumple cada uno dentro del proceso comunicativo.
+          | La <b>escucha activa</b> es la habilidad de <b>escuchar no solo las palabras</b>, sino también las <b>ideas, intenciones y pensamientos</b> que subyacen en el discurso del interlocutor. Además, implica demostrar de manera explícita que el mensaje ha sido comprendido, lo cual permite <b>crear un vínculo con el cliente</b> y ofrecer un servicio de calidad. A partir de este concepto, la escucha activa se compone de <b>elementos decisivos</b> que facilitan el desempeño eficaz del asesor o asesora telefónica. A continuación, se describen los elementos de la escucha activa y la función que cumple cada uno dentro del proceso comunicativo.
 
 
     .bg-full-width.mt-5
@@ -619,22 +619,22 @@
                   img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Escuchar
                   p.card-text.text-center
-                  | <i>Prestar atención plena al mensaje del cliente.</i>
+                  | Prestar atención plena al mensaje del cliente.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Analizar
                   p.card-text.text-center
-                  | <i>Procesar la información recibida.</i>
+                  | Procesar la información recibida.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Interpretar
                   p.card-text.text-center
-                  | <i>Comprender el significado y la intención del mensaje.</i>
+                  | Comprender el significado y la intención del mensaje.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Actuar
                   p.card-text.text-center
-                  | <i>Responder de manera adecuada y oportuna.</i>
+                  | Responder de manera adecuada y oportuna.
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
@@ -671,7 +671,7 @@
                           | Evitar temas difíciles.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Reaccionar ante palabras con carga emotiva..
+                          | Reaccionar ante palabras con carga emotiva.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
                           | Desentenderse por diferencias en la forma de expresión.
@@ -685,7 +685,7 @@
                           | Buscar oportunidades.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Preguntarse: ¿qué significa esto para mí?.
+                          | Preguntarse: ¿qué significa esto para mí?
                         li
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
                           | Evaluar el contenido y dejar pasar errores de expresión.
@@ -731,7 +731,7 @@
 
     .row
         p
-          | Dentro de la comunicación telefónica, existe un aspecto de gran relevancia que forma parte de la escucha activa: el silencio. El asesor o asesora debe saber ser prudente y respetar los silencios o pausas naturales que se producen durante una conversación, ya que estos contribuyen a que la comunicación sea considerada óptima y profesional.
+          | Dentro de la comunicación telefónica, existe un aspecto de gran relevancia que forma parte de la <b>escucha activa: el silencio</b>. El asesor o asesora debe saber <b>ser prudente y respetar los silencios o pausas naturales</b> que se producen durante una conversación, ya que estos contribuyen a que la comunicación sea considerada <b>óptima y profesional.</b>
 
 
     .row.mt-5.align-items-center.justify-content-center   
@@ -766,22 +766,22 @@
                   img(src='@/assets/curso/tema1/31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Subrayar palabras
                   p.card-text.text-center
-                  | <i>Destacar la importancia de ciertos mensajes clave.</i>
+                  | Destacar la importancia de ciertos mensajes clave.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/30.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Aislar ideas
                   p.card-text.text-center
-                  | <i>Permite resaltar conceptos relevantes dentro del discurso.</i>
+                  | Permite resaltar conceptos relevantes dentro del discurso.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Percibir al interlocutor
                   p.card-text.text-center
-                  | <i>Intensidad con la que se emite la voz durante la llamada.</i>
+                  | Facilita la observación de reacciones y actitudes.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Favorecer objeciones
                   p.card-text.text-center
-                  | <i>Propicia la manifestación de dudas o inquietudes del cliente.</i>
+                  | Propicia la manifestación de dudas o inquietudes del cliente.
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
                   img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
@@ -801,7 +801,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Antes de iniciar una comunicación con un cliente, los asesores y asesoras telefónicos deben tener en cuenta que existen momentos clave a lo largo de la llamada. En estas etapas se recopila información relevante (en algunos casos suficiente y en otros limitada) que permite actuar de la mejor manera posible según el objetivo de la comunicación.
+        p.mb-0 Antes de iniciar una comunicación con un cliente, los asesores y asesoras telefónicos deben tener en cuenta que existen <b>momentos clave</b> a lo largo de la llamada. En estas etapas se recopila información relevante (en algunos casos suficiente y en otros limitada) que permite <b>actuar de la mejor manera posible</b> según el objetivo de la comunicación.
 
     .row.mt-4
       p.mb-0 Estas etapas se encuentran delimitadas de forma secuencial, lo que facilita que, al finalizar la conversación, se pueda realizar un balance teniendo en cuenta el propósito de la llamada y el nivel de satisfacción del cliente.
@@ -823,42 +823,42 @@
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Preparar el material: disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
+                          | <b>Preparar el material:</b> disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Guardar silencio: respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
+                          | <b>Guardar silencio:</b> respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Sonreír: realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
+                          | <b>Sonreír:</b> realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Descolgar al primer tono: evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
+                          | <b>Descolgar al primer tono:</b> evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
 
                 .row(titulo="Al momento de descolgar")                  
                   p.mb-0 En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Abandonar otras tareas: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
+                          | <b>Abandonar otras tareas</b>: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Guardar silencio hasta la acogida: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor
+                          | <b>Guardar silencio hasta la acogida</b>: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor.
                         
                 .row(titulo="Acogida")                  
                   p.mb-0 La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Identificación de la empresa: mencionar el nombre de la empresa de manera clara y segura.
+                          | <b>Identificación de la empresa:</b> mencionar el nombre de la empresa de manera clara y segura.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Saludo: realizar un saludo moderado y cordial que propicie una interacción respetuosa.
+                          | <b>Saludo:</b> realizar un saludo moderado y cordial que propicie una interacción respetuosa.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Identificación personal: presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
+                          | <b>Identificación personal:</b> presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Oferta de ayuda: brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
+                          | <b>Oferta de ayuda:</b> brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
 
 
         .bg--img_03.mt-5
@@ -866,53 +866,60 @@
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row(titulo="Motivo de la llamada")                
-                  .col-12
+                  
                     p.mb-0           
                       | Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Sondeo: formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
+                          | <b>Sondeo:</b> formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Reformulación: interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
+                          | <b>Reformulación:</b> interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
                         
                 .row(titulo="Acción")
-                  .col-12
+                  
                     p.mb-0           
                       | Esta fase corresponde al momento en el que el asesor o asesora participa de manera activa para dar respuesta a la necesidad del cliente, ya sea brindando información, aclarando inquietudes, gestionando quejas o atendiendo reclamaciones.
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Gestión de la llamada: aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
+                          | <b>Gestión de la llamada:</b> aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Transferencia de llamadas: solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
+                          | <b>Transferencia de llamadas:</b> solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Comunicación clara: evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
+                          | <b>Comunicación clara:</b> evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
 
                 .row(titulo="Conclusión")
-                  .col-12
+                  
                     p.mb-0           
                       | La conclusión facilita el cierre de la llamada de manera organizada y cordial, fortaleciendo una experiencia positiva para el cliente.
                       ul.lista-ul.mb-0
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Cierre: realizar un breve recuento de lo acordado durante la llamada. 
+                          | <b>Cierre:</b> realizar un breve recuento de lo acordado durante la llamada. 
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")  
-                          | Agradecimiento: expresar gratitud al cliente por haberse comunicado.
+                          | <b>Agradecimiento:</b> expresar gratitud al cliente por haberse comunicado.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Pausa final: brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
+                          | <b>Pausa final:</b> brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
                         li
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | Despedida: finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
+                          | <b>Despedida:</b> finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
 
             .col-lg-4
               figure(data-aos="zoom-in")
                 img(src="@/assets/curso/tema1/34.png", alt="alt").img400.m-auto
+
+    .row.mt-5
+        #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+          h2 1.4 Conductas y tipologías de clientes
+
+    .row.mt-1
+      p.mb-0 Existen tres conductas o estilos de comunicación que pueden presentar los clientes de acuerdo con la actitud que manifiestan al momento de interactuar: pasiva, agresiva y asertiva. Reconocer estas conductas es fundamental para que los asesores y asesoras telefónicos puedan adaptar su forma de comunicación y aplicar las técnicas más adecuadas para una atención personalizada y eficaz. Las tipologías de conducta del cliente son: 
 
 
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -986,7 +993,7 @@
                     | Generalmente son personas abiertas y honestas.
 
     .row.mt-4
-      p.mb-0 Los asesores telefónicos deben saber identificar y clasificar estas conductas con el fin de utilizar estrategias de comunicación adecuadas para cada tipo de cliente. Esta capacidad permite ofrecer una atención más empática, personalizada y efectiva, contribuyendo a mejorar la experiencia del cliente y la imagen de la empresa.
+      p.mb-0 Los asesores telefónicos deben <b>saber identificar y clasificar estas conductas</b> con el fin de <b>utilizar estrategias de comunicación adecuadas</b> para cada tipo de cliente. Esta capacidad permite ofrecer una atención más empática, personalizada y efectiva, contribuyendo a mejorar la experiencia del cliente y la imagen de la empresa.
 
       .bg-full-width.mt-5
         .px-4.px-md-5.pb-md-3
@@ -1022,16 +1029,13 @@
 
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-            .row(titulo="Cliente pretencioso")
-              .col-12
-                p.mb-4 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.
-                
+            .row(titulo="Cliente pretencioso")              
+                p.mb-4 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.                
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Tabla 1.
-                      span Cliente pretencioso: características y recomendaciones de trato
-                    
+                      span Cliente pretencioso: características y recomendaciones de trato                    
                     .tabla-a.color-acento-botones
                       table
                         thead
@@ -1055,10 +1059,8 @@
                             td.text-center Exige trato exclusivo.
                             td Ofrecer atención diferenciada.
 
-            .row(titulo="Cliente desconfiado")                  
-              .col-12
+            .row(titulo="Cliente desconfiado")              
                 p.mb-4 Son personas escépticas que no confían en nada ni en nadie. Critican los argumentos, tratan de dominar, no escuchan consejos. 
-                
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
@@ -1094,16 +1096,13 @@
                             td.text-center Le pone faltas a todo.
                             td Presentar pruebas, no entrar en su juego.
 
-            .row(titulo="Cliente indeciso")                  
-              .col-12
-                p.mb-4 Este cliente muy pocas veces toma decisiones por sí mismo. Necesita que el asesor lo oriente constantemente, hace muchas preguntas y suele decir que "lo va a pensar", prolongando la llamada.
-                
+            .row(titulo="Cliente indeciso")
+                p.mb-4 Este cliente muy pocas veces toma decisiones por sí mismo. Necesita que el asesor lo oriente constantemente, hace muchas preguntas y suele decir que "lo va a pensar", prolongando la llamada.                
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
                       h5 Tabla 3.
-                      span Cliente indeciso: características y recomendaciones de trato
-                    
+                      span Cliente indeciso: características y recomendaciones de trato                    
                     .tabla-a.color-acento-botones
                       table
                         thead
@@ -1130,10 +1129,8 @@
                             td.text-center Pide la opinión del interlocutor.
                             td Orientarlo, asegurar su comprensión.
 
-            .row(titulo="Cliente grosero")                  
-              .col-12
-                p.mb-4 Es el peor cliente que puede encontrarse un asesor. Tiene un repertorio de agresiones, comentarios y actitudes malintencionadas, no solo hacia el asesor sino también hacia la empresa.
-                
+            .row(titulo="Cliente grosero")
+                p.mb-4 Es el peor cliente que puede encontrarse un asesor. Tiene un repertorio de agresiones, comentarios y actitudes malintencionadas, no solo hacia el asesor, sino también hacia la empresa.                
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
@@ -1170,9 +1167,7 @@
         .col-lg-8
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="Cliente locuaz")
-              .col-12
-                p.mb-4 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.
-                
+                p.mb-4 Es un cliente que se cree superior a los demás, típico ejemplo de una persona con conducta o estilo de comunicación agresiva.                
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
@@ -1199,8 +1194,7 @@
                             td.text-center la conversación
                             td
 
-            .row(titulo="Cliente afable")                  
-              .col-12
+            .row(titulo="Cliente afable")
                 p.mb-4 Generalmente, es una persona muy hábil con las palabras. Le gusta agradar e interactuar, pero no siempre tiene un interés real.
                 
                 .row.justify-content-center
@@ -1229,8 +1223,7 @@
                             td.text-center La conversación.
                             td No darle familiaridad.
 
-            .row(titulo="Cliente seguro de sí mismo")                  
-              .col-12
+            .row(titulo="Cliente seguro de sí mismo")
                 p.mb-4 Este tipo de cliente es el mejor para concluir negocios. No expresa emotividad, pero declara claramente sus intenciones. Es el cliente asertivo por naturaleza.
                 
                 .row.justify-content-center
@@ -1260,8 +1253,7 @@
                             td Hacerle sentir que recibe una propuesta exclusiva.
                       
 
-            .row(titulo="Cliente seco")                  
-              .col-12
+            .row(titulo="Cliente seco")
                 p.mb-4 Es una persona que encaja perfectamente en el estilo de comunicación pasiva.
                 
                 .row.justify-content-center
@@ -1287,10 +1279,8 @@
                             td.text-center  Utiliza frases cortas.
                             td.text-center  Usar frases breves y precisas.
 
-            .row(titulo="Cliente exagerado")                  
-              .col-12
-                p.mb-4 Difícilmente se le complace, ya que tiende a exagerar todo: desde el servicio hasta el trato recibido.
-                
+            .row(titulo="Cliente exagerado")
+                p.mb-4 Difícilmente se le complace, ya que tiende a exagerar todo: desde el servicio hasta el trato recibido.                
                 .row.justify-content-center
                   .col-md-10
                     .titulo-sexto.color-acento-contenido.mb-3
