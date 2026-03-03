@@ -15,7 +15,7 @@
         .row.align-items-center.bg-color-3
           .col-md-5.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema2/1.png', alt='Operadora telefónica')
+              img(src='@/assets/curso/tema2/1.png', alt='')
           
           .col-md-7
             h3 Escuchar: más importante que hablar
@@ -68,8 +68,10 @@
 
             p.mb-3(data-aos="fade-left") A continuación, se presenta un video que expone los principios fundamentales de la escucha activa, destacando las acciones clave que permiten mejorar la comunicación con el cliente mediante una atención empática, respetuosa y efectiva.
 
-            figure
-                img(src='@/assets/curso/tema2/5.png', alt='', style="width: 100%;")
+            figure.mb-4(data-aos="fade-left")
+              .video
+                iframe(width="560" height="315" src="https://www.youtube.com/embed/t1mWGttunQs?si=KZwmrCmc-47-sHct" title="Impuestos" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+    
 
             p.mb-5.mt-4(data-aos="fade-left") Este conjunto de técnicas no solo mejora la calidad del servicio, sino que <b>construye una relación más sólida</b> con el cliente, favoreciendo su confianza, fidelización y satisfacción.
 
@@ -971,7 +973,7 @@
                 .col-md-8
                   TarjetaAudio.color-primario(
                     texto="La recapitulación como estrategia clave en la atención al cliente"
-                    :audio="require('@/assets/componentes/audios/podcast2.wav')"
+                    :audio="require('@/assets/componentes/audios/podcast2.mp3')"
                     @audio-hover="mostrarIndicadorTarjetaAudio = false"
                   )
                     .indicador--click(v-if="mostrarIndicadorTarjetaAudio")

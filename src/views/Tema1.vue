@@ -66,26 +66,26 @@
             .col-lg-9.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-md-6 col-xl-6")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   p Capacidad de transmitir ideas.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   p Capacidad de atraer la atención del interlocutor.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   p Capacidad de atención.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_05.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel_05.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   p Habilidad para captar las necesidades del cliente.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_06.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel_06.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   p Alto sentido de compromiso.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_07.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   p Capacidad de organización.
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
         
 
     .row.mb-5
@@ -295,25 +295,25 @@
           .col-lg-12.mb-3.mb-lg-0.order-lg-2
             SlyderF(columnas="col-md-4 col-xl-4")
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel2_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/carrusel2_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Volumen
                 p.card-text.text-center
                   | Intensidad con la que se emite la voz durante la llamada.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel2_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/carrusel2_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Entonación
                 p.card-text.text-center
                   | Variación de la altura y tonalidad de la voz según la intención comunicativa.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel2_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/carrusel2_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Articulación
                 p.card-text.text-center
                   | Posición y movimiento de los órganos de la voz para una correcta pronunciación.
 
               .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                img(src='@/assets/curso/tema1/carrusel2_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                img(src='@/assets/curso/tema1/carrusel2_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Elocución
                 p.card-text.text-center
                   | Velocidad a la que se transmite el mensaje.
@@ -521,7 +521,7 @@
             .row
               .col-md-6.mb-4.mb-md-0
                 figure
-                  img(src='@/assets/curso/tema1/21.png', alt='Texto que describa la imagen')
+                  img(src='@/assets/curso/tema1/21.png', alt='')
 
               .col-md-6
                 h4 Debe evitar
@@ -562,7 +562,7 @@
           .row.justify-content-center.mb-3.align-items-center
             .col-7
               figure
-                img(src='@/assets/curso/tema1/22.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/22.svg', alt='')
 
           h3.text-center 1. Claridad
           p.text-center Permite que el mensaje sea comprendido sin ambigüedades.
@@ -572,7 +572,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/23.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/23.svg', alt='')
 
           h3.text-center 2. Precisión
           p.text-center Evita información innecesaria o confusa.
@@ -582,7 +582,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/24.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/24.svg', alt='')
 
           h3.text-center 3. Brevedad
           p.text-center  Facilita una comunicación ágil y  directa.
@@ -592,7 +592,7 @@
           .row.justify-content-center.mb-3
             .col-7
               figure
-                img(src='@/assets/curso/tema1/25.svg', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/tema1/25.svg', alt='')
 
           h3.text-center 4. Corrección
           p.text-center Garantiza un uso adecuado del  idioma y una imagen  profesional.
@@ -616,28 +616,28 @@
             .col-lg-9.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-md-6 col-xl-6")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Escuchar
                   p.card-text.text-center
                   | Prestar atención plena al mensaje del cliente.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Analizar
                   p.card-text.text-center
                   | Procesar la información recibida.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Interpretar
                   p.card-text.text-center
                   | Comprender el significado y la intención del mensaje.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Actuar
                   p.card-text.text-center
                   | Responder de manera adecuada y oportuna.
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
 
     .row
         p
@@ -763,28 +763,28 @@
             .col-lg-9.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-md-6 col-xl-6")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/31.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/31.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Subrayar palabras
                   p.card-text.text-center
                   | Destacar la importancia de ciertos mensajes clave.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/30.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/30.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Aislar ideas
                   p.card-text.text-center
                   | Permite resaltar conceptos relevantes dentro del discurso.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/32.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/32.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Percibir al interlocutor
                   p.card-text.text-center
                   | Facilita la observación de reacciones y actitudes.
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/33.svg' alt='AvatarTop' , style="max-width: 90px").mx-auto.mb-3
+                  img(src='@/assets/curso/tema1/33.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                   h4.card-title.text-center Favorecer objeciones
                   p.card-text.text-center
                   | Propicia la manifestación de dudas o inquietudes del cliente.
             .col-lg-3.order-lg-1.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='Imagen de apoyo', data-aos="zoom-in").m-auto
+                  img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
     .row.mt-4
       p.mb-0 El silencio bien utilizado fortalece la comunicación telefónica; sin embargo, el silencio no explicado genera incomodidad y deteriora la experiencia del cliente.
 
@@ -804,7 +804,7 @@
         p.mb-0 Antes de iniciar una comunicación con un cliente, los asesores y asesoras telefónicos deben tener en cuenta que existen <b>momentos clave</b> a lo largo de la llamada. En estas etapas se recopila información relevante (en algunos casos suficiente y en otros limitada) que permite <b>actuar de la mejor manera posible</b> según el objetivo de la comunicación.
 
     .row.mt-4
-      p.mb-0 Estas etapas se encuentran delimitadas de forma secuencial, lo que facilita que, al finalizar la conversación, se pueda realizar un balance teniendo en cuenta el propósito de la llamada y el nivel de satisfacción del cliente.
+      p.mb-0 Estas etapas se encuentran <b>delimitadas de forma secuencial</b>, lo que facilita que, al finalizar la conversación, se pueda realizar un <b>balance</b> teniendo en cuenta el propósito de la llamada y el nivel de satisfacción del cliente.
 
 
 
@@ -813,7 +813,7 @@
           .row.justify-content-center
             .col-lg-4
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema1/29.png", alt="alt").img400.m-auto
+                img(src="@/assets/curso/tema1/29.png", alt="").img400.m-auto
                 
 
             .col-lg-8
@@ -912,7 +912,7 @@
 
             .col-lg-4
               figure(data-aos="zoom-in")
-                img(src="@/assets/curso/tema1/34.png", alt="alt").img400.m-auto
+                img(src="@/assets/curso/tema1/34.png", alt="").img400.m-auto
 
     .row.mt-5
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
