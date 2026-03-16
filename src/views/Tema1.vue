@@ -108,7 +108,7 @@
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in", style="max-width: 100%" )
       .col-lg-7
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
@@ -139,22 +139,21 @@
           p.mb-0 La figura permite identificar los principales motivos de abandono de clientes. En ella se evidencia que, dentro de las razones por las cuales una empresa pierde clientes o clientes potenciales, <b>el servicio al cliente ocupa el primer lugar.</b> Este dato confirma la relevancia de la atención brindada en la permanencia y fidelización del consumidor.
 
     
-    .row.mt-5.align-items-center.justify-content-center   
-
-      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
-        .p-4.rounded.h-100(style="background-color: #FDF0AC;")
-          p.mb-0 Generalmente, los clientes dejan de solicitar productos o servicios de una organización debido a <b>malas experiencias con empleados</b> que no han sabido manejar adecuadamente una situación específica, o que no han logrado <b>satisfacer las necesidades inmediatas del cliente.</b> Estas experiencias negativas impactan de forma directa en la imagen corporativa y en la decisión de continuidad del cliente.
-
+    .row.mt-5.align-items-stretch.justify-content-center 
   
-      .col-lg-3.mb-4.mb-lg-0.text-center(data-aos="zoom-in")
-        figure
-          img.d-inline(src="@/assets/curso/tema1/5.svg", alt="" style="max-width:240px")
+
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")      
+        .p-4.rounded.h-100.d-flex.align-items-center(style="background-color: #FDF0AC;")
+          p.mb-0 Generalmente, los clientes dejan de solicitar productos o servicios de una organización debido a <b>malas experiencias con empleados</b> que no han sabido manejar adecuadamente una situación específica, o que no han logrado <b>satisfacer las necesidades inmediatas del cliente.</b> Estas experiencias negativas impactan de forma directa en la imagen corporativa y en la decisión de continuidad del cliente.
+      .col-lg-3.mb-4.mb-lg-0.text-center.d-flex.align-items-center.justify-content-center(data-aos="zoom-in")
+        figure.mb-0
+          img.d-inline(src="@/assets/curso/tema1/5.svg", alt="" style="max-width:100%")
 
       .col-lg-4(data-aos="fade-left")
-        .d-flex.flex-column.justify-content-center
+      
+        .d-flex.flex-column.justify-content-center.h-100
           img.mb-3(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
-          p.mb-0 Teniendo en cuenta lo anterior, se hace indispensable <b>brindar siempre un servicio adecuado,</b> caracterizado por el respeto, la calidez y la amabilidad en el trato. Además de los principios y valores personales, la <b>ética profesional</b> desempeña un papel fundamental, especialmente en el manejo de información relevante y de carácter confidencial para la empresa u organización.
-
+          p.mb-0 Teniendo en cuenta lo anterior, se hace indispensable #[b brindar siempre un servicio adecuado,] caracterizado por el respeto, la calidez y la amabilidad en el trato. Además de los principios y valores personales, la #[b ética profesional] desempeña un papel fundamental, especialmente en el manejo de información relevante y de carácter confidencial para la empresa u organización.
 
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
@@ -237,40 +236,36 @@
 
 
     .row.align-items-center
-      // Imagen
+      
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(
-            src="@/assets/curso/tema1/14.png",
-            data-aos="zoom-in",
-            style="max-width: 100%"
-          ).mx-auto
+          img(src="@/assets/curso/tema1/14.png", data-aos="zoom-in", style="max-width: 100%").mx-auto
 
-      // Contenido
+      
       .col-lg-7(data-aos="fade-left")
         p
           | La <b>sonrisa telefónica</b> es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, <b>se percibe claramente a través de la voz,</b> y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
 
         .bg-color-5.p-4.mt-3
           ul.lista-ul.mb-0
-            li
+            li.d-flex
               i.fas.fa-check-circle.me-2(style="color:#AD9721")
-              | Es una forma consciente de relajarse durante la comunicación.
-            li
+              span Es una forma consciente de relajarse durante la comunicación.
+            li.d-flex
               i.fas.fa-check-circle.me-2(style="color:#AD9721")
-              | Comunica un tono amistoso y cordial.
-            li
+              span Comunica un tono amistoso y cordial.
+            li.d-flex
               i.fas.fa-check-circle.me-2(style="color:#AD9721")
-              | Se oye por teléfono y es síntoma de predisposición a la ayuda, demostrando interés genuino por el cliente.
-            li
+              span Se oye por teléfono y es síntoma de predisposición a la ayuda, demostrando interés genuino por el cliente.
+            li.d-flex
               i.fas.fa-check-circle.me-2(style="color:#AD9721")
-              | Crea un clima empático entre los interlocutores.
-            li
+              span Crea un clima empático entre los interlocutores.
+            li.d-flex
               i.fas.fa-check-circle.me-2(style="color:#AD9721")
-              | Refleja una actitud positiva y suele generar una respuesta similar en el cliente.
-            li
+              span Refleja una actitud positiva y suele generar una respuesta similar en el cliente.
+            li.d-flex
               i.fas.fa-check-circle.me-2(style="color:#AD9721")
-              | En la presentación y en la despedida, desempeña un papel fundamental en la creación de un buen clima y en la generación de una impresión favorable.
+              span En la presentación y en la despedida, desempeña un papel fundamental en la creación de un buen clima y en la generación de una impresión favorable.
 
         p.mt-3.mb-0
           | La correcta integración de <b>la sonrisa, la voz, el lenguaje y la escucha activa</b> permite transformar una llamada telefónica en una experiencia positiva y efectiva para el cliente y la organización.
@@ -389,15 +384,15 @@
             | Recomendaciones clave:
             
             ul.lista-ul.mt-3
-              li
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Hablar abriendo bien la boca y marcando correctamente las palabras.
-              li
+                span Hablar abriendo bien la boca y marcando correctamente las palabras.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Evitar “comerse las palabras”, separándolas claramente al pronunciarlas.
-              li
+                span Evitar “comerse las palabras”, separándolas claramente al pronunciarlas.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Mantener una distancia adecuada entre el auricular y la boca.
+                span Mantener una distancia adecuada entre el auricular y la boca.
             
       .bg-full-width.mt-4
                   .px-4.px-md-5.pb-md-3
@@ -413,15 +408,15 @@
           p
             | Recomendaciones clave:
             ul.lista-ul.mt-3
-              li
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Nunca gritar, incluso si la comunicación es deficiente.
-              li
+                span Nunca gritar, incluso si la comunicación es deficiente.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | No susurrar.
-              li
+                span No susurrar.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Adaptar el volumen a las diferentes circunstancias sin llegar a los extremos.
+                span Adaptar el volumen a las diferentes circunstancias sin llegar a los extremos.
 
       // Imagen
       .col-lg-5.mb-3.mb-lg-0
@@ -459,12 +454,12 @@
           p
             | Recomendaciones clave:
             ul.lista-ul.mt-3
-              li
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Utilizar una elocución más lenta y pausada que en una conversación cara a cara.
-              li
+                span Utilizar una elocución más lenta y pausada que en una conversación cara a cara.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Adaptarse a la velocidad del interlocutor: hablar más despacio con personas lentas y un poco más rápido con interlocutores ágiles.
+                span Adaptarse a la velocidad del interlocutor: hablar más despacio con personas lentas y un poco más rápido con interlocutores ágiles.
 
       .bg-full-width.mt-5
         .px-4.px-md-5.pb-md-3
@@ -504,18 +499,18 @@
               .col-md-6.mb-4.mb-md-0
                 h4 Debe contener
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras positivas.
-                  li
+                    span Palabras positivas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresiones confirmativas.
-                  li
+                    span Expresiones confirmativas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresiones de interés.
-                  li
+                    span Expresiones de interés.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresiones descriptivas.
+                    span Expresiones descriptivas.
 
           .py-3.py-md-4(titulo="Debe evitar")
             .row
@@ -526,24 +521,24 @@
               .col-md-6
                 h4 Debe evitar
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras negativas.
-                  li
+                    span Palabras negativas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras agresivas.
-                  li
+                    span Palabras agresivas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Muletillas.
-                  li
+                    span Muletillas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Palabras ténicas innecesarias.
-                  li
+                    span Palabras ténicas innecesarias.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Fórmulas dubitativas e imprecisas.
-                  li
+                    span Fórmulas dubitativas e imprecisas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Diminutivos o superlativos inútiles.
+                    span Diminutivos o superlativos inútiles.
 
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
@@ -651,68 +646,68 @@
                   .col-12
                     p.mb-0                     
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Discutir con facilidad.
-                        li
+                          span Discutir con facilidad.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Distraerse con facilidad.
-                        li
+                          span Distraerse con facilidad.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Desentenderse de temas aburridos.
-                        li
+                          span Desentenderse de temas aburridos.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Tomar demasiadas notas.
-                        li
+                          span Tomar demasiadas notas.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Fingir atención.                        
-                        li
+                          span Fingir atención.                        
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Evitar temas difíciles.
-                        li
+                          span Evitar temas difíciles.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Reaccionar ante palabras con carga emotiva.
-                        li
+                          span Reaccionar ante palabras con carga emotiva.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Desentenderse por diferencias en la forma de expresión.
+                          span Desentenderse por diferencias en la forma de expresión.
 
                 .row(titulo="El que escucha bien tiende a")
                   .col-12
                     p.mb-0                     
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Buscar oportunidades.
-                        li
+                          span Buscar oportunidades.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Preguntarse: ¿qué significa esto para mí?
-                        li
+                          span Preguntarse: ¿qué significa esto para mí?
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Evaluar el contenido y dejar pasar errores de expresión.
-                        li
+                          span Evaluar el contenido y dejar pasar errores de expresión.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | No juzgar hasta comprender plenamente.
-                        li
+                          span No juzgar hasta comprender plenamente.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Escuchar lo esencial.                       
-                        li
+                          span Escuchar lo esencial.                       
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Tomar pocas notas.
-                        li
+                          span Tomar pocas notas.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Esforzarse activamente en la escucha.
-                        li
+                          span Esforzarse activamente en la escucha.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Luchar contra las distracciones y concentrarse.
-                        li
+                          span Luchar contra las distracciones y concentrarse.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Enfocar temas complejos como ejercicio intelectual.
-                        li
+                          span Enfocar temas complejos como ejercicio intelectual.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Interpretar palabras con carga emotiva sin quedarse atrapado en ellas.
-                        li
+                          span Interpretar palabras con carga emotiva sin quedarse atrapado en ellas.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
-                          | Anticiparse, resumir mentalmente y escuchar entre líneas según contexto, tono de voz, estilo de conversación y lengua.
+                          span Anticiparse, resumir mentalmente y escuchar entre líneas según contexto, tono de voz, estilo de conversación y lengua.
                         
 
 
@@ -735,17 +730,17 @@
 
 
     .row.mt-5.align-items-center.justify-content-center   
-      //- Bloque Izquierdo: Fondo menta (Manejo del silencio)
+      
       .col-lg-5.mb-4.mb-lg-0.bg-color-7(data-aos="fade-right")
         .p-4.rounded.h-100
           p.mb-0 No obstante, es fundamental aclarar que nunca se debe dejar al cliente en silencio sin explicarle el motivo. Esta acción puede interpretarse fácilmente como un desplante, generando impaciencia y malestar en el interlocutor.
 
-      //- Bloque Central: Imagen decorativa
+      
       .col-lg-3.mb-4.mb-lg-0.text-center(data-aos="zoom-in")
         figure
           img.d-inline(src="@/assets/curso/tema1/27.png", alt="" style="max-width:240px")
 
-      //- Bloque Derecho: Icono + Concepto de "Túnel oscuro"
+      
       .col-lg-4(data-aos="fade-left")
         .d-flex.flex-column.justify-content-center
           img.mb-3(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
@@ -821,44 +816,44 @@
                 .row(titulo="Antes de descolgar")
                   p.mb-0 Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.                            
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Preparar el material:</b> disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
-                        li
+                          span <b>Preparar el material:</b> disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Guardar silencio:</b> respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
-                        li
+                          span <b>Guardar silencio:</b> respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Sonreír:</b> realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
-                        li
+                          span <b>Sonreír:</b> realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Descolgar al primer tono:</b> evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
+                          span <b>Descolgar al primer tono:</b> evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
 
                 .row(titulo="Al momento de descolgar")                  
                   p.mb-0 En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Abandonar otras tareas</b>: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
-                        li
+                          span <b>Abandonar otras tareas</b>: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Guardar silencio hasta la acogida</b>: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor.
+                          span <b>Guardar silencio hasta la acogida</b>: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor.
                         
                 .row(titulo="Acogida")                  
                   p.mb-0 La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Identificación de la empresa:</b> mencionar el nombre de la empresa de manera clara y segura.
-                        li
+                          span <b>Identificación de la empresa:</b> mencionar el nombre de la empresa de manera clara y segura.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Saludo:</b> realizar un saludo moderado y cordial que propicie una interacción respetuosa.
-                        li
+                          span <b>Saludo:</b> realizar un saludo moderado y cordial que propicie una interacción respetuosa.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Identificación personal:</b> presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
-                        li
+                          span <b>Identificación personal:</b> presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Oferta de ayuda:</b> brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
+                          span <b>Oferta de ayuda:</b> brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
 
 
         .bg--img_03.mt-5
@@ -868,47 +863,47 @@
                 .row(titulo="Motivo de la llamada")                
                   
                     p.mb-0           
-                      | Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.
+                      span Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Sondeo:</b> formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
-                        li
+                          span <b>Sondeo:</b> formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Reformulación:</b> interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
+                          span <b>Reformulación:</b> interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
                         
                 .row(titulo="Acción")
                   
                     p.mb-0           
-                      | Esta fase corresponde al momento en el que el asesor o asesora participa de manera activa para dar respuesta a la necesidad del cliente, ya sea brindando información, aclarando inquietudes, gestionando quejas o atendiendo reclamaciones.
+                      span Esta fase corresponde al momento en el que el asesor o asesora participa de manera activa para dar respuesta a la necesidad del cliente, ya sea brindando información, aclarando inquietudes, gestionando quejas o atendiendo reclamaciones.
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Gestión de la llamada:</b> aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
-                        li
+                          span <b>Gestión de la llamada:</b> aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Transferencia de llamadas:</b> solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
-                        li
+                          span <b>Transferencia de llamadas:</b> solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Comunicación clara:</b> evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
+                          span <b>Comunicación clara:</b> evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
 
                 .row(titulo="Conclusión")
                   
                     p.mb-0           
-                      | La conclusión facilita el cierre de la llamada de manera organizada y cordial, fortaleciendo una experiencia positiva para el cliente.
+                      span La conclusión facilita el cierre de la llamada de manera organizada y cordial, fortaleciendo una experiencia positiva para el cliente.
                       ul.lista-ul.mb-0
-                        li
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Cierre:</b> realizar un breve recuento de lo acordado durante la llamada. 
-                        li
+                          span <b>Cierre:</b> realizar un breve recuento de lo acordado durante la llamada. 
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")  
-                          | <b>Agradecimiento:</b> expresar gratitud al cliente por haberse comunicado.
-                        li
+                          span <b>Agradecimiento:</b> expresar gratitud al cliente por haberse comunicado.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Pausa final:</b> brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
-                        li
+                          span <b>Pausa final:</b> brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
+                        li.d-flex
                           i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          | <b>Despedida:</b> finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
+                          span <b>Despedida:</b> finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
 
             .col-lg-4
               figure(data-aos="zoom-in")
@@ -933,15 +928,15 @@
               .col-md-6.mb-4.mb-md-0
                 h4 Pasividad
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Evitan expresar lo que piensan o sienten por temor a ser rechazados, incomprendidos u ofender a los demás.
-                  li
+                    span Evitan expresar lo que piensan o sienten por temor a ser rechazados, incomprendidos u ofender a los demás.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | No confían en sí mismos ni en sus opiniones.
-                  li
+                    span No confían en sí mismos ni en sus opiniones.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Tienden a otorgar un valor superior a los demás, relegando sus propias necesidades.
+                    span Tienden a otorgar un valor superior a los demás, relegando sus propias necesidades.
 
 
           .py-3.py-md-4(titulo="Agresividad")
@@ -953,15 +948,15 @@
               .col-md-6
                 h4 Agresividad
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Es totalmente opuesta a la pasividad.
-                  li
+                    span Es totalmente opuesta a la pasividad.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Se presenta en personas que sobrevaloran su forma de pensar.
-                  li
+                    span Se presenta en personas que sobrevaloran su forma de pensar.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Pueden llegar a despreciar o subestimar las opiniones y sentimientos de los demás.
+                    span Pueden llegar a despreciar o subestimar las opiniones y sentimientos de los demás.
                   
 
           .py-3.py-md-4(titulo="Asertividad")
@@ -973,24 +968,24 @@
               .col-md-6
                 h4 Asertividad
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Se abren a las opiniones de los demás.
-                  li
+                    span Se abren a las opiniones de los demás.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Se respetan a sí mismos y a los demás.
-                  li
+                    span Se respetan a sí mismos y a los demás.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Expresan con seguridad y confianza lo que desean.
-                  li
+                    span Expresan con seguridad y confianza lo que desean.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | No consideran que los demás deban pensar igual que ellos.
-                  li
+                    span No consideran que los demás deban pensar igual que ellos.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Evitan el conflicto, pero no se dejan intimidar.
-                  li
+                    span Evitan el conflicto, pero no se dejan intimidar.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Generalmente son personas abiertas y honestas.
+                    span Generalmente son personas abiertas y honestas.
 
     .row.mt-4
       p.mb-0 Los asesores telefónicos deben <b>saber identificar y clasificar estas conductas</b> con el fin de <b>utilizar estrategias de comunicación adecuadas</b> para cada tipo de cliente. Esta capacidad permite ofrecer una atención más empática, personalizada y efectiva, contribuyendo a mejorar la experiencia del cliente y la imagen de la empresa.

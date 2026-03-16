@@ -21,22 +21,22 @@
             h3 Escuchar: más importante que hablar
             p Saber escuchar es, hoy en día, casi más importante que saber hablar. Implica:
             ul.lista-ul--color
-              li 
+              li.d-flex
                 i.fas.fa-check-circle
-                | Dominio de uno mismo.
-              li 
+                span Dominio de uno mismo.
+              li.d-flex
                 i.fas.fa-check-circle
-                | Atención plena.
-              li 
+                span Atención plena.
+              li.d-flex
                 i.fas.fa-check-circle
-                | Comprensión activa del mensaje.
-              li 
+                span Comprensión activa del mensaje.
+              li.d-flex
                 i.fas.fa-check-circle
-                | Empatía hacia el interlocutor.
+                span Empatía hacia el interlocutor.
 
         .row.mt-2
           p-4
-            | Escuchar requiere una actitud consciente y esforzada, ya que no solo se trata de oír palabras, sino de entender su intención, su carga emocional y su contexto. Es, en efecto, una herramienta clave en la comunicación telefónica eficaz.
+            span Escuchar requiere una actitud consciente y esforzada, ya que no solo se trata de oír palabras, sino de entender su intención, su carga emocional y su contexto. Es, en efecto, una herramienta clave en la comunicación telefónica eficaz.
       .col-lg-3.d-none.d-lg-flex.align-items-center.justify-content-center
         figure
           img(src='@/assets/curso/tema2/2.png', alt='', style="width: 350px")
@@ -192,19 +192,19 @@
           AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
             .row(titulo="No extralimitar funciones")              
                 p.mb-0           
-                  | El asesor no debe prometer o asumir responsabilidades que no le competen. Si no está en su alcance resolver un problema, debe canalizarlo adecuadamente sin comprometerse de forma indebida.
+                  span El asesor no debe prometer o asumir responsabilidades que no le competen. Si no está en su alcance resolver un problema, debe canalizarlo adecuadamente sin comprometerse de forma indebida.
                   
             .row(titulo="No omitir ni tergiversar información")              
                 p.mb-0           
-                  | La omisión de datos importantes o la distorsión de la información puede generar reclamos y pérdida de credibilidad. Es fundamental brindar información veraz y completa.
+                  span La omisión de datos importantes o la distorsión de la información puede generar reclamos y pérdida de credibilidad. Es fundamental brindar información veraz y completa.
                   
             .row(titulo="No responder con otra pregunta")              
                 p.mb-0           
-                  | Contestar una pregunta con otra puede parecer evasivo y generar desconfianza en el cliente, quien podría sentirse atacado o en la necesidad de justificarse.
+                  span Contestar una pregunta con otra puede parecer evasivo y generar desconfianza en el cliente, quien podría sentirse atacado o en la necesidad de justificarse.
 
             .row(titulo="Evitar expresiones inadecuadas")              
                 p.mb-0           
-                  | Nunca se debe decir que se va a "robar el tiempo", ni utilizar frases fuera de contexto o excesivamente confiadas. Siempre se debe tratar al cliente con cortesía y respeto, manteniendo una comunicación profesional.
+                  span Nunca se debe decir que se va a "robar el tiempo", ni utilizar frases fuera de contexto o excesivamente confiadas. Siempre se debe tratar al cliente con cortesía y respeto, manteniendo una comunicación profesional.
                   
 
         .col-lg-4
@@ -378,15 +378,15 @@
                 p Según Gatti (2013), las personas no se enojan al responder preguntas cuando se cumplen las siguientes condiciones:
 
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Entienden la razón por la cual se les pregunta.
-                  li
+                    span Entienden la razón por la cual se les pregunta.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Perciben que sus respuestas pueden ser útiles para resolver sus problemas.
-                  li
+                    span Perciben que sus respuestas pueden ser útiles para resolver sus problemas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Se les formula cada pregunta con pausa, amabilidad y de forma personalizada, evitando que la conversación parezca automática o robótica.
+                    span Se les formula cada pregunta con pausa, amabilidad y de forma personalizada, evitando que la conversación parezca automática o robótica.
                                
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
@@ -397,18 +397,18 @@
                 p Cuando se hacen correctamente, las preguntas informativas permiten que el cliente:
 
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Entre en sintonía con el asesor o asesora
-                  li
+                    span Entre en sintonía con el asesor o asesora
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Comprenda que las preguntas son parte del trabajo profesional y no una molestia personal.
-                  li
+                    span Comprenda que las preguntas son parte del trabajo profesional y no una molestia personal.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Evite la tensión durante la comunicación.
-                  li
+                    span Evite la tensión durante la comunicación.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Perciba que verdaderamente se le quiere ayudar.
+                    span Perciba que verdaderamente se le quiere ayudar.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
@@ -419,12 +419,12 @@
                 p Cuando se hacen correctamente, las preguntas informativas permiten que el cliente:
 
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-window-close.me-2(style="color:#dd2a37")
-                    | “Para poder comprobar su identidad, necesitaré que me suministre algunos datos.”
-                  li
+                    span “Para poder comprobar su identidad, necesitaré que me suministre algunos datos.”
+                  li.d-flex
                     i.fas.fa-check-square.me-2(style="color:#248804")
-                    | “Para ayudarlo a aclarar sus inquietudes, necesitaré que usted me…”
+                    span “Para ayudarlo a aclarar sus inquietudes, necesitaré que usted me…”
                 .col-12
                  p Una diferencia sutil en el lenguaje puede cambiar por completo la percepción del cliente. Una frase mal formulada puede generar una actitud defensiva, lo que dificulta el proceso de atención y crea un clima tenso.
 
@@ -437,18 +437,18 @@
                 p Cuando el asesor no logra establecer conexión con el cliente, este comienza a cuestionar el propósito de las preguntas, con pensamientos como:
 
                 ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | ¿Cuántas cosas más va a preguntarme?
-                  li
+                    span ¿Cuántas cosas más va a preguntarme?
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | ¿Por qué me pregunta tantas cosas?
-                  li
+                    span ¿Por qué me pregunta tantas cosas?
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | ¿Qué tiene que ver esto con lo que quiero preguntar?
-                  li
+                    span ¿Qué tiene que ver esto con lo que quiero preguntar?
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Si ya le respondí dos preguntas correctamente, ¿para qué me pregunta más?
+                    span Si ya le respondí dos preguntas correctamente, ¿para qué me pregunta más?
             
                 .col-12
                     p Ante esta situación, la habilidad del asesor para aplicar técnicas telefónicas adecuadas es crucial. Su rol consiste en redireccionar la conversación, mantener la calma y llevar al cliente a un estado de confianza donde se le pueda prestar un servicio eficaz.
@@ -517,15 +517,15 @@
             h4.mb-3(style="color:#FFF") Preguntas cerradas
             
             ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Buscan respuestas breves (generalmente "sí" o "no").
-                  li
+                    span Buscan respuestas breves (generalmente "sí" o "no").
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Son útiles para verificar datos y confirmar información puntual.
-                  li
+                    span Son útiles para verificar datos y confirmar información puntual.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | En general, evalúan conocimientos básicos o memorísticos.
+                    span En general, evalúan conocimientos básicos o memorísticos.
                     
 
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -536,15 +536,15 @@
           .crd_hover_txt--body
             h4.mb-3(style="color:#FFF") Preguntas abiertas
             ul.lista-ul.mb-0
-                  li
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Permiten respuestas amplias y desarrolladas.
-                  li
+                    span Permiten respuestas amplias y desarrolladas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Son útiles para explorar opiniones, emociones o experiencias.
-                  li
+                    span Son útiles para explorar opiniones, emociones o experiencias.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
+                    span En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
 
 
       
@@ -555,7 +555,7 @@
             p.mb-4.fw-bold El uso combinado de ambos tipos de preguntas le permite al asesor o asesora:
             
             
-            ul.lista-ul--separador
+            ul.lista-ul
               li.d-flex.align-items-start.mb-3
                 i.fas.fa-check-circle.text-accent.me-3
                 p.mb-0 Guiar la conversación sin imponerla.
@@ -595,15 +595,15 @@
           p <b> Características y uso adecuado </b>
           p Según Gatti (2013), las preguntas abiertas permiten:
             ul.lista-ul.mb-0
-              li
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Permiten respuestas amplias y desarrolladas.
-              li
+                span Permiten respuestas amplias y desarrolladas.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | Son útiles para explorar opiniones, emociones o experiencias.
-              li
+                span Son útiles para explorar opiniones, emociones o experiencias.
+              li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                | En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
+                span En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
   
     .row
     .col-12
@@ -664,9 +664,9 @@
 
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
         
-        //- Section: Audio Card and Professional Photo
+        
         .row.justify-content-center.align-items-stretch
-          //- Left Column: Audio Card inside a stylized container
+        
           .col-lg-8.mb-4.mb-lg-0
             .p-4.bg-color-dark-purple.br-15.h-100.d-flex.align-items-center
               .row.align-items-center.w-100
@@ -797,15 +797,15 @@
                 h4 Ventajas
                 
                 ul.lista-ul--color
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Obligan al cliente a dar una respuesta concreta.
-                  li 
+                    span Obligan al cliente a dar una respuesta concreta.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Son importantes para obtener conclusiones definitivas.
-                  li 
+                    span Son importantes para obtener conclusiones definitivas.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Permiten al asesor o asesora obtener un compromiso explícito del cliente.
+                    span Permiten al asesor o asesora obtener un compromiso explícito del cliente.
                   
 
           .py-3.py-md-4(titulo="Desventajas")
@@ -818,12 +818,12 @@
                 h4 Desventajas
                 
                 ul.lista-ul--color
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Ofrecen pocos datos adicionales.
-                  li 
+                    span Ofrecen pocos datos adicionales.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Pueden parecer bruscas o provocar bloqueo comunicativo.
+                    span Pueden parecer bruscas o provocar bloqueo comunicativo.
                   
     .bg-full-width.mt-5
     .px-4.px-md-5.pb-md-3
@@ -862,12 +862,12 @@
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Ventajas
                 ul.lista-ul--color
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Dirigen la elección sin cerrar completamente la libertad.
-                  li 
+                    span Dirigen la elección sin cerrar completamente la libertad.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Permiten influir en la toma de decisiones de forma sutil.
+                    span Permiten influir en la toma de decisiones de forma sutil.
 
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
@@ -876,12 +876,12 @@
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Desventajas
                 ul.lista-ul--color
-                  li 
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Pueden dar la sensación de manipulación si no se usan con tacto.
-                  li 
+                    span Pueden dar la sensación de manipulación si no se usan con tacto.
+                  li.d-flex
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
-                    | Pueden percibirse como una forma de control excesivo o demasiada dirección.
+                    span Pueden percibirse como una forma de control excesivo o demasiada dirección.
                 
     .row
         .col-12
