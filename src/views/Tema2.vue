@@ -43,24 +43,26 @@
 
 
 
-      .row.justify-content-center.align-items-center.mb-5
-        .col-lg-4.mb-4.mb-lg-0
-          .p-4.br-15(style="background-color: #E2F9F3;")
-            p.mb-0 Según Integralia (2014), la falta de comunicación actual se debe, en gran parte, a que no sabemos escuchar. Se estima que muchos problemas se evitarían si se escuchara mejor.
+    .row.justify-content-center.align-items-stretch.mt-5      
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4(style="background-color: #E2F9F3;")
+          p.mb-0 Según Integralia (2014), la falta de comunicación actual se debe, en gran parte, a que no sabemos escuchar. Se estima que muchos problemas se evitarían si se escuchara mejor.
 
-        .col-lg-4.mb-4.mb-lg-0
-          figure
-            img.br-10(src='@/assets/curso/tema2/3.png', alt='', style="width: 100%;")
+      
+      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure.mb-0.h-100
+          img(src="@/assets/curso/tema2/3.png", alt="", style="height:100%; object-fit:cover;").w-100
 
-        .col-lg-4.text-center.text-lg-start
-          .row.justify-content-center.justify-content-lg-start
-            .col-auto.mb-3
-              figure
-                img(src='@/assets/curso/tema2/4.svg', alt='', style="width: 70px;")
-            .col-12
-              p Por ello, el asesor o asesora debe ser capaz de "ponerse en los zapatos" del cliente, mostrando una actitud empática, comprensiva y respetuosa.
-   
-    .row
+      
+      .col-lg-4(data-aos="fade-left")      
+        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
+          img.mb-3(src="@/assets/curso/tema2/4.svg", alt="" style="max-width:90px")
+          p.mb-0 Por ello, el asesor o asesora debe ser capaz de "ponerse en los zapatos" del cliente, mostrando una actitud empática, comprensiva y respetuosa.
+
+
+
+
+    .row.mt-5
     p Cuando el interlocutor percibe que se le está prestando atención, comienza a expresarse con libertad y claridad. Este es el principio de la <b>escucha activa</b>, componente esencial en el trabajo del asesor telefónico.
     .row.mt-5
             #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -298,7 +300,7 @@
     .row.mb-10
       .col-lg-5.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema2/9.png", data-aos="zoom-in")
+          img(src="@/assets/curso/tema2/9.png", data-aos="zoom-in" style="max-width: 458px")
       .col-lg-7
         .row.align-items-start.mb-3(data-aos="fade-left")
           .col-lg
@@ -594,7 +596,7 @@
         .row
           p <b> Características y uso adecuado </b>
           p Según Gatti (2013), las preguntas abiertas permiten:
-            ul.lista-ul.mb-0
+            ul.lista-ul.mt-3
               li.d-flex
                 i.fas.fa-check-circle.me-2(style="color:#AD9721")
                 span Permiten respuestas amplias y desarrolladas.

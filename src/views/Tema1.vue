@@ -179,7 +179,7 @@
     .row
       .col-lg-3.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/9.png", data-aos="zoom-in", style="max-width: 250px").mx-auto
+          img(src="@/assets/curso/tema1/9.png", data-aos="zoom-in", style="max-width: 240px").mx-auto
 
       .col-lg-9.order-lg-1(data-aos="fade-left")
         .bg-color-15-1.p-4(data-aos="fade-left")
@@ -363,7 +363,7 @@
       
     .row.align-items-center
       // Imagen
-      .col-lg-5.mb-3.mb-lg-0
+      .col-lg-4.mb-3.mb-lg-0
         figure
           img(
             src="@/assets/curso/tema1/15.png",
@@ -372,7 +372,7 @@
           ).mx-auto
 
       // Contenido
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         p
           | La <b>articulación</b> se refiere a la posición y al movimiento de los órganos de la voz para la correcta pronunciación de vocales y consonantes. Una articulación adecuada facilita la comprensión del mensaje y evita malentendidos.
 
@@ -432,7 +432,7 @@
 
     .row.align-items-center
       // Imagen
-      .col-lg-5.mb-3.mb-lg-0
+      .col-lg-4.mb-3.mb-lg-0
         figure
           img(
             src="@/assets/curso/tema1/17.png",
@@ -442,7 +442,7 @@
 
 
       // Contenido
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         p
           | <b>La elocución</b> es la <b>velocidad</b> con la que se transmite el mensaje durante la llamada. Una velocidad adecuada favorece la comprensión y transmite seguridad.
 
@@ -466,25 +466,27 @@
             h3.titulo-con-imagen__texto El lenguaje
 
 
-    .row
-      p El <b>lenguaje</b> es la capacidad del ser humano para comunicarse mediante <b>signos lingüísticos</b>; en este contexto, se hace referencia específicamente al <b>lenguaje verbal</b>. Aunque la comunicación telefónica no permite el contacto visual, el <b>lenguaje corporal</b> puede influir de manera indirecta en la llamada, ya que se refleja a través del tono, la actitud y la forma de expresarse.
+    .row.justify-content-center.mb-5
+      .col-lg-12
+        p.mb-4 El #[b lenguaje] es la capacidad del ser humano para comunicarse mediante #[b signos lingüísticos]; en este contexto, se hace referencia específicamente al #[b lenguaje verbal]. Aunque la comunicación telefónica no permite el contacto visual, el #[b lenguaje corporal] puede influir de manera indirecta en la llamada, ya que se refleja a través del tono, la actitud y la forma de expresarse.
 
-      .col-lg-3.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", style="max-width: 170px").mx-auto
+        .row.align-items-center.mb-4
+          // Lado izquierdo: Bloque hombre + texto azul
+          .col-lg-10
+            .row.g-0.align-items-center.bg-color-5(data-aos="fade-right")
+              .col-md-5
+                figure.mb-0
+                  img(src="@/assets/curso/tema1/19.png")
+              .col-md-7
+                .p-4
+                  p.mb-0 El lenguaje verbal es un elemento básico para transmitir la imagen que la empresa desea proyectar hacia sus clientes. Por esta razón, debe ser positivo, claro y adecuado al contexto, ya que de su uso depende, en gran medida, la percepción que el cliente construye sobre la organización.
 
-      .col-lg-9.order-lg-1(data-aos="fade-left")
-        .bg-color-15-1.p-4(data-aos="fade-left")
-          .row.align-items-center.no-gutters.bg-color-8
-            .col-lg-4.mb-3.mb-lg-0
-              img(src="@/assets/curso/tema1/19.png", style="max-width: 100%")
-            .col-lg-6
-              p.mb-0
-                | El lenguaje verbal es un elemento básico para <b>transmitir la imagen que la empresa desea proyectar</b> hacia sus clientes. Por esta razón, debe ser <b>positivo</b>, claro y adecuado al contexto, ya que de su uso depende, en gran medida, la percepción que el cliente construye sobre la organización.
+            p.mt-3 A continuación, se presenta lo que debe contener y lo que debe evitar el lenguaje utilizado durante la comunicación telefónica.
+          // Lado derecho: Imagen de la mujer
+          .col-lg-2
+            figure.mb-0
+              img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", style="max-width: 100%").mx-auto        
 
-        p
-          | A continuación, se presenta lo que debe contener y lo que debe evitar el lenguaje utilizado durante la comunicación telefónica.
-          
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
         TabsC.color-acento-contenido.mt-5
           .py-3.py-md-4(titulo="Debe contener")
@@ -726,22 +728,24 @@
           | Dentro de la comunicación telefónica, existe un aspecto de gran relevancia que forma parte de la <b>escucha activa: el silencio</b>. El asesor o asesora debe saber <b>ser prudente y respetar los silencios o pausas naturales</b> que se producen durante una conversación, ya que estos contribuyen a que la comunicación sea considerada <b>óptima y profesional.</b>
 
 
-    .row.mt-5.align-items-center.justify-content-center   
-      
-      .col-lg-5.mb-4.mb-lg-0.bg-color-7(data-aos="fade-right")
-        .p-4.rounded.h-100
+    .row.justify-content-center.align-items-stretch.mt-5
+      // Bloque Rosado (Izquierda)
+      .col-lg-5.mb-4.mb-lg-0(data-aos="fade-right")
+        .bg-color-7.p-4.p-lg-5.h-100.d-flex.align-items-center.rounded-4
           p.mb-0 No obstante, es fundamental aclarar que nunca se debe dejar al cliente en silencio sin explicarle el motivo. Esta acción puede interpretarse fácilmente como un desplante, generando impaciencia y malestar en el interlocutor.
 
-      
-      .col-lg-3.mb-4.mb-lg-0.text-center(data-aos="zoom-in")
-        figure
-          img.d-inline(src="@/assets/curso/tema1/27.png", alt="" style="max-width:240px")
+      // Imagen Central (Ajustada a los bordes)
+      .col-lg-3.mb-4.mb-lg-0(data-aos="zoom-in")
+        figure.mb-0.h-100
+          img(src="@/assets/curso/tema1/27.png", alt="", style="height:100%; object-fit:cover;").w-100
 
-      
+      // Bloque con Icono (Derecha) - Alineado al borde inferior
       .col-lg-4(data-aos="fade-left")
-        .d-flex.flex-column.justify-content-center
-          img.mb-3(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:60px")
-          p.mb-0 Este tipo de silencio negativo se conoce como túnel oscuro, y hace referencia a ese momento incómodo en el que el asesor deja esperando al cliente mientras busca información o transfiere la llamada, sin brindar una explicación previa.
+        // Usamos justify-content-end y eliminamos el padding inferior (pb-0)
+        .px-4.pt-4.pb-0.h-100.d-flex.flex-column.justify-content-end
+          img.mb-3(src="@/assets/curso/tema1/6.svg", alt="Icono comunicación" style="max-width:90px")
+          p.mb-0 Este tipo de silencio negativo se conoce como #[b túnel oscuro], y hace referencia a ese momento incómodo en el que el asesor deja esperando al cliente mientras busca información o transfiere la llamada, sin brindar una explicación previa.
+
     
     .row.mt-4
         p
