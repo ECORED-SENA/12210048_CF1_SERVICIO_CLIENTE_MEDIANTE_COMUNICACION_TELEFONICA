@@ -317,7 +317,7 @@ export default {
             },
             {
               id: 'b',
-              texto: 'Pasividad',
+              texto: 'Pasividad.',
               esCorrecta: false,
             },
             {
@@ -327,7 +327,7 @@ export default {
             },
             {
               id: 'd',
-              texto: 'Inseguridad',
+              texto: 'Inseguridad.',
               esCorrecta: false,
             },
           ],
@@ -466,22 +466,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Alternativa',
+              texto: 'Alternativa.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Cerrada',
+              texto: 'Cerrada.',
               esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Abierta',
+              texto: 'Abierta.',
               esCorrecta: true,
             },
             {
               id: 'd',
-              texto: 'Automática',
+              texto: 'Automática.',
               esCorrecta: false,
             },
           ],
@@ -557,22 +557,22 @@ export default {
           opciones: [
             {
               id: 'a',
-              texto: 'Asertivo',
+              texto: 'Asertivo.',
               esCorrecta: false,
             },
             {
               id: 'b',
-              texto: 'Locuaz',
+              texto: 'Locuaz.',
               esCorrecta: true,
             },
             {
               id: 'c',
-              texto: 'Afable',
+              texto: 'Afable.',
               esCorrecta: false,
             },
             {
               id: 'd',
-              texto: 'Seco',
+              texto: 'Seco.',
               esCorrecta: false,
             },
           ],

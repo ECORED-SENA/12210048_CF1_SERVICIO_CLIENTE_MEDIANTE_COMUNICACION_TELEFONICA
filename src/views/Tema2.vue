@@ -229,8 +229,8 @@
     .row.justify-content-center
                       .col-md-10
                         .titulo-sexto.color-acento-contenido.mb-3
-                          h5 Tabla 1.
-                          span Cliente pretencioso: características y recomendaciones de trato
+                          h5 Tabla 10.
+                          span  Expresiones recomendadas y expresiones a evitar
                         
                         .tabla-a.color-acento-botones
                           table
@@ -752,7 +752,7 @@
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
             
-            p.mb-0 <b>¿Sería posible…</b>
+            p.mb-0 <b>¿Sería posible…?</b>
 
 
  
@@ -761,7 +761,7 @@
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
             
-            p.mb-0 <b>¿Podría usted…</b>
+            p.mb-0 <b>¿Podría usted…?</b>
 
 
         .col-md-3
@@ -769,7 +769,7 @@
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
             
-            p.mb-0 <b>¿Querría…</b>
+            p.mb-0 <b>¿Querría…?</b>
 
 
         .col-md-3
@@ -777,7 +777,7 @@
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")
             
-            p.mb-0 <b>¿Le interesaría a usted…</b>
+            p.mb-0 <b>¿Le interesaría a usted…?</b>
 
 
     .row

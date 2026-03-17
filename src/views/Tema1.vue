@@ -235,17 +235,14 @@
       
 
 
-    .row.align-items-center
-      
-      .col-lg-5.mb-3.mb-lg-0
+    .row.justify-content-center.align-items-center
+      .col-lg-4.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/14.png", data-aos="zoom-in", style="max-width: 100%").mx-auto
-
+          img(src="@/assets/curso/tema1/14.png", alt="").mx-auto
       
-      .col-lg-7(data-aos="fade-left")
+      .col-lg-8(data-aos="fade-left")
         p
           | La <b>sonrisa telefónica</b> es un recurso comunicativo de gran relevancia dentro de la atención al cliente, ya que influye directamente en el tono y la percepción de la llamada. Aunque no es visible, <b>se percibe claramente a través de la voz,</b> y su ausencia también suele notarse. Entre sus principales aportes se destacan los siguientes:
-
         .bg-color-5.p-4.mt-3
           ul.lista-ul.mb-0
             li.d-flex
@@ -279,7 +276,7 @@
             h3.titulo-con-imagen__texto La voz
       
       p
-          | La <b>voz</b> es el <b>instrumento básico de la comunicación no verbal</b> a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite <b>generar confianza, influir, persuadir y tranquilizar</b> al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
+          | La <b>voz</b> es el <b>instrumento básico de la comunicación paraverbal</b> a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite <b>generar confianza, influir, persuadir y tranquilizar</b> al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
 
 
       .bg-full-width
@@ -474,7 +471,7 @@
 
       .col-lg-3.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", style="max-width: 250px").mx-auto
+          img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", style="max-width: 170px").mx-auto
 
       .col-lg-9.order-lg-1(data-aos="fade-left")
         .bg-color-15-1.p-4(data-aos="fade-left")
@@ -642,7 +639,7 @@
           .row.justify-content-center
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
-                .row(titulo="El que escucha mal tiende a")
+                .row(titulo="El que escucha mal tiende a:")
                   .col-12
                     p.mb-0                     
                       ul.lista-ul.mb-0
@@ -671,7 +668,7 @@
                           i.fas.fa-circle-right.me-2(style="color:#AD9721")
                           span Desentenderse por diferencias en la forma de expresión.
 
-                .row(titulo="El que escucha bien tiende a")
+                .row(titulo="El que escucha bien tiende a:")
                   .col-12
                     p.mb-0                     
                       ul.lista-ul.mb-0
@@ -814,46 +811,23 @@
             .col-lg-8
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row(titulo="Antes de descolgar")
-                  p.mb-0 Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.                            
-                      ul.lista-ul.mb-0
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Preparar el material:</b> disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Guardar silencio:</b> respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Sonreír:</b> realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Descolgar al primer tono:</b> evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
+                  p Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.                            
+                  p <b>Preparar el material:</b> disponer y adecuar los recursos necesarios de acuerdo con el escenario laboral, para responder de manera oportuna a las necesidades del cliente.
+                  p <b>Guardar silencio:</b> respetar los silencios previos a la acogida, favoreciendo el orden y la calidad de la comunicación telefónica.
+                  p <b>Sonreír:</b> realizar una preparación emocional que facilite la empatía y contribuya a un ambiente agradable durante la interacción.
+                  p <b>Descolgar al primer tono:</b> evitar que el cliente espere innecesariamente, salvo en situaciones justificadas relacionadas con el desarrollo de la labor.
 
                 .row(titulo="Al momento de descolgar")                  
-                  p.mb-0 En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
-                      ul.lista-ul.mb-0
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Abandonar otras tareas</b>: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Guardar silencio hasta la acogida</b>: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor.
+                  p En el instante de atender la llamada, la atención debe centrarse únicamente en el cliente, evitando cualquier tipo de distracción que afecte la calidad del contacto inicial.
+                  p <b>Abandonar otras tareas</b>: realizar actividades paralelas dificulta la escucha activa y se considera una práctica inadecuada en el ejercicio profesional.
+                  p <b>Guardar silencio hasta la acogida</b>: evitar hablar al tomar el teléfono, ya que esta acción genera una percepción negativa y resulta descortés para el interlocutor.
                         
                 .row(titulo="Acogida")                  
-                  p.mb-0 La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
-                      ul.lista-ul.mb-0
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Identificación de la empresa:</b> mencionar el nombre de la empresa de manera clara y segura.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Saludo:</b> realizar un saludo moderado y cordial que propicie una interacción respetuosa.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Identificación personal:</b> presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Oferta de ayuda:</b> brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
+                  p La acogida constituye una etapa clave, dado que representa el primer contacto en el que el asesor o asesora proyecta la imagen de la empresa y define el clima de la comunicación.
+                  p <b>Identificación de la empresa:</b> mencionar el nombre de la empresa de manera clara y segura.
+                  p <b>Saludo:</b> realizar un saludo moderado y cordial que propicie una interacción respetuosa.
+                  p <b>Identificación personal:</b> presentarse y solicitar de forma amable el nombre del cliente, con el fin de generar cercanía.
+                  p <b>Oferta de ayuda:</b> brindar apoyo al cliente mediante la sonrisa telefónica y un tono cálido.
 
 
         .bg--img_03.mt-5
@@ -862,48 +836,24 @@
               AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeonA")
                 .row(titulo="Motivo de la llamada")                
                   
-                    p.mb-0           
-                      span Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.
-                      ul.lista-ul.mb-0
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Sondeo:</b> formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Reformulación:</b> interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
+                    p Antes de atender una llamada, el asesor o asesora debe realizar una preparación previa, asumiendo una actitud positiva y orientada al servicio, con el fin de garantizar una atención adecuada desde el primer contacto.
+                    p <b>Sondeo:</b> formular preguntas que permitan obtener información suficiente sobre la razón de la llamada, utilizando un tono seguro y dirigiéndose al cliente de usted.
+                    p <b>Reformulación:</b> interpretar el mensaje del cliente y manifestar interés mediante el uso de parafraseo, resúmenes y señales verbales que confirmen la escucha.
                         
                 .row(titulo="Acción")
                   
-                    p.mb-0           
-                      span Esta fase corresponde al momento en el que el asesor o asesora participa de manera activa para dar respuesta a la necesidad del cliente, ya sea brindando información, aclarando inquietudes, gestionando quejas o atendiendo reclamaciones.
-                      ul.lista-ul.mb-0
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Gestión de la llamada:</b> aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Transferencia de llamadas:</b> solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Comunicación clara:</b> evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
+                    p Esta fase corresponde al momento en el que el asesor o asesora participa de manera activa para dar respuesta a la necesidad del cliente, ya sea brindando información, aclarando inquietudes, gestionando quejas o atendiendo reclamaciones.
+                    p <b>Gestión de la llamada:</b> aplicar habilidades comunicativas y mantener una actitud profesional orientada a la solución de la situación planteada.
+                    p <b>Transferencia de llamadas:</b> solicitar autorización al cliente y acompañarlo durante el proceso, con el fin de prevenir incomodidades.
+                    p <b>Comunicación clara:</b> evitar responder una pregunta con otra, emplear un lenguaje comprensible y sostener la escucha activa durante toda la interacción.
 
                 .row(titulo="Conclusión")
                   
-                    p.mb-0           
-                      span La conclusión facilita el cierre de la llamada de manera organizada y cordial, fortaleciendo una experiencia positiva para el cliente.
-                      ul.lista-ul.mb-0
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Cierre:</b> realizar un breve recuento de lo acordado durante la llamada. 
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")  
-                          span <b>Agradecimiento:</b> expresar gratitud al cliente por haberse comunicado.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Pausa final:</b> brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
-                        li.d-flex
-                          i.fas.fa-circle-right.me-2(style="color:#625A70")
-                          span <b>Despedida:</b> finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
+                    p La conclusión facilita el cierre de la llamada de manera organizada y cordial, fortaleciendo una experiencia positiva para el cliente.
+                    p <b>Cierre:</b> realizar un breve recuento de lo acordado durante la llamada. 
+                    p <b>Agradecimiento:</b> expresar gratitud al cliente por haberse comunicado.
+                    p <b>Pausa final:</b> brindar un espacio para que el cliente aporte información adicional o plantee alguna inquietud.
+                    p <b>Despedida:</b> finalizar la interacción de forma cálida y cordial, dejando una impresión favorable.
 
             .col-lg-4
               figure(data-aos="zoom-in")
@@ -1039,20 +989,20 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center Vanidoso.
-                            td Elogiarlo.
+                            td.text-center Vanidoso
+                            td.text-center Elogiarlo
                           tr
-                            td.text-center Cree que lo sabe todo.
-                            td Repetir su nombre con frecuencia.
+                            td.text-center Cree que lo sabe todo
+                            td.text-center Repetir su nombre con frecuencia
                           tr
-                            td.text-center Dominante.
-                            td Demostrar interés por sus asuntos.
+                            td.text-center Dominante
+                            td.text-center Demostrar interés por sus asuntos
                           tr
-                            td.text-center Tiende a engañar.
-                            td "Precisamente para personas como usted..."
+                            td.text-center Tiende a engañar
+                            td.text-center "Precisamente para personas como usted..."
                           tr
-                            td.text-center Exige trato exclusivo.
-                            td Ofrecer atención diferenciada.
+                            td.text-center Exige trato exclusivo
+                            td.text-center Ofrecer atención diferenciada
 
             .row(titulo="Cliente desconfiado")              
                 p.mb-4 Son personas escépticas que no confían en nada ni en nadie. Critican los argumentos, tratan de dominar, no escuchan consejos. 
@@ -1070,26 +1020,26 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center No se cree nada.
-                            td Conservar la calma y el buen humor.
+                            td.text-center No se cree nada
+                            td.text-center Conservar la calma y el buen humor
                           tr
-                            td.text-center Intransigente.
-                            td Respetar sus ideas.
+                            td.text-center Intransigente
+                            td.text-center Respetar sus ideas
                           tr
-                            td.text-center Rechaza hasta los argumentos lógicos.
-                            td Hacer preguntas.
+                            td.text-center Rechaza hasta los argumentos lógicos
+                            td.text-center Hacer preguntas
                           tr
-                            td.text-center Susceptible.
-                            td Buscar puntos comunes.
+                            td.text-center Susceptible
+                            td.text-center Buscar puntos comunes
                           tr
-                            td.text-center Utiliza la ironía.
-                            td No mostrarse insistente ni discutidor.
+                            td.text-center Utiliza la ironía
+                            td.text-center No mostrarse insistente ni discutidor
                           tr
-                            td.text-center Le gusta comprar, no que le vendan.
-                            td No afirmar lo que no se pueda demostrar.
+                            td.text-center Le gusta comprar, no que le vendan
+                            td.text-center No afirmar lo que no se pueda demostrar
                           tr
-                            td.text-center Le pone faltas a todo.
-                            td Presentar pruebas, no entrar en su juego.
+                            td.text-center Le pone faltas a todo
+                            td.text-center Presentar pruebas, no entrar en su juego
 
             .row(titulo="Cliente indeciso")
                 p.mb-4 Este cliente muy pocas veces toma decisiones por sí mismo. Necesita que el asesor lo oriente constantemente, hace muchas preguntas y suele decir que "lo va a pensar", prolongando la llamada.                
@@ -1106,23 +1056,23 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center Se muestra inseguro.
-                            td Escuchar pacientemente.
+                            td.text-center Se muestra inseguro
+                            td.text-center Escuchar pacientemente
                           tr
-                            td.text-center No sabe lo que quiere.
-                            td Investigar su motivación.
+                            td.text-center No sabe lo que quiere
+                            td.text-center Investigar su motivación
                           tr
-                            td.text-center Duda de todo y de todos.
-                            td Ofrecer pocas alternativas.
+                            td.text-center Duda de todo y de todos
+                            td.text-center Ofrecer pocas alternativas
                           tr
-                            td.text-center Intenta aplazar la decisión.
-                            td Darle seguridad.
+                            td.text-center Intenta aplazar la decisión
+                            td.text-center Darle seguridad
                           tr
-                            td.text-center Responde con evasivas al cierre.
-                            td Insistir en los perjuicios de la demora.
+                            td.text-center Responde con evasivas al cierre
+                            td.text-center Insistir en los perjuicios de la demora
                           tr
-                            td.text-center Pide la opinión del interlocutor.
-                            td Orientarlo, asegurar su comprensión.
+                            td.text-center Pide la opinión del interlocutor
+                            td.text-center Orientarlo, asegurar su comprensión
 
             .row(titulo="Cliente grosero")
                 p.mb-4 Es el peor cliente que puede encontrarse un asesor. Tiene un repertorio de agresiones, comentarios y actitudes malintencionadas, no solo hacia el asesor, sino también hacia la empresa.                
@@ -1140,23 +1090,17 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center Mal humor permanente.
-                            td Ser cortés pero no sumiso.
+                            td.text-center Mal humor permanente
+                            td.text-center Ser cortés pero no sumiso
                           tr
-                            td.text-center Ofende al interlocutor.
-                            td Hacer caso omiso de su grosería.
+                            td.text-center Ofende al interlocutor
+                            td.text-center Hacer caso omiso de su grosería
                           tr
-                            td.text-center Discute con facilidad.
-                            td No interrumpir.
+                            td.text-center Discute con facilidad
+                            td.text-center No interrumpir
                           tr
-                            td.text-center Dominante y agresivo.
-                            td Prescindir de promociones, mantener calma.
-
-
-
-
-
-
+                            td.text-center Dominante y agresivo
+                            td.text-center Prescindir de promociones, mantener calma
       .bg--img_03.mt-5
       .row.justify-content-center
         .col-lg-8
@@ -1177,17 +1121,17 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center No tiene sentido del tiempo.
-                            td Escuchar con simpatía.
+                            td.text-center No tiene sentido del tiempo
+                            td.text-center Escuchar con simpatía
                           tr
-                            td.text-center Desvía la atención del interlocutor.
-                            td Escuchar con simpatía.
+                            td.text-center Desvía la atención del interlocutor
+                            td.text-center Escuchar con simpatía
                           tr
-                            td.text-center Habla demasiado, acapara la conversación.
-                            td Mantener la distancia.
+                            td.text-center Habla demasiado, acapara la conversación
+                            td.text-center Mantener la distancia
                           tr
-                            td.text-center la conversación
-                            td
+                            td.text-center La conversación
+                            td.text-center No darle familiaridad
 
             .row(titulo="Cliente afable")
                 p.mb-4 Generalmente, es una persona muy hábil con las palabras. Le gusta agradar e interactuar, pero no siempre tiene un interés real.
@@ -1206,17 +1150,17 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center Dice "sí" a todo.
-                            td Escuchar con simpatía.
+                            td.text-center Dice "sí" a todo
+                            td.text-center Escuchar con simpatía
                           tr
-                            td.text-center Desvía la atención del interlocutor.
-                            td Escuchar con simpatía.
+                            td.text-center Desvía la atención del interlocutor
+                            td.text-center Escuchar con simpatía
                           tr
-                            td.text-center Habla demasiado, acapara.
-                            td Mantener la distancia.
+                            td.text-center Habla demasiado, acapara
+                            td.text-center Mantener la distancia
                           tr
-                            td.text-center La conversación.
-                            td No darle familiaridad.
+                            td.text-center La conversación
+                            td.text-center No darle familiaridad
 
             .row(titulo="Cliente seguro de sí mismo")
                 p.mb-4 Este tipo de cliente es el mejor para concluir negocios. No expresa emotividad, pero declara claramente sus intenciones. Es el cliente asertivo por naturaleza.
@@ -1235,17 +1179,17 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center Confía en su criterio.
-                            td Mantener aplomo.
+                            td.text-center Confía en su criterio
+                            td.text-center Mantener aplomo
                           tr
-                            td.text-center Sabe lo que quiere.
-                            td Usar argumentos de peso.
+                            td.text-center Sabe lo que quiere
+                            td.text-center Usar argumentos de peso
                           tr
-                            td.text-center Es consciente de la información.
-                            td Seriedad y seguridad.
+                            td.text-center Es consciente de la información
+                            td.text-center Seriedad y seguridad
                           tr
-                            td.text-center Que necesita.
-                            td Hacerle sentir que recibe una propuesta exclusiva.
+                            td.text-center Que necesita
+                            td.text-center Hacerle sentir que recibe una propuesta exclusiva
                       
 
             .row(titulo="Cliente seco")
@@ -1265,14 +1209,14 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center  Usa monosílabos.
-                            td.text-center  No forzarlo a hablar.
+                            td.text-center  Usa monosílabos
+                            td.text-center  No forzarlo a hablar
                           tr
-                            td.text-center  No toma la iniciativa.
-                            td.text-center  Formular preguntas cerradas con respuesta afirmativa.
+                            td.text-center  No toma la iniciativa
+                            td.text-center  Formular preguntas cerradas con respuesta afirmativa
                           tr
-                            td.text-center  Utiliza frases cortas.
-                            td.text-center  Usar frases breves y precisas.
+                            td.text-center  Utiliza frases cortas
+                            td.text-center  Usar frases breves y precisas
 
             .row(titulo="Cliente exagerado")
                 p.mb-4 Difícilmente se le complace, ya que tiende a exagerar todo: desde el servicio hasta el trato recibido.                
@@ -1290,14 +1234,14 @@
                             th.text-center(style="width: 60%") Niveles del lenguaje
                         tbody
                           tr
-                            td.text-center  Lo agranda todo.
-                            td.text-center  Objetivar.
+                            td.text-center  Lo agranda todo
+                            td.text-center  Objetivar
                           tr
-                            td.text-center  Es subjetivo.
-                            td.text-center  Pedir datos concretos.
+                            td.text-center  Es subjetivo
+                            td.text-center  Pedir datos concretos
                           tr
-                            td.text-center  "Saca las cosas de quicio".
-                            td.text-center  Confirmar los datos aportados.
+                            td.text-center  "Saca las cosas de quicio"
+                            td.text-center  Confirmar los datos aportados
         .col-lg-4 
           figure(data-aos="zoom-in")
             img(src="@/assets/curso/tema1/36.png", alt="alt").img400.m-auto
