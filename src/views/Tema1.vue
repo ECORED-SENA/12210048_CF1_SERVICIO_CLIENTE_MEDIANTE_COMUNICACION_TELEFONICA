@@ -40,10 +40,8 @@
           .card-cualidad.h-100.text-center Empatía
       .col-lg.mb-3
           .card-cualidad.h-100.text-center Paciencia
-
     .row.mt-4
       p.mb-0 Las siguientes capacidades consolidan el desempeño profesional mediante una comunicación clara, organizada y centrada en el interlocutor.
-
     .row.bg-color-14
       .col-12
         .p-5
@@ -72,36 +70,24 @@
                   .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                     img(src='@/assets/curso/tema1/carrusel_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                     p Capacidad de organización.
-            
-        
-
     .row.mb-5
       p.mb-0 Además de estas cualidades, la paciencia es un factor fundamental en esta profesión. El asesor telefónico se enfrenta a todo tipo de situaciones, algunas tan inusuales que resultan <b>“difíciles de creer”</b>. A lo largo de su experiencia laboral, vivirá momentos positivos y negativos; sin embargo, si cuenta con las habilidades adecuadas y una disposición genuina para ofrecer un buen servicio, su desempeño será exitoso.
-
-
-
     .bg-full-width
       .px-4.px-md-5.pb-md-3
-
       .titulo-con-imagen.mb-5(data-aos="fade-right")
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
           h3.titulo-con-imagen__texto El cliente es lo primero
-
-
     .row.mb-2
           p.mb-0 Es fundamental partir de la premisa de que <b>el cliente es la persona más importante de un negocio, empresa u organización.</b> Toda persona que aspire a ingresar a este tipo de entorno laboral debe tener claro que el cliente constituye el <b>centro de la actividad empresarial</b>, y que, en muchos casos, serán los <b>asesores telefónicos</b> el primer contacto que un posible consumidor tendrá con la organización.
-
     .row.bg-color-16
       .col-12
         .p-5
           .row.mb-5.align-items-end
             .col-lg-5.mb-5.mb-lg-0(data-aos="zoom-in")
               figure.mb-0
-                img(src="@/assets/curso/tema1/3.png", alt="Imagen decorativa", style="width: 100%")
-            
-            .col-lg-7
-              //- Bloque superior
+                img(src="@/assets/curso/tema1/3.png", alt="Imagen decorativa", style="width: 100%")            
+            .col-lg-7              
               .row.align-items-start.mb-3(data-aos="fade-left")
                 .col-12
                   p.mb-0 En este sentido, resulta imprescindible recordar que #[b el elemento vital para una comunicación efectiva es la práctica de los modales y las buenas costumbres,] ya que estas permiten evidenciar la importancia que tiene el interlocutor.
