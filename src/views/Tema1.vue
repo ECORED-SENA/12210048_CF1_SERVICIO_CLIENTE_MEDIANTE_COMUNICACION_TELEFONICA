@@ -5,41 +5,29 @@
     .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 1
-      h1 Comunicación telefónica
- 
+      h1 Comunicación telefónica 
     .row.mb-5
       p.mb-0 En la sociedad actual, el teléfono es una herramienta fundamental empleada en diversas actividades, tanto personales como empresariales. La comunicación telefónica se ha convertido en un recurso cotidiano dentro de cualquier organización, siendo uno de los elementos clave en un buen esquema de atención al cliente.
-
     .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Aunque comúnmente se piensa que comunicarse por teléfono es tarea fácil por tratarse de un hábito tradicional, lo cierto es que cuando esta se realiza de forma profesional, requiere habilidades específicas y preparación. Por esta razón, es fundamental formarse en este campo para lograr una comunicación efectiva y profesional.
-    
     .row.mt-4
       p.mb-0 En un mercado saturado de mensajes visuales y gráficos, el teléfono ofrece una vía directa para transmitir una buena imagen empresarial. Usado correctamente, puede traer importantes beneficios organizacionales como la consolidación de relaciones con clientes, gracias a su capacidad para ofrecer una comunicación rápida, continua y eficaz.
-    
-    .row.mt-5
-        #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
-          h2 1.1 El papel del asesor en la comunicación telefónica
-
-        p.mb-5(data-aos="fade-left") El rol del asesor o asesora telefónica es esencial en la atención al cliente, ya que su única <b>herramienta de trabajo es la voz</b>. Esto implica que debe poseer, desarrollar o fortalecer ciertas cualidades que le permitan brindar una atención eficiente y profesional.
-
-
-    .row
-    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5
+    Separador
+    #t_1_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
+      h2 1.1 El papel del asesor en la comunicación telefónica
+    p.mb-5(data-aos="fade-left") El rol del asesor o asesora telefónica es esencial en la atención al cliente, ya que su única <b>herramienta de trabajo es la voz</b>. Esto implica que debe poseer, desarrollar o fortalecer ciertas cualidades que le permitan brindar una atención eficiente y profesional.
+    .bloque-texto-g.bloque-texto-g--inverso.color-acento-contenido.p-3.p-sm-4.p-md-5.mb-4
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/tema1/2.png')})`}"
       )
       .bloque-texto-g__texto.p-4
         p.mb-0 Todas las personas pueden ser capacitadas para desempeñar tareas que exijan un perfil comercial y de servicio, siempre que tengan las cualidades necesarias o estén dispuestas a desarrollarlas con esfuerzo y dedicación. Aunque algunas de estas habilidades pueden estar presentes de manera natural, en muchos casos deben ser cultivadas.
-
-    .row.mt-4
-      p.mb-0 A continuación, se presentan las cualidades necesarias para desempeñarse adecuadamente como asesor o asesora telefónica:
-
-      
-    .row.mt-5.justify-content-center.g-3
+    p.mb-4 A continuación, se presentan las cualidades necesarias para desempeñarse adecuadamente como asesor o asesora telefónica:
+    .row.justify-content-center.g-3
       .col-lg.mb-3
           .card-cualidad.h-100.text-center Ganas de aprender
       .col-lg.mb-3
@@ -56,36 +44,35 @@
     .row.mt-4
       p.mb-0 Las siguientes capacidades consolidan el desempeño profesional mediante una comunicación clara, organizada y centrada en el interlocutor.
 
-
-
-  
-    .bg-full-width.mt-5
-      .px-4.px-md-5.pb-md-3             
-        .carousel-bg
-          .row.justify-content-center.mb-5.align-items-center
-            .col-lg-9.mb-3.mb-lg-0.order-lg-2
-              SlyderF(columnas="col-md-6 col-xl-6")
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  p Capacidad de transmitir ideas.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  p Capacidad de atraer la atención del interlocutor.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  p Capacidad de atención.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_05.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  p Habilidad para captar las necesidades del cliente.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_06.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  p Alto sentido de compromiso.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  p Capacidad de organización.
-            .col-lg-3.order-lg-1.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
+    .row.bg-color-14
+      .col-12
+        .p-5
+          .carousel-bg
+            .row.align-items-center
+              .col-lg-4.mb-4.mb-lg-0
+                  figure
+                    img(src='@/assets/curso/tema1/carrusel_01.png', style="width: 400px").m-auto
+              .col-lg-8
+                SlyderF(columnas="col-md-6 col-xl-6")
+                  .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                    img(src='@/assets/curso/tema1/carrusel_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                    p Capacidad de transmitir ideas.
+                  .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                    img(src='@/assets/curso/tema1/carrusel_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                    p Capacidad de atraer la atención del interlocutor.
+                  .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                    img(src='@/assets/curso/tema1/carrusel_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                    p Capacidad de atención.
+                  .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                    img(src='@/assets/curso/tema1/carrusel_05.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                    p Habilidad para captar las necesidades del cliente.
+                  .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                    img(src='@/assets/curso/tema1/carrusel_06.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                    p Alto sentido de compromiso.
+                  .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                    img(src='@/assets/curso/tema1/carrusel_07.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                    p Capacidad de organización.
+            
         
 
     .row.mb-5
@@ -101,42 +88,45 @@
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
           h3.titulo-con-imagen__texto El cliente es lo primero
 
+
     .row.mb-2
           p.mb-0 Es fundamental partir de la premisa de que <b>el cliente es la persona más importante de un negocio, empresa u organización.</b> Toda persona que aspire a ingresar a este tipo de entorno laboral debe tener claro que el cliente constituye el <b>centro de la actividad empresarial</b>, y que, en muchos casos, serán los <b>asesores telefónicos</b> el primer contacto que un posible consumidor tendrá con la organización.
 
-
-    .row.mb-10
-      .col-lg-5.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/tema1/3.png", data-aos="zoom-in", style="max-width: 100%" )
-      .col-lg-7
-        .row.align-items-start.mb-3(data-aos="fade-left")
-          .col-lg
-          p.mb-0 En este sentido, resulta imprescindible recordar que <b>el elemento vital para una comunicación efectiva es la práctica de los modales y las buenas costumbres,</b> ya que estas permiten evidenciar la importancia que tiene el interlocutor.
-        .row.align-items-start.mb-10(data-aos="fade-left")  
-          .col-lg-auto
-            img.d-none.d-lg-flex(src="@/assets/curso/tema1/4.svg", style="max-width: 90px").mx-auto
-          .col-lg
-            p(data-aos="fade-left") Por ello, el asesor o asesora telefónica debe poner de manifiesto sus <b>principios y valores</b>, los cuales se reflejan directamente en la calidad del servicio ofrecido. Una comunicación telefónica adecuada contribuye de manera significativa al desarrollo de un <b>óptimo servicio al cliente</b>, fortaleciendo la percepción positiva de la empresa.
-
-
-      .row.justify-content-center.align-items-center.mt-5
-        .col-lg-10
-    
-          .d-flex.justify-content-center.mb-4
-            .titulo-sexto.color-acento-contenido
-              h5 Figura 1.
-              span Pérdida de clientes por mala atención.
-
-
-          .row.justify-content-center
-            .col-12
-              figure
-                img(src="@/assets/curso/tema1/figura1.svg", alt="Gráfico de barras horizontales que compara las razones de pérdida de clientes según la empresa y según los clientes, con categorías como servicio al cliente, calidad, precio, otros, funcionalidad, comodidad y necesidad de cambios.", style="width: 100%; height: auto;", data-aos="zoom-in")
-
+    .row.bg-color-16
+      .col-12
+        .p-5
+          .row.mb-5.align-items-end
+            .col-lg-5.mb-5.mb-lg-0(data-aos="zoom-in")
+              figure.mb-0
+                img(src="@/assets/curso/tema1/3.png", alt="Imagen decorativa", style="width: 100%")
+            
+            .col-lg-7
+              //- Bloque superior
+              .row.align-items-start.mb-3(data-aos="fade-left")
+                .col-12
+                  p.mb-0 En este sentido, resulta imprescindible recordar que #[b el elemento vital para una comunicación efectiva es la práctica de los modales y las buenas costumbres,] ya que estas permiten evidenciar la importancia que tiene el interlocutor.
+              
+              //- Bloque del icono: usamos g-0 para quitar espacios entre columnas (gutters)
+              .row.g-0.align-items-start(data-aos="fade-left")  
+                .col-lg-auto.d-none.d-lg-block.pe-3
+                  //- Ajustamos el margen superior negativo (mt-1 o similar) si el line-height del texto es muy alto
+                  img(src="@/assets/curso/tema1/4.svg", style="width: 80px; margin-top: 4px")
                 
-    .row.mt-4
-          p.mb-0 La figura permite identificar los principales motivos de abandono de clientes. En ella se evidencia que, dentro de las razones por las cuales una empresa pierde clientes o clientes potenciales, <b>el servicio al cliente ocupa el primer lugar.</b> Este dato confirma la relevancia de la atención brindada en la permanencia y fidelización del consumidor.
+                .col-lg
+                  //- El párrafo debe tener margin-top 0 para que el texto empiece arriba del todo
+                  p.mb-0.mt-0 Por ello, el asesor o asesora telefónica debe poner de manifiesto sus #[b principios y valores], los cuales se reflejan directamente en la calidad del servicio ofrecido. Una comunicación telefónica adecuada contribuye de manera significativa al desarrollo de un #[b óptimo servicio al cliente], fortaleciendo la percepción positiva de la empresa.
+
+
+            .row.justify-content-center.mt-5
+              .col-lg-auto
+                .titulo-sexto.color-acento-contenido
+                  h5 Figura 1.
+                  span Pérdida de clientes por mala atención.
+                figure
+                  img(src="@/assets/curso/tema1/figura1.svg", alt="Gráfico de barras horizontales que compara las razones de pérdida de clientes según la empresa y según los clientes, con categorías como servicio al cliente, calidad, precio, otros, funcionalidad, comodidad y necesidad de cambios.", style="width: 800px")
+                      
+          .row.mt-4
+                p.mb-0 La figura permite identificar los principales motivos de abandono de clientes. En ella se evidencia que, dentro de las razones por las cuales una empresa pierde clientes o clientes potenciales, <b>el servicio al cliente ocupa el primer lugar.</b> Este dato confirma la relevancia de la atención brindada en la permanencia y fidelización del consumidor.
 
     
     .row.mt-5.align-items-stretch.justify-content-center 
@@ -171,7 +161,7 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 En este contexto, <b>la capacitación permanente se convierte en un factor diferenciador,</b> ya que contribuye a elevar la calidad del servicio y a consolidar relaciones duraderas con los clientes. Es precisamente a través de estas prácticas formativas que las organizaciones logran destacarse y responder de manera efectiva a las expectativas del mercado.
-
+    Separador
     .row.mt-5
         #t_1_2.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.2 Componentes de la comunicación telefónica 
@@ -196,7 +186,7 @@
     .row.mt-5.justify-content-center
         .col-lg-3.mb-3.d-flex.align-items-stretch
           .card.h-100
-            img(src="@/assets/curso/tema1/10.png", alt="La sonrisa", class="card-img-top")
+            img(src="@/assets/curso/tema1/10.png", alt="", class="card-img-top")
             .card-body
               h5.card-title.text-center La sonrisa
               p.card-text.text-center.flex-grow-1
@@ -204,7 +194,7 @@
 
         .col-lg-3.mb-3
           .card
-            img(src="@/assets/curso/tema1/11.png", alt="La voz", class="card-img-top")
+            img(src="@/assets/curso/tema1/11.png", alt="", class="card-img-top")
             .card-body
               h5.card-title.text-center La voz
               p.card-text.text-center.flex-grow-1
@@ -212,7 +202,7 @@
 
         .col-lg-3.mb-3
           .card
-            img(src="@/assets/curso/tema1/12.png", alt="El lenguaje", class="card-img-top")
+            img(src="@/assets/curso/tema1/12.png", alt="", class="card-img-top")
             .card-body
               h5.card-title.text-center El lenguaje
               p.card-text.text-center.flex-grow-1
@@ -274,9 +264,12 @@
           .titulo-con-imagen__fondo
             img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
             h3.titulo-con-imagen__texto La voz
-      
-      p
-          | La <b>voz</b> es el <b>instrumento básico de la comunicación paraverbal</b> a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite <b>generar confianza, influir, persuadir y tranquilizar</b> al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
+
+
+    .row.bg-color-17
+      .col-12
+        .p-5
+          p La <b>voz</b> es el <b>instrumento básico de la comunicación paraverbal</b> a través del cual se transmiten y se estructuran los mensajes en una interacción telefónica. Su correcta utilización permite <b>generar confianza, influir, persuadir y tranquilizar</b> al interlocutor, convirtiéndose en un elemento determinante para la eficacia del servicio al cliente. Los componentes de la voz son: 
 
 
       .bg-full-width
@@ -286,25 +279,25 @@
         .row.justify-content-center.mb-5.align-items-center
           .col-lg-12.mb-3.mb-lg-0.order-lg-2
             SlyderF(columnas="col-md-4 col-xl-4")
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+              .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Volumen
                 p.card-text.text-center
                   | Intensidad con la que se emite la voz durante la llamada.
 
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+              .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Entonación
                 p.card-text.text-center
                   | Variación de la altura y tonalidad de la voz según la intención comunicativa.
 
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+              .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Articulación
                 p.card-text.text-center
                   | Posición y movimiento de los órganos de la voz para una correcta pronunciación.
 
-              .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+              .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                 img(src='@/assets/curso/tema1/carrusel2_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
                 h4.card-title.text-center Elocución
                 p.card-text.text-center
@@ -470,8 +463,7 @@
       .col-lg-12
         p.mb-4 El #[b lenguaje] es la capacidad del ser humano para comunicarse mediante #[b signos lingüísticos]; en este contexto, se hace referencia específicamente al #[b lenguaje verbal]. Aunque la comunicación telefónica no permite el contacto visual, el #[b lenguaje corporal] puede influir de manera indirecta en la llamada, ya que se refleja a través del tono, la actitud y la forma de expresarse.
 
-        .row.align-items-center.mb-4
-          // Lado izquierdo: Bloque hombre + texto azul
+        .row.align-items-center.mb-0
           .col-lg-10
             .row.g-0.align-items-center.bg-color-5(data-aos="fade-right")
               .col-md-5
@@ -482,7 +474,7 @@
                   p.mb-0 El lenguaje verbal es un elemento básico para transmitir la imagen que la empresa desea proyectar hacia sus clientes. Por esta razón, debe ser positivo, claro y adecuado al contexto, ya que de su uso depende, en gran medida, la percepción que el cliente construye sobre la organización.
 
             p.mt-3 A continuación, se presenta lo que debe contener y lo que debe evitar el lenguaje utilizado durante la comunicación telefónica.
-          // Lado derecho: Imagen de la mujer
+          
           .col-lg-2
             figure.mb-0
               img(src="@/assets/curso/tema1/18.png", data-aos="zoom-in", style="max-width: 100%").mx-auto        
@@ -539,14 +531,14 @@
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
                     span Diminutivos o superlativos inútiles.
 
+
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")                     
           h3.titulo-purpura Requisitos del lenguaje verbal efectivo
 
-    .row
-        p
-          | Para que el lenguaje verbal sea realmente eficaz en la comunicación telefónica, debe cumplir con los siguientes principios:
+
+    p(data-aos="fade-left") Para que el lenguaje verbal sea realmente eficaz en la comunicación telefónica, debe cumplir con los siguientes principios:
 
 
     
@@ -598,40 +590,41 @@
             img.titulo-con-imagen__imagen(src="@/assets/curso/tema1/imagen-titulos.svg")
             h3.titulo-con-imagen__texto La escucha activa
 
+
     .row
-        p
-          | La <b>escucha activa</b> es la habilidad de <b>escuchar no solo las palabras</b>, sino también las <b>ideas, intenciones y pensamientos</b> que subyacen en el discurso del interlocutor. Además, implica demostrar de manera explícita que el mensaje ha sido comprendido, lo cual permite <b>crear un vínculo con el cliente</b> y ofrecer un servicio de calidad. A partir de este concepto, la escucha activa se compone de <b>elementos decisivos</b> que facilitan el desempeño eficaz del asesor o asesora telefónica. A continuación, se describen los elementos de la escucha activa y la función que cumple cada uno dentro del proceso comunicativo.
-
-
-    .bg-full-width.mt-5
-      .px-4.px-md-5.pb-md-3             
-        .carousel-bg
-          .row.justify-content-center.mb-5.align-items-center
-            .col-lg-9.mb-3.mb-lg-0.order-lg-2
-              SlyderF(columnas="col-md-6 col-xl-6")
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Escuchar
-                  p.card-text.text-center
-                  | Prestar atención plena al mensaje del cliente.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Analizar
-                  p.card-text.text-center
-                  | Procesar la información recibida.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Interpretar
-                  p.card-text.text-center
-                  | Comprender el significado y la intención del mensaje.
-                .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
-                  img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
-                  h4.card-title.text-center Actuar
-                  p.card-text.text-center
-                  | Responder de manera adecuada y oportuna.
-            .col-lg-3.order-lg-1.d-none.d-lg-block
-                figure
-                  img(src='@/assets/curso/tema1/carrusel_01.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
+      p La <b>escucha activa</b> es la habilidad de <b>escuchar no solo las palabras</b>, sino también las <b>ideas, intenciones y pensamientos</b> que subyacen en el discurso del interlocutor. Además, implica demostrar de manera explícita que el mensaje ha sido comprendido, lo cual permite <b>crear un vínculo con el cliente</b> y ofrecer un servicio de calidad. A partir de este concepto, la escucha activa se compone de <b>elementos decisivos</b> que facilitan el desempeño eficaz del asesor o asesora telefónica. A continuación, se describen los elementos de la escucha activa y la función que cumple cada uno dentro del proceso comunicativo.
+    .row.bg-color-14
+      .col-12
+        .p-5
+          .bg-full-width.mt-5
+            .px-4.px-md-5.pb-md-3             
+              .carousel-bg
+                .row.justify-content-center.mb-5.align-items-center
+                  .col-lg-8.mb-3.mb-lg-0.order-lg-2
+                    SlyderF(columnas="col-md-6 col-xl-6")
+                      .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/carrusel3_01.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center Escuchar
+                        p.card-text.text-center
+                        | Prestar atención plena al mensaje del cliente.
+                      .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/carrusel3_02.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center Analizar
+                        p.card-text.text-center
+                        | Procesar la información recibida.
+                      .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/carrusel3_03.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center Interpretar
+                        p.card-text.text-center
+                        | Comprender el significado y la intención del mensaje.
+                      .bg-color-15.tarjeta.p-4.h-100.shadow-app.text-center.bordes
+                        img(src='@/assets/curso/tema1/carrusel3_04.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
+                        h4.card-title.text-center Actuar
+                        p.card-text.text-center
+                        | Responder de manera adecuada y oportuna.
+                  .col-lg-4.order-lg-1.d-none.d-lg-block
+                      figure
+                        img(src='@/assets/curso/tema1/carrusel_01.png', style="width: 600px", alt='', data-aos="zoom-in").m-auto
 
     .row
         p
@@ -756,7 +749,7 @@
       .px-4.px-md-5.pb-md-3             
         .carousel-bg
           .row.justify-content-center.mb-5.align-items-center
-            .col-lg-9.mb-3.mb-lg-0.order-lg-2
+            .col-lg-8.mb-3.mb-lg-0.order-lg-2
               SlyderF(columnas="col-md-6 col-xl-6")
                 .bg-color-white.tarjeta.p-4.h-100.shadow-app.text-center.bordes
                   img(src='@/assets/curso/tema1/31.svg' alt='' , style="max-width: 90px").mx-auto.mb-3
@@ -778,13 +771,13 @@
                   h4.card-title.text-center Favorecer objeciones
                   p.card-text.text-center
                   | Propicia la manifestación de dudas o inquietudes del cliente.
-            .col-lg-3.order-lg-1.d-none.d-lg-block
+            .col-lg-4.order-lg-1.d-none.d-lg-block
                 figure
-                  img(src='@/assets/curso/tema1/28.png', style="max-width: 250px", alt='', data-aos="zoom-in").m-auto
+                  img(src='@/assets/curso/tema1/28.png', style="width: 400px").m-auto
     .row.mt-4
       p.mb-0 El silencio bien utilizado fortalece la comunicación telefónica; sin embargo, el silencio no explicado genera incomodidad y deteriora la experiencia del cliente.
 
-
+    Separador
 
     .row.mt-5
         #t_1_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -863,6 +856,7 @@
               figure(data-aos="zoom-in")
                 img(src="@/assets/curso/tema1/34.png", alt="").img400.m-auto
 
+    Separador
     .row.mt-5
         #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
           h2 1.4 Conductas y tipologías de clientes

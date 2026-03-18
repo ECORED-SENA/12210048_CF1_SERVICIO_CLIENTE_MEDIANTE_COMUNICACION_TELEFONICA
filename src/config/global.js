@@ -3,7 +3,7 @@ export default {
     Name: 'Comunicación telefónica y atención al cliente',
     Description:
       'La comunicación telefónica es una herramienta clave en la atención al cliente y la proyección de la imagen organizacional. Requiere habilidades como escucha activa, uso adecuado de la voz, lenguaje positivo y manejo del silencio. Un asesor bien preparado puede identificar necesidades, gestionar situaciones complejas y fortalecer la relación con los clientes mediante un trato respetuoso, claro y profesional.',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.svg'),
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
       {
