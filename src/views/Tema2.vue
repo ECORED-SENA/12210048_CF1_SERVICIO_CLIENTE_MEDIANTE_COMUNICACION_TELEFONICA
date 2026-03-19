@@ -6,7 +6,6 @@
       .titulo-principal__numero
         span 2
       h1 Técnicas telefónicas básicas
-
     .row.mb-1
       p.mb-0 Escuchar es una acción fundamental en el proceso de comunicación. Proviene del latín <i>ascultāre</i> y hace referencia a prestar atención con el sentido del oído. Sin embargo, va mucho más allá del simple acto de oír: implica un proceso psíquico y fisiológico, en el que intervienen otros sentidos y habilidades cognitivas para comprender verdaderamente el mensaje del interlocutor. 
     .row.justify-content-center.align-items-stretch.mb-2  
@@ -49,7 +48,7 @@
           img.mb-3(src="@/assets/curso/tema2/4.svg", alt="" style="max-width:90px")
           p.mb-0 Por ello, el asesor o asesora debe ser capaz de "ponerse en los zapatos" del cliente, mostrando una actitud empática, comprensiva y respetuosa.
     .row.mt-5
-    p Cuando el interlocutor percibe que se le está prestando atención, comienza a expresarse con libertad y claridad. Este es el principio de la <b>escucha activa</b>, componente esencial en el trabajo del asesor telefónico.
+    p(data-aos="fade-right") Cuando el interlocutor percibe que se le está prestando atención, comienza a expresarse con libertad y claridad. Este es el principio de la <b>escucha activa</b>, componente esencial en el trabajo del asesor telefónico.
     Separador
     .row.mt-5
             #t_2_1.titulo-segundo.color-acento-contenido(data-aos="fade-right")
@@ -71,7 +70,7 @@
         p.mb-0 En la comunicación telefónica, no es posible percibir con facilidad el lenguaje corporal que el asesor o la asesora quiera transmitir al cliente. Por consiguiente, es a través de la voz y el lenguaje verbal que deben demostrarse buenos modales, proyectando no solo la imagen del profesional, sino también la de la empresa que representa.
     .row.mb-4
           .col-12
-            p La cordialidad y el respeto deben ser siempre el denominador común de toda interacción. Como señala Reyes (2016), en cada llamada, sin importar su propósito, es aconsejable mantener buenos modales si se desea proyectar una imagen profesional adecuada. A continuación, se detallan las recomendaciones para conservar una buena etiqueta telefónica:          
+            p(data-aos="fade-right") La cordialidad y el respeto deben ser siempre el denominador común de toda interacción. Como señala Reyes (2016), en cada llamada, sin importar su propósito, es aconsejable mantener buenos modales si se desea proyectar una imagen profesional adecuada. A continuación, se detallan las recomendaciones para conservar una buena etiqueta telefónica:          
     .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
@@ -109,8 +108,7 @@
                   img(src="@/assets/curso/tema2/slide1_05.png")
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 No interrumpir
-                p El asesor debe permitir que el cliente termine de expresar sus ideas o inquietudes antes de responder. Interrumpir, incluso por teléfono, se considera un acto descortés y puede provocar frustración en el cliente.
-                
+                p El asesor debe permitir que el cliente termine de expresar sus ideas o inquietudes antes de responder. Interrumpir, incluso por teléfono, se considera un acto descortés y puede provocar frustración en el cliente.                
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -118,7 +116,6 @@
               .col-lg-7.order-1.mb-3.mb-lg-0
                 h4 Usar grabadoras o correo de voz
                 p Se recomienda el uso de estas herramientas para dejar mensajes claros y precisos cuando no es posible establecer contacto directo. Esto demuestra interés y profesionalismo, además de informar sobre el intento de comunicación. 
-
             .row.align-items-center.p-4.p-md-5
               .col-lg-5.order-2
                 figure
@@ -128,7 +125,7 @@
                 p Comer mientras se habla con un cliente es una conducta completamente inadecuada, que demuestra desinterés y falta de profesionalismo. Genera una imagen negativa tanto del asesor como de la empresa.
     .row.mb-4
           .col-12
-            p Las siguientes orientaciones establecen pautas clave para conducir las llamadas telefónicas de manera profesional, cuidando el tiempo, el tono de la comunicación y la relación con el cliente.
+            p(data-aos="fade-right") Las siguientes orientaciones establecen pautas clave para conducir las llamadas telefónicas de manera profesional, cuidando el tiempo, el tono de la comunicación y la relación con el cliente.
     .bg--img_03.mt-5
       .row.justify-content-center
         .col-lg-4
@@ -165,7 +162,7 @@
             img(src="@/assets/curso/tema2/8.png", alt="alt").img400.m-auto
     .row.mb-4
           .col-12
-            p Es necesario destacar nuevamente <b>el papel de la paciencia</b> en el servicio al cliente telefónico. Este valor es indispensable para manejar situaciones complejas, confusas o tensas. Un asesor o asesora paciente es <b>capaz de guiar la conversación, contener el malestar del cliente y ofrecer soluciones sin perder la compostura ni el enfoque.</b>
+            p(data-aos="fade-right") Es necesario destacar nuevamente <b>el papel de la paciencia</b> en el servicio al cliente telefónico. Este valor es indispensable para manejar situaciones complejas, confusas o tensas. Un asesor o asesora paciente es <b>capaz de guiar la conversación, contener el malestar del cliente y ofrecer soluciones sin perder la compostura ni el enfoque.</b>
     .bg-full-width.mt-5
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -174,8 +171,8 @@
           h3.titulo-con-imagen__texto Qué decir y no decir en una comunicación telefónica
     .row.mb-4
       .col-12
-        p En una conversación telefónica, es fundamental tener mucho cuidado con las palabras que se utilizan. Es muy fácil caer en el error de tomar la charla como algo personal, lo que puede llevar a un nivel de confianza inapropiado y poco profesional, afectando negativamente la imagen del asesor o asesora telefónica. Según Integralia (2014), existen ciertas frases y expresiones que deben evitarse, así como otras que sí se recomiendan para mantener un tono profesional, respetuoso y eficaz en la atención al cliente.
-    .row.justify-content-center
+        p(data-aos="fade-right") En una conversación telefónica, es fundamental tener mucho cuidado con las palabras que se utilizan. Es muy fácil caer en el error de tomar la charla como algo personal, lo que puede llevar a un nivel de confianza inapropiado y poco profesional, afectando negativamente la imagen del asesor o asesora telefónica. Según Integralia (2014), existen ciertas frases y expresiones que deben evitarse, así como otras que sí se recomiendan para mantener un tono profesional, respetuoso y eficaz en la atención al cliente.
+    .row.justify-content-center(data-aos="fade-right")
                       .col-md-10
                         .titulo-sexto.color-acento-contenido.mb-3
                           h5 Tabla 10.
@@ -235,7 +232,7 @@
                                 td Lo siento, en este momento no es posible pasarle la comunicación.
     .row.mb-4.mt-5
           .col-12
-            p Este conjunto de expresiones ayuda a mantener <b>una comunicación más empática, profesional y clara,</b> permitiendo que el cliente se sienta <b>escuchado, valorado y bien atendido.</b>
+            p(data-aos="fade-left") Este conjunto de expresiones ayuda a mantener <b>una comunicación más empática, profesional y clara,</b> permitiendo que el cliente se sienta <b>escuchado, valorado y bien atendido.</b>
     .row.mt-5
             #t_2_3.titulo-segundo.color-acento-contenido(data-aos="fade-right")
               h2 2.3 Preguntas informativas
@@ -262,7 +259,7 @@
           h3.titulo-con-imagen__texto El reto de formularlas adecuadamente
     .row.mb-1
       .col-12
-        p El asesor o asesora debe aplicar <b>una estrategia adecuada</b> al momento de formular preguntas informativas. Esto se vuelve especialmente importante al considerar los distintos <b>tipos de conducta de los clientes</b> (pasiva, asertiva y agresiva), ya que un mal enfoque puede generar conflicto o tensar innecesariamente la conversación.
+        p(data-aos="fade-right") El asesor o asesora debe aplicar <b>una estrategia adecuada</b> al momento de formular preguntas informativas. Esto se vuelve especialmente importante al considerar los distintos <b>tipos de conducta de los clientes</b> (pasiva, asertiva y agresiva), ya que un mal enfoque puede generar conflicto o tensar innecesariamente la conversación.
     .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-1      
       .col-lg-5.d-flex
         figure.mb-0.w-100
@@ -275,7 +272,7 @@
         .titulo-con-imagen__fondo
           img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
           h3.titulo-con-imagen__texto Dos escenarios opuestos
-      p.mb-4 Gatti (2013) ejemplifica claramente dos contextos que, aunque ambos se basan en preguntas, provocan reacciones diferentes:
+      p.mb-4(data-aos="fade-left") Gatti (2013) ejemplifica claramente dos contextos que, aunque ambos se basan en preguntas, provocan reacciones diferentes:
       .row.justify-content-center.mb-5 
         .col-md-5.mb-4.mb-md-0
           .p-4.bg-color-1.br-15.h-100.text-center.shadow-sm
@@ -291,7 +288,7 @@
             p.mb-0 En el que se participa de forma lúdica o relajada.      
       .row.mb-4
             .col-12
-              p La diferencia está en el <b>entorno emocional y la intención percibida</b>. En la atención telefónica, el asesor debe evitar crear un ambiente parecido al primero y, por el contrario, establecer <b>un contexto de confianza y cooperación</b>, donde el cliente entienda que las preguntas tienen un propósito genuino: <b>ayudarlo</b>.
+              p(data-aos="fade-right") La diferencia está en el <b>entorno emocional y la intención percibida</b>. En la atención telefónica, el asesor debe evitar crear un ambiente parecido al primero y, por el contrario, establecer <b>un contexto de confianza y cooperación</b>, donde el cliente entienda que las preguntas tienen un propósito genuino: <b>ayudarlo</b>.
     .bg-full-width.bg-fondo-slider.mb-5
         .p-4.p-md-5
           SlyderA(tipo="b").bg-white.p-4.tarjeta(data-aos="fade-left")
@@ -372,14 +369,14 @@
                     p Ante esta situación, la habilidad del asesor para aplicar técnicas telefónicas adecuadas es crucial. Su rol consiste en redireccionar la conversación, mantener la calma y llevar al cliente a un estado de confianza donde se le pueda prestar un servicio eficaz.
     .row.mb-4
           .col-12
-            p Aunque la función principal de las preguntas informativas es, en muchos casos, <b>verificar la identidad del cliente</b>, este objetivo <b>no puede cumplirse completamente</b> por las limitaciones inherentes al canal telefónico. Aun así, es deber del asesor formularlas con <b>claridad, empatía y precisión</b>, cuidando siempre <b>el tono y el contexto</b> para evitar malentendidos.
+            p(data-aos="fade-right") Aunque la función principal de las preguntas informativas es, en muchos casos, <b>verificar la identidad del cliente</b>, este objetivo <b>no puede cumplirse completamente</b> por las limitaciones inherentes al canal telefónico. Aun así, es deber del asesor formularlas con <b>claridad, empatía y precisión</b>, cuidando siempre <b>el tono y el contexto</b> para evitar malentendidos.
     Separador
     .row.mt-5
             #t_2_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
               h2 2.4 Técnicas de sondeo
     .row.mb-4
         .col-12
-          p Gatti (2013) afirma que sin información es imposible determinar fehacientemente el significado del mensaje del cliente. La comunicación se da por medio de lenguaje, mensajes, gestos, movimientos y otros elementos verbales y no verbales, todos ellos cargados de información.
+          p(data-aos="fade-right") Gatti (2013) afirma que sin información es imposible determinar fehacientemente el significado del mensaje del cliente. La comunicación se da por medio de lenguaje, mensajes, gestos, movimientos y otros elementos verbales y no verbales, todos ellos cargados de información.
         .row.justify-content-center.align-items-center.mb-4
               .col-lg-6.mb-4.mb-lg-0            
                 .p-3.bg-color-12            
@@ -389,7 +386,7 @@
                 figure
                   img(src="@/assets/curso/tema2/14.svg")        
         .col-12
-          p Ante este desafío, una herramienta muy útil es el uso de <b>técnicas de sondeo</b>, en particular las <b>preguntas de sondeo</b>, que permiten:
+          p(data-aos="fade-right") Ante este desafío, una herramienta muy útil es el uso de <b>técnicas de sondeo</b>, en particular las <b>preguntas de sondeo</b>, que permiten:
     .row.mt-5.justify-content-center.g-3      
       .col-6.col-md-4.col-lg-2
           .card-cualidad <b>Descubrir necesidades ocultas.</b>
@@ -401,7 +398,7 @@
           .card-cualidad <b>Dirigir la conversación con criterio y profesionalismo.</b>      
     .row.mt-5
         .col-12
-          p Estas preguntas bien formuladas ofrecen al asesor la oportunidad de <b>gestionar adecuadamente la información</b> proporcionada por el cliente, lo cual es esencial para evaluar su grado de satisfacción y orientar una solución adecuada.
+          p(data-aos="fade-left") Estas preguntas bien formuladas ofrecen al asesor la oportunidad de <b>gestionar adecuadamente la información</b> proporcionada por el cliente, lo cual es esencial para evaluar su grado de satisfacción y orientar una solución adecuada.
     .bg-full-width.mt-5
     .px-4.px-md-5.pb-md-3
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -410,7 +407,7 @@
         h3.titulo-con-imagen__texto Preguntas de sondeo
     .row.mt-5
         .col-12
-          p Siguiendo los planteamientos de González (2002), las <b>preguntas de sondeo</b> pueden clasificarse en <b>abiertas y cerradas</b>, cada una con características y propósitos específicos dentro de la comunicación telefónica.
+          p(data-aos="fade-right") Siguiendo los planteamientos de González (2002), las <b>preguntas de sondeo</b> pueden clasificarse en <b>abiertas y cerradas</b>, cada una con características y propósitos específicos dentro de la comunicación telefónica.
           p A continuación se presenta cada una:
     .row.justify-content-center
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
@@ -472,7 +469,7 @@
         h3.titulo-con-imagen__texto Preguntas abiertas    
     .row.mt-5
       .col-12
-        p Las preguntas abiertas constituyen una técnica fundamental en la atención telefónica, ya que permiten al cliente expresarse con libertad y al asesor o asesora analizar la información recibida en profundidad. A través de ellas, se establece un espacio de conversación más natural donde, incluso, puede desarrollarse una sana discusión, útil para preparar al interlocutor ante futuras preguntas más específicas.      
+        p(data-aos="fade-right") Las preguntas abiertas constituyen una técnica fundamental en la atención telefónica, ya que permiten al cliente expresarse con libertad y al asesor o asesora analizar la información recibida en profundidad. A través de ellas, se establece un espacio de conversación más natural donde, incluso, puede desarrollarse una sana discusión, útil para preparar al interlocutor ante futuras preguntas más específicas.      
     .row.justify-content-center.align-items-stretch.mb-3.g-0.bg-color-4
       .col-lg-5.d-flex
         figure.mb-0.w-100
@@ -493,14 +490,14 @@
                 span En general, evalúan capacidades de orden superior, como el análisis o la reflexión.
     .row
     .col-12
-      p Uno de los principales recursos es el uso de palabras interrogativas como: <b>quién, qué, cómo, cuándo y dónde</b>, evitando en lo posible el uso del porqué, ya que este último puede provocar una actitud defensiva por parte del cliente, al sentirse cuestionado.
+      p(data-aos="fade-right") Uno de los principales recursos es el uso de palabras interrogativas como: <b>quién, qué, cómo, cuándo y dónde</b>, evitando en lo posible el uso del porqué, ya que este último puede provocar una actitud defensiva por parte del cliente, al sentirse cuestionado.
     .bg-full-width.mt-4
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")                     
           h3.titulo-purpura Técnica de secuenciación
     .row.mt-5
         .col-12
-          p Una forma efectiva de aplicar las preguntas abiertas es mediante la <b>secuenciación</b>, que consiste en solicitar al cliente que <b>narre los hechos en orden</b>, permitiendo una mejor comprensión de la situación. Esta técnica:
+          p(data-aos="fade-right") Una forma efectiva de aplicar las preguntas abiertas es mediante la <b>secuenciación</b>, que consiste en solicitar al cliente que <b>narre los hechos en orden</b>, permitiendo una mejor comprensión de la situación. Esta técnica:
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
         TabsC.color-acento-contenido.mt-1
           .py-3.py-md-4(titulo="Evita confusiones")
@@ -533,7 +530,7 @@
           h3.titulo-purpura Ejemplo de aplicación
       .row.mt-5
               .col-12
-                p A continuación, se presenta un pódcast presenta el uso estratégico de preguntas abiertas en la atención telefónica al cliente, destacando sus ventajas, posibles desafíos y su aplicación práctica en situaciones reales.
+                p(data-aos="fade-right") A continuación, se presenta un pódcast presenta el uso estratégico de preguntas abiertas en la atención telefónica al cliente, destacando sus ventajas, posibles desafíos y su aplicación práctica en situaciones reales.
       .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
         .row.justify-content-center.align-items-stretch
           .col-lg-8.mb-4.mb-lg-0
@@ -555,7 +552,7 @@
       .px-4.px-md-5.pb-md-3
       .titulo-con-imagen.mb-5(data-aos="fade-right")                     
           h3.titulo-purpura Beneficios adicionales para el asesor o asesora
-      .row.mb-2
+      .row.mb-2(data-aos="fade-right")
           p.mb-0 Las preguntas abiertas permiten además:
       .row.justify-content-center.mb-5 
         .col-md-4.mb-4.mb-md-0
@@ -575,7 +572,7 @@
             p.mb-0 Favorecer una mayor comprensión mutua, gracias al flujo más natural de la retroalimentación.
       .row.mt-5
         .col-12
-          p En este sentido, González (2002) afirma que las preguntas abiertas permiten <b>menor posibilidad de fraude</b>, y que si este llegara a ocurrir, <b>es relativamente fácil de identificar a posteriori</b>, gracias al análisis detallado de la conversación.
+          p(data-aos="fade-right") En este sentido, González (2002) afirma que las preguntas abiertas permiten <b>menor posibilidad de fraude</b>, y que si este llegara a ocurrir, <b>es relativamente fácil de identificar a posteriori</b>, gracias al análisis detallado de la conversación.
     .bg-full-width.mt-5
     .px-4.px-md-5.pb-md-3
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -590,7 +587,7 @@
         p.mb-0 Las preguntas cerradas se utilizan generalmente cuando el asesor o asesora telefónica ya ha recibido suficiente información del cliente, la ha analizado y ha realizado un pequeño diagnóstico de la situación. En este punto, se dispone a aplicar las soluciones con las herramientas proporcionadas por la empresa.    
     .row.mt-3
       .col-12
-        p Este tipo de preguntas se formula con el objetivo de obtener una respuesta clara y directa (generalmente un <b>“sí” o “no”</b>) que facilite la toma de decisiones o la confirmación de un dato. Las preguntas cerradas suelen comenzar con expresiones como:
+        p(data-aos="fade-right") Este tipo de preguntas se formula con el objetivo de obtener una respuesta clara y directa (generalmente un <b>“sí” o “no”</b>) que facilite la toma de decisiones o la confirmación de un dato. Las preguntas cerradas suelen comenzar con expresiones como:
       .row.justify-content-center.mb-5 
         .col-md-3.mb-4.mb-md-0
           .p-4.br-15.h-100.text-center.shadow-sm
@@ -612,7 +609,7 @@
             figure.mb-4
               img.mx-auto(src='@/assets/curso/tema2/18.svg', alt='', style="width: 100px;")            
             p.mb-0 <b>¿Le interesaría a usted…?</b>
-    .row
+    .row(data-aos="fade-right")
         .col-12
           p Las ventajas y desventajas de las preguntas cerradas son:
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5
@@ -656,7 +653,7 @@
         h3.titulo-con-imagen__texto Preguntas alternativas  
     .row
         .col-12
-          p Una pregunta alternativa puede ser abierta o cerrada, pero siempre está orientada a ofrecer dos posibilidades entre las cuales elegir. Lo importante es que ambas opciones sean positivas o neutrales, de modo que el cliente no sienta presión negativa, aunque sí una orientación clara hacia la toma de decisión. En este tipo de pregunta, la respuesta suele ser corta y concreta, sin necesidad de argumentación extensa.
+          p(data-aos="fade-right") Una pregunta alternativa puede ser abierta o cerrada, pero siempre está orientada a ofrecer dos posibilidades entre las cuales elegir. Lo importante es que ambas opciones sean positivas o neutrales, de modo que el cliente no sienta presión negativa, aunque sí una orientación clara hacia la toma de decisión. En este tipo de pregunta, la respuesta suele ser corta y concreta, sin necesidad de argumentación extensa.
     .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4      
       .col-lg-5.d-flex
         figure.mb-0.w-100
@@ -665,7 +662,7 @@
         .row
           p <b> Ejemplo </b>
           p ¿A qué hora quiere que se le lleve el pedido, <b>a las once o a las doce?</b>
-    .row
+    .row(data-aos="fade-left")
         .col-12
           p Las ventajas y desventajas de las preguntas alternativas son:
     .bg-full-width.bg-fondo-slider.mb-3
@@ -698,12 +695,12 @@
                     i.fas.fa-check-circle.me-2(style="color:#AD9721")
                     span Pueden percibirse como una forma de control excesivo o demasiada dirección.             
     .col-12
-      p Tanto las preguntas cerradas como las alternativas son herramientas útiles cuando se utilizan con equilibrio y en el momento adecuado dentro del proceso de atención telefónica. La clave está en combinarlas estratégicamente con las preguntas informativas y abiertas para obtener toda la información necesaria, sin saturar al cliente ni provocar rechazo.
+      p(data-aos="fade-right") Tanto las preguntas cerradas como las alternativas son herramientas útiles cuando se utilizan con equilibrio y en el momento adecuado dentro del proceso de atención telefónica. La clave está en combinarlas estratégicamente con las preguntas informativas y abiertas para obtener toda la información necesaria, sin saturar al cliente ni provocar rechazo.
     Separador
     .row.mt-5
             #t_2_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
               h2 2.5 Comunicación por recapitulación
-    .row
+    .row(data-aos="fade-left")
         .col-12
           p La recapitulación es una técnica que consiste en repetir en sus propias palabras la información clave que el cliente ha proporcionado. Esta estrategia permite confirmar que el mensaje fue correctamente comprendido y ayuda a definir con precisión las necesidades específicas del interlocutor.
     .row.justify-content-center.align-items-stretch.mb-5.g-0.bg-color-4        
@@ -712,7 +709,7 @@
             img.h-100.w-100(src='@/assets/curso/tema2/19.png', alt='', style="object-fit: cover;")       
         .col-lg-7.bg-color-4.d-flex.align-items-center.p-4.p-lg-5
           .row
-            p La recapitulación requiere la habilidad del asesor o asesora para escuchar activamente, retener lo dicho por el cliente y expresarlo nuevamente de forma clara y precisa, extrayendo los datos más relevantes para poder dar continuidad al proceso de atención.
+            p(data-aos="fade-right") La recapitulación requiere la habilidad del asesor o asesora para escuchar activamente, retener lo dicho por el cliente y expresarlo nuevamente de forma clara y precisa, extrayendo los datos más relevantes para poder dar continuidad al proceso de atención.
     .bg-full-width.mt-5
     .px-4.px-md-5.pb-md-3
     .titulo-con-imagen.mb-5(data-aos="fade-right")
@@ -720,7 +717,7 @@
         img.titulo-con-imagen__imagen(src="@/assets/curso/tema2/imagen-titulos.svg")
         h3.titulo-con-imagen__texto ¿Qué permite la recapitulación?
     .row
-      p La recapitulación permite confirmar la comprensión, orientar la conversación y fortalecer la confianza del cliente.
+      p(data-aos="fade-right") La recapitulación permite confirmar la comprensión, orientar la conversación y fortalecer la confianza del cliente.
     .row.justify-content-center
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
@@ -752,7 +749,7 @@
           h3.titulo-purpura Ejemplo de comunicación con recapitulación
     .row
         .col-12
-          p A continuación, se presenta un pódcast que explica la importancia de la recapitulación como estrategia comunicativa en la atención al cliente, presentando con un ejemplo práctico y el análisis de sus beneficios:
+          p(data-aos="fade-right") A continuación, se presenta un pódcast que explica la importancia de la recapitulación como estrategia comunicativa en la atención al cliente, presentando con un ejemplo práctico y el análisis de sus beneficios:
     .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-2
         .row.justify-content-center.align-items-stretch
           .col-lg-8.mb-4.mb-lg-0
@@ -770,7 +767,7 @@
           .col-lg-4
             figure.h-100
               img.h-100.w-100.br-10(src='@/assets/curso/tema2/podcast2.png', alt='', style="object-fit: cover;")
-    .row
+    .row(data-aos="fade-right")
         .col-12
           p La recapitulación, bien aplicada, no solo mejora la calidad de la atención, sino que también <b>fortalece la percepción del cliente sobre la capacidad y profesionalismo del asesor o asesora telefónica.</b>
 </template>
