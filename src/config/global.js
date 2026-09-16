@@ -225,7 +225,6 @@ export default {
     },
     {
       referencia: 'Foromarketing. (2016). Pregunta alternativa. ',
-      link: ' http://www.foromarketing.com/diccionario/pregunta-alternativa/',
     },
     {
       referencia:
